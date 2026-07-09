@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+/* 设计系统 - 全局样式配置
+ * 基于 11 级灰阶 (--color-0 ~ --color-1000) 构建的统一配色系统
+ * 支持亮色/暗色主题切换 */
+
+/* Dark 变体定义 - 支持 dark: 前缀 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 基础色阶定义 (0% ~ 100% 灰度) */
+:root {
+  --color-0: #ffffff; /* 纯白 */
+  --color-50: #f2f2f2; /* 极浅灰 */
+  --color-100: #d9d9d9; /* 浅灰 */
+  --color-200: #bfbfbf; /* 淡灰 */
+  --color-300: #a6a6a6; /* 中浅灰 */
+  --color-400: #8c8c8c; /* 中性灰 */
+  --color-500: #737373; /* 中灰 */
+  --color-600: #595959; /* 中深灰 */
+  --color-700: #404040; /* 深灰 */
+  --color-800: #262626; /* 暗灰 */
+  --color-900: #0d0d0d; /* 极暗灰 */
+  --color-1000: #000000; /* 纯黑 */
+}
+
+/* 亮色主题 - 语义化颜色变量 */
+@theme {
+  /* 基础颜色 */
+  --color-bg: var(--color-0);
+  --color-fr: var(--color-1000);
+
+  /* 导航菜单 (Nav) */
+  --color-nav-bg: transparent;
+  --color-nav-text: var(--color-600);
+  --color-nav-border: transparent;
+  --color-nav-hover-bg: var(--color-100);
+  --color-nav-hover-text: var(--color-800);
+  --color-nav-hover-border: transparent;
+
+  --color-nav-active-bg: var(--color-50);
+  --color-nav-active-text: var(--color-900);
+  --color-nav-active-border: var(--color-900);
+  --color-nav-active-hover-bg: var(--color-100);
+  --color-nav-active-hover-text: var(--color-900);
+  --color-nav-active-hover-border: var(--color-900);
+
+  /* 按钮 (Primary Button) */
+  --color-btn-primary-active-bg: var(--color-800);
+  --color-btn-primary-active-text: var(--color-50);
+  --color-btn-primary-active-border: var(--color-900);
+  --color-btn-primary-active-hover-bg: var(--color-700);
+  --color-btn-primary-active-hover-text: var(--color-50);
+  --color-btn-primary-active-hover-border: var(--color-600);
+
+  --color-btn-primary-bg: var(--color-100);
+  --color-btn-primary-text: var(--color-700);
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-hover-bg: var(--color-200);
+  --color-btn-primary-hover-text: var(--color-800);
+  --color-btn-primary-hover-border: var(--color-300);
+
+  /* 链接 (Link) */
+  --color-link-text: var(--color-700);
+  --color-link-hover-text: var(--color-800);
+  --color-link-hover-underline: var(--color-800);
+
+  /* 卡片 (Card) */
+  --color-card-bg: var(--color-0);
+  --color-card-text: var(--color-900);
+  --color-card-border: var(--color-200);
+  --color-card-hover-bg: var(--color-50);
+  --color-card-hover-text: var(--color-900);
+  --color-card-hover-border: var(--color-300);
+
+  /* 边框 (Border) */
+  --color-border: var(--color-200);
+  --color-border-hover: var(--color-300);
+
+  /* 文字 (Text) */
+  --color-text-primary: var(--color-900);
+  --color-text-secondary: var(--color-600);
+  /* 品牌 (Brand) */
+  --color-brand: var(--color-0);
+  /* 状态色 (State Colors) */
+  --color-success: #16a34a;
+  --color-success-bg: #f0fdf4;
+  --color-warning: #d97706;
+  --color-warning-bg: #fffbeb;
+  --color-error: #dc2626;
+  --color-error-bg: #fef2f2;
+  --color-info: #2563eb;
+  --color-info-bg: #eff6ff;
+
+  /* 标签 (Tag) */
+  --color-tag-blue-bg: #f0f9ff;
+  --color-tag-blue-text: #0284c7;
+  --color-tag-pink-bg: #fdf2f8;
+  --color-tag-pink-text: #db2777;
+  --color-tag-emerald-bg: #ecfdf5;
+  --color-tag-emerald-text: #059669;
+  --color-tag-indigo-bg: #eef2ff;
+  --color-tag-indigo-text: #4f46e5;
+  --color-tag-violet-bg: #f5f3ff;
+  --color-tag-violet-text: #7c3aed;
+  --color-tag-cyan-bg: #ecfeff;
+  --color-tag-cyan-text: #0891b2;
+}
+
+/* 暗色主题 - 覆盖变量 */
+.dark {
+  /* 基础颜色 */
+  --color-bg: #000000;
+  --color-fr: #ffffff;
+
+  /* 导航菜单 (Nav) */
+  --color-nav-bg: transparent;
+  --color-nav-text: var(--color-400);
+  --color-nav-border: transparent;
+  --color-nav-hover-bg: var(--color-800);
+  --color-nav-hover-text: var(--color-200);
+  --color-nav-hover-border: transparent;
+
+  --color-nav-active-bg: var(--color-900);
+  --color-nav-active-text: var(--color-50);
+  --color-nav-active-border: var(--color-50);
+  --color-nav-active-hover-bg: var(--color-800);
+  --color-nav-active-hover-text: var(--color-50);
+  --color-nav-active-hover-border: var(--color-50);
+
+  /* 主按钮 (Primary Button) */
+  --color-btn-primary-active-bg: var(--color-200);
+  --color-btn-primary-active-text: var(--color-900);
+  --color-btn-primary-active-border: var(--color-100);
+  --color-btn-primary-active-hover-bg: var(--color-300);
+  --color-btn-primary-active-hover-text: var(--color-900);
+  --color-btn-primary-active-hover-border: var(--color-400);
+
+  --color-btn-primary-bg: var(--color-800);
+  --color-btn-primary-text: var(--color-300);
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-hover-bg: var(--color-700);
+  --color-btn-primary-hover-text: var(--color-200);
+  --color-btn-primary-hover-border: var(--color-600);
+
+  /* 链接 (Link) */
+  --color-link-text: var(--color-300);
+  --color-link-hover-text: var(--color-200);
+  --color-link-hover-underline: var(--color-200);
+
+  /* 卡片 (Card) */
+  --color-card-bg: var(--color-900);
+  --color-card-text: var(--color-50);
+  --color-card-border: var(--color-700);
+  --color-card-hover-bg: var(--color-800);
+  --color-card-hover-text: var(--color-50);
+  --color-card-hover-border: var(--color-500);
+
+  /* 边框 (Border) */
+  --color-border: var(--color-800);
+  --color-border-hover: var(--color-700);
+
+  /* 文字 (Text) */
+  --color-text-primary: var(--color-50);
+  --color-text-secondary: var(--color-400);
+  /* 品牌 (Brand) */
+  --color-brand: var(--color-1000);
+
+  /* 状态色 (State Colors) */
+  --color-success: #4ade80;
+  --color-success-bg: #14532d;
+  --color-warning: #fbbf24;
+  --color-warning-bg: #78350f;
+  --color-error: #fb7185;
+  --color-error-bg: #7f1d1d;
+  --color-info: #60a5fa;
+  --color-info-bg: #1e3a8a;
+
+  /* 标签 (Tag) */
+  --color-tag-blue-bg: #1e293b;
+  --color-tag-blue-text: #38bdf8;
+  --color-tag-pink-bg: #1e293b;
+  --color-tag-pink-text: #f472b6;
+  --color-tag-emerald-bg: #1e293b;
+  --color-tag-emerald-text: #34d399;
+  --color-tag-indigo-bg: #1e293b;
+  --color-tag-indigo-text: #818cf8;
+  --color-tag-violet-bg: #1e293b;
+  --color-tag-violet-text: #a78bfa;
+  --color-tag-cyan-bg: #1e293b;
+  --color-tag-cyan-text: #22d3ee;
+}
+
+/* 引入公共样式 */
+@import "../styles/common.css";

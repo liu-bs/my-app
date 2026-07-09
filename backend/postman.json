@@ -1,0 +1,1422 @@
+{
+	"info": {
+		"_postman_id": "personal-blog-api-collection",
+		"name": "Personal Blog API",
+		"description": "Personal Blog API 接口集合\n\nBase URL: http://localhost:3001/api\n认证方式: httpOnly Cookie（登录/注册后自动种入），也支持 Authorization: Bearer <token>",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3001/api",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "1. 认证模块 (Auth)",
+			"item": [
+				{
+					"name": "POST 注册",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test@example.com\",\n  \"password\": \"password123\",\n  \"firstName\": \"Test\",\n  \"lastName\": \"User\",\n  \"username\": \"testuser\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/register",
+							"host": ["{{base_url}}"],
+							"path": ["auth", "register"]
+						},
+						"description": "注册新用户。成功后通过 httpOnly Cookie 种入 JWT，data 返回 null。"
+					}
+				},
+				{
+					"name": "POST 登录",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": ["{{base_url}}"],
+							"path": ["auth", "login"]
+						},
+						"description": "用户登录。成功后通过 httpOnly Cookie 种入 JWT，data 返回 null。"
+					}
+				},
+				{
+					"name": "GET 当前用户信息",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/auth/me",
+							"host": ["{{base_url}}"],
+							"path": ["auth", "me"]
+						},
+						"description": "获取当前登录用户信息（需要认证）。唯一返回用户数据的认证接口，data: { user: ... }"
+					}
+				},
+				{
+					"name": "POST 修改密码",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"currentPassword\": \"password123\",\n  \"newPassword\": \"newpassword123\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/change-password",
+							"host": ["{{base_url}}"],
+							"path": ["auth", "change-password"]
+						},
+					"description": "修改密码（需要认证）"
+					}
+				},
+				{
+					"name": "POST 登出",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/auth/logout",
+							"host": ["{{base_url}}"],
+							"path": ["auth", "logout"]
+						},
+						"description": "用户登出，清除认证 Cookie（需要认证）"
+						}
+					}
+			]
+		},
+		{
+			"name": "2. 文章模块 (Articles)",
+			"item": [
+				{
+					"name": "GET 文章列表",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/articles?page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["articles"],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								},
+								{
+									"key": "categoryId",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "tag",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "featured",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "获取文章列表（默认只返回已发布文章）"
+					}
+				},
+				{
+					"name": "GET 文章详情",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/articles/:id",
+							"host": ["{{base_url}}"],
+							"path": ["articles", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "article-id-here"
+								}
+							]
+						},
+						"description": "获取文章详情（支持可选认证）"
+					}
+				},
+				{
+					"name": "POST 创建文章",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"文章标题\",\n  \"content\": \"<p>文章内容 HTML</p>\",\n  \"excerpt\": \"文章摘要\",\n  \"image\": \"封面图URL\",\n  \"tag\": \"Engineering\",\n  \"categoryId\": \"category-id\",\n  \"tags\": [\"React\", \"Next.js\"],\n  \"status\": \"published\",\n  \"visibility\": \"public\",\n  \"featured\": false\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/articles",
+							"host": ["{{base_url}}"],
+							"path": ["articles"]
+						},
+						"description": "创建文章（需要认证）"
+					}
+				},
+				{
+					"name": "PUT 更新文章",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"更新后的标题\",\n  \"content\": \"<p>更新后的内容</p>\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/articles/:id",
+							"host": ["{{base_url}}"],
+							"path": ["articles", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "article-id-here"
+								}
+							]
+						},
+						"description": "更新文章（需要认证）"
+					}
+				},
+				{
+					"name": "DELETE 删除文章",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/articles/:id",
+							"host": ["{{base_url}}"],
+							"path": ["articles", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "article-id-here"
+								}
+							]
+						},
+						"description": "删除文章（需要认证）"
+					}
+				},
+				{
+					"name": "POST 点赞文章",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/articles/:id/like",
+							"host": ["{{base_url}}"],
+							"path": ["articles", ":id", "like"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "article-id-here"
+								}
+							]
+						},
+						"description": "点赞文章（需要认证）"
+					}
+				}
+			]
+		},
+		{
+			"name": "3. 分类模块 (Categories)",
+			"item": [
+				{
+					"name": "GET 分类列表",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/categories",
+							"host": ["{{base_url}}"],
+							"path": ["categories"]
+						},
+						"description": "获取分类列表"
+					}
+				},
+				{
+					"name": "GET 分类详情",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/categories/:id",
+							"host": ["{{base_url}}"],
+							"path": ["categories", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "category-id-here"
+								}
+							]
+						},
+						"description": "获取分类详情"
+					}
+				},
+				{
+					"name": "GET 分类下的文章",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/categories/:id/articles?page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["categories", ":id", "articles"],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "category-id-here"
+								}
+							]
+						},
+						"description": "获取分类下的文章"
+					}
+				},
+				{
+					"name": "GET 分类下的热门作者",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/categories/:id/top-authors",
+							"host": ["{{base_url}}"],
+							"path": ["categories", ":id", "top-authors"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "category-id-here"
+								}
+							]
+						},
+						"description": "获取分类下的热门作者"
+					}
+				},
+				{
+					"name": "GET 学习路径",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/categories/:id/learning-paths",
+							"host": ["{{base_url}}"],
+							"path": ["categories", ":id", "learning-paths"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "category-id-here"
+								}
+							]
+						},
+						"description": "获取学习路径"
+					}
+				}
+			]
+		},
+		{
+			"name": "4. 标签模块 (Tags)",
+			"item": [
+				{
+					"name": "GET 标签列表",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags",
+							"host": ["{{base_url}}"],
+							"path": ["tags"],
+							"query": [
+								{
+									"key": "search",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "trending",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "获取标签列表"
+					}
+				},
+				{
+					"name": "GET 热门标签",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags/popular?limit=12",
+							"host": ["{{base_url}}"],
+							"path": ["tags", "popular"],
+							"query": [
+								{
+									"key": "limit",
+									"value": "12"
+								}
+							]
+						},
+						"description": "获取热门标签"
+					}
+				},
+				{
+					"name": "GET 标签详情",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags/:name",
+							"host": ["{{base_url}}"],
+							"path": ["tags", ":name"],
+							"variable": [
+								{
+									"key": "name",
+									"value": "React"
+								}
+							]
+						},
+						"description": "获取标签详情（按名称）"
+					}
+				},
+				{
+					"name": "GET 标签下的文章",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags/:name/articles?page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["tags", ":name", "articles"],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "React"
+								}
+							]
+						},
+						"description": "获取标签下的文章"
+					}
+				},
+				{
+					"name": "GET 标签统计数据",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags/:name/stats",
+							"host": ["{{base_url}}"],
+							"path": ["tags", ":name", "stats"],
+							"variable": [
+								{
+									"key": "name",
+									"value": "React"
+								}
+							]
+						},
+						"description": "获取标签周维度统计数据"
+					}
+				},
+				{
+					"name": "GET 标签贡献者",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/tags/:name/contributors",
+							"host": ["{{base_url}}"],
+							"path": ["tags", ":name", "contributors"],
+							"variable": [
+								{
+									"key": "name",
+									"value": "React"
+								}
+							]
+						},
+						"description": "获取标签 Top 贡献者"
+					}
+				}
+			]
+		},
+		{
+			"name": "5. 仪表盘模块 (Dashboard)",
+			"item": [
+				{
+					"name": "GET 统计数据",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/dashboard/stats",
+							"host": ["{{base_url}}"],
+							"path": ["dashboard", "stats"]
+						},
+						"description": "获取统计数据（需要认证）"
+					}
+				},
+				{
+					"name": "GET 图表数据",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/dashboard/chart?period=week",
+							"host": ["{{base_url}}"],
+							"path": ["dashboard", "chart"],
+							"query": [
+								{
+									"key": "period",
+									"value": "week"
+								}
+							]
+						},
+						"description": "获取图表数据（需要认证）"
+					}
+				},
+				{
+					"name": "GET 热门文章排行",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/dashboard/top-posts",
+							"host": ["{{base_url}}"],
+							"path": ["dashboard", "top-posts"]
+						},
+						"description": "获取热门文章排行（需要认证）"
+					}
+				},
+				{
+					"name": "GET 最近评论",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/dashboard/recent-comments",
+							"host": ["{{base_url}}"],
+							"path": ["dashboard", "recent-comments"]
+						},
+						"description": "获取最近评论（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		},
+		{
+			"name": "6. 评论模块 (Comments)",
+			"item": [
+				{
+					"name": "GET 文章评论",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/comments/:articleId",
+							"host": ["{{base_url}}"],
+							"path": ["comments", ":articleId"],
+							"variable": [
+								{
+									"key": "articleId",
+									"value": "article-id-here"
+								}
+							]
+						},
+						"description": "获取文章评论（树形结构，含回复）"
+					}
+				},
+				{
+					"name": "POST 创建评论",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"articleId\": \"article-id-here\",\n  \"content\": \"这是一条评论\",\n  \"parentId\": \"parent-comment-id\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/comments",
+							"host": ["{{base_url}}"],
+							"path": ["comments"]
+						},
+						"description": "创建评论（需要认证）"
+					}
+				},
+				{
+					"name": "DELETE 删除评论",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/comments/:id",
+							"host": ["{{base_url}}"],
+							"path": ["comments", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "comment-id-here"
+								}
+							]
+						},
+						"description": "删除评论（需要认证，仅评论作者可删）"
+					}
+				},
+				{
+					"name": "POST 点赞评论",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/comments/:id/like",
+							"host": ["{{base_url}}"],
+							"path": ["comments", ":id", "like"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "comment-id-here"
+								}
+							]
+						},
+						"description": "点赞评论（需要认证）"
+					}
+				}
+			]
+		},
+		{
+			"name": "7. 通知模块 (Notifications)",
+			"item": [
+				{
+					"name": "GET 通知列表",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/notifications",
+							"host": ["{{base_url}}"],
+							"path": ["notifications"],
+							"query": [
+								{
+									"key": "tab",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "获取通知列表（需要认证）"
+					}
+				},
+				{
+					"name": "PATCH 标记单条通知已读",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/notifications/:id/read",
+							"host": ["{{base_url}}"],
+							"path": ["notifications", ":id", "read"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "notification-id-here"
+								}
+							]
+						},
+						"description": "标记单条通知已读（需要认证）"
+					}
+				},
+				{
+					"name": "POST 全部标记已读",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/notifications/read-all",
+							"host": ["{{base_url}}"],
+							"path": ["notifications", "read-all"]
+						},
+						"description": "全部标记已读（需要认证）"
+					}
+				},
+				{
+					"name": "DELETE 删除通知",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/notifications/:id",
+							"host": ["{{base_url}}"],
+							"path": ["notifications", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "notification-id-here"
+								}
+							]
+						},
+						"description": "删除通知（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		},
+		{
+			"name": "8. 搜索模块 (Search)",
+			"item": [
+				{
+					"name": "GET 搜索文章",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/search?q=React&page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["search"],
+							"query": [
+								{
+									"key": "q",
+									"value": "React"
+								},
+								{
+									"key": "category",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "tag",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							]
+						},
+						"description": "搜索文章（仅搜索已发布文章）"
+					}
+				},
+				{
+					"name": "GET 搜索建议",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/search/suggestions?q=Rea",
+							"host": ["{{base_url}}"],
+							"path": ["search", "suggestions"],
+							"query": [
+								{
+									"key": "q",
+									"value": "Rea"
+								}
+							]
+						},
+						"description": "获取搜索建议"
+					}
+				}
+			]
+		},
+		{
+			"name": "9. 热门模块 (Trending)",
+			"item": [
+				{
+					"name": "GET 热门文章",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/trending/articles?page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["trending", "articles"],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							]
+						},
+						"description": "获取热门文章"
+					}
+				},
+				{
+					"name": "GET 热门标签",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/trending/tags",
+							"host": ["{{base_url}}"],
+							"path": ["trending", "tags"]
+						},
+						"description": "获取热门标签"
+					}
+				},
+				{
+					"name": "GET 推荐作者",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/trending/authors",
+							"host": ["{{base_url}}"],
+							"path": ["trending", "authors"]
+						},
+						"description": "获取推荐作者"
+					}
+				}
+			]
+		},
+		{
+			"name": "10. 收藏模块 (Favorites)",
+			"item": [
+				{
+					"name": "GET 收藏列表",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/favorites",
+							"host": ["{{base_url}}"],
+							"path": ["favorites"],
+							"query": [
+								{
+									"key": "type",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "topic",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "获取收藏列表（需要认证）"
+					}
+				},
+				{
+					"name": "POST 添加收藏",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"articleId\": \"article-id-here\",\n  \"type\": \"favorite\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/favorites",
+							"host": ["{{base_url}}"],
+							"path": ["favorites"]
+						},
+						"description": "添加收藏（需要认证）"
+					}
+				},
+				{
+					"name": "DELETE 取消收藏",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/favorites?articleId=article-id-here",
+							"host": ["{{base_url}}"],
+							"path": ["favorites"],
+							"query": [
+								{
+									"key": "articleId",
+									"value": "article-id-here"
+								},
+								{
+									"key": "type",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "取消收藏（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		},
+		{
+			"name": "11. 关于模块 (About)",
+			"item": [
+				{
+					"name": "GET 统计数据",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/about/stats",
+							"host": ["{{base_url}}"],
+							"path": ["about", "stats"]
+						},
+						"description": "获取关于页统计数据"
+					}
+				},
+				{
+					"name": "GET 核心价值观",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/about/values",
+							"host": ["{{base_url}}"],
+							"path": ["about", "values"]
+						},
+						"description": "获取核心价值观"
+					}
+				},
+				{
+					"name": "GET 团队成员",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/about/team",
+							"host": ["{{base_url}}"],
+							"path": ["about", "team"]
+						},
+						"description": "获取团队成员"
+					}
+				}
+			]
+		},
+		{
+			"name": "12. 订阅模块 (Newsletter)",
+			"item": [
+				{
+					"name": "POST 订阅邮件",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test@example.com\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/newsletter/subscribe",
+							"host": ["{{base_url}}"],
+							"path": ["newsletter", "subscribe"]
+						},
+						"description": "订阅邮件"
+					}
+				},
+				{
+					"name": "POST 取消订阅",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test@example.com\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/newsletter/unsubscribe",
+							"host": ["{{base_url}}"],
+							"path": ["newsletter", "unsubscribe"]
+						},
+						"description": "取消订阅"
+					}
+				}
+			]
+		},
+		{
+			"name": "13. 上传模块 (Upload)",
+			"item": [
+				{
+					"name": "POST 上传单张图片",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/upload/image",
+							"host": ["{{base_url}}"],
+							"path": ["upload", "image"]
+						},
+						"description": "上传单张图片（最大 5MB，支持 JPG/PNG/GIF/WebP）"
+					}
+				},
+				{
+					"name": "POST 批量上传图片",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "files",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/upload/images",
+							"host": ["{{base_url}}"],
+							"path": ["upload", "images"]
+						},
+						"description": "批量上传图片（最多5张）"
+					}
+				}
+			]
+		},
+		{
+			"name": "14. 用户模块 (Users)",
+			"item": [
+				{
+					"name": "GET 用户公开信息",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/users/:id",
+							"host": ["{{base_url}}"],
+							"path": ["users", ":id"],
+							"variable": [
+								{
+									"key": "id",
+									"value": "user-id-here"
+								}
+							]
+						},
+						"description": "获取用户公开信息（支持可选认证）"
+					}
+				},
+				{
+					"name": "GET 用户的文章",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{base_url}}/users/:id/articles?page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["users", ":id", "articles"],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "user-id-here"
+								}
+							]
+						},
+						"description": "获取用户的文章"
+					}
+				}
+			]
+		},
+		{
+			"name": "15. 个人资料模块 (Profile)",
+			"item": [
+				{
+					"name": "GET 当前用户完整资料",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/profile",
+							"host": ["{{base_url}}"],
+							"path": ["profile"]
+						},
+						"description": "获取当前用户完整资料（需要认证）"
+					}
+				},
+				{
+					"name": "PATCH 更新用户资料",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Test\",\n  \"lastName\": \"User\",\n  \"username\": \"testuser\",\n  \"bio\": \"这是我的简介\",\n  \"avatar\": \"头像URL\",\n  \"coverImage\": \"封面图URL\",\n  \"location\": \"北京\",\n  \"website\": \"https://example.com\",\n  \"company\": \"公司名称\",\n  \"social\": {\n    \"twitter\": \"https://twitter.com/testuser\",\n    \"github\": \"https://github.com/testuser\",\n    \"linkedin\": \"https://linkedin.com/in/testuser\"\n  },\n  \"tags\": [\"React\", \"Next.js\", \"TypeScript\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/profile",
+							"host": ["{{base_url}}"],
+							"path": ["profile"]
+						},
+						"description": "更新用户资料（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		},
+		{
+			"name": "16. 设置模块 (Settings)",
+			"item": [
+				{
+					"name": "GET 用户设置",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/settings",
+							"host": ["{{base_url}}"],
+							"path": ["settings"]
+						},
+						"description": "获取用户设置（需要认证）"
+					}
+				},
+				{
+					"name": "PATCH 更新个人资料设置",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Test\",\n  \"lastName\": \"User\",\n  \"username\": \"testuser\",\n  \"bio\": \"这是我的简介\",\n  \"avatar\": \"头像URL\",\n  \"coverImage\": \"封面图URL\",\n  \"location\": \"北京\",\n  \"website\": \"https://example.com\",\n  \"company\": \"公司名称\",\n  \"social\": {\n    \"twitter\": \"https://twitter.com/testuser\",\n    \"github\": \"https://github.com/testuser\",\n    \"linkedin\": \"https://linkedin.com/in/testuser\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/settings/profile",
+							"host": ["{{base_url}}"],
+							"path": ["settings", "profile"]
+						},
+						"description": "更新个人资料设置（需要认证）"
+					}
+				},
+				{
+					"name": "PATCH 更新通知设置",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"emailComments\": true,\n  \"emailLikes\": true,\n  \"emailFollows\": true,\n  \"emailMentions\": true,\n  \"emailNewsletter\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/settings/notifications",
+							"host": ["{{base_url}}"],
+							"path": ["settings", "notifications"]
+						},
+						"description": "更新通知设置（需要认证）"
+					}
+				},
+				{
+					"name": "PATCH 更新外观设置",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"theme\": \"dark\",\n  \"fontSize\": \"medium\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/settings/appearance",
+							"host": ["{{base_url}}"],
+							"path": ["settings", "appearance"]
+						},
+						"description": "更新外观设置（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		},
+		{
+			"name": "17. 我的文章模块 (My Articles)",
+			"item": [
+				{
+					"name": "GET 我的文章",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/my-articles?status=all&page=1&limit=20",
+							"host": ["{{base_url}}"],
+							"path": ["my-articles"],
+							"query": [
+								{
+									"key": "status",
+									"value": "all"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							]
+						},
+						"description": "获取当前用户的文章（需要认证）"
+					}
+				}
+			],
+			"description": "所有接口均需要认证"
+		}
+	]
+}
