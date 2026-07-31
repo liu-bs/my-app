@@ -1,0 +1,19 @@
+frontend/src/app/author/page.tsx
+  s_d111bd84b4106d::t_d7fcc7c951932b 11-12,16-52,67-71,76-94,99-115,117,119-133,135,137,139-158,160-198,200-205,210-219,221,223-228,230,232,241-293
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "fe3863630dc3ef07103363beb12f755030d82b57",
+  "prompts": {},
+  "sessions": {
+    "s_d111bd84b4106d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f4ecf35a-b0a1-4491-a0e1-0d7b85a0a071",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
