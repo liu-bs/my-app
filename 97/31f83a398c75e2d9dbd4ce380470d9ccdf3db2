@@ -1,0 +1,55 @@
+frontend/src/app/author/page.tsx
+  s_bb491c178c0226::t_961e9e6735736e 42,59-60,71,75,79,81,93,129,149
+frontend/src/components/Button.tsx
+  s_bb491c178c0226::t_d146ce3197e5d9 9-12,76
+frontend/src/components/Avatar.tsx
+  s_bb491c178c0226::t_4beade0e9dc785 31,36
+frontend/src/app/components/page.tsx
+  s_bb491c178c0226::t_82fe3cc1758035 46,58,293,297,300,307,312,314,316-317,320,323,326,329,338,341,349,353,357,362,367,371,383
+frontend/src/app/page.tsx
+  s_bb491c178c0226::t_add8b56d7d99e2 18,25,38-39,46,72,76-78,82,89-90,138
+frontend/src/components/Alert.tsx
+  s_bb491c178c0226::t_89007c95ab99c1 5-16,28,32
+frontend/src/app/register/page.tsx
+  s_bb491c178c0226::t_8d538bdd8eb228 141,144,248,266,272
+frontend/src/components/Navbar.tsx
+  s_bb491c178c0226::t_496428bef67075 53,60-63,80-81,118,134-135
+frontend/src/app/globals.css
+  s_bb491c178c0226::t_7461fe7788cfb4 788-871
+frontend/src/app/login/page.tsx
+  s_bb491c178c0226::t_db01b865e79c4b 68
+  s_bb491c178c0226::t_e1163178f7145a 71,124,140,146
+frontend/src/components/Spinner.tsx
+  s_bb491c178c0226::t_d7bb75fe4a7121 14-15,19
+frontend/src/app/settings/page.tsx
+  s_bb491c178c0226::t_8d538bdd8eb228 118,121,174,244,269,295
+frontend/src/app/write/page.tsx
+  s_bb491c178c0226::t_cb275185da9c11 164
+  s_bb491c178c0226::t_8d538bdd8eb228 100,112,120,131,137,151,162,174,180-181
+frontend/src/components/CoverFallback.tsx
+  s_bb491c178c0226::t_75635878433430 11,16
+frontend/src/app/posts/[id]/page.tsx
+  s_bb491c178c0226::t_e4022978b06365 165,169,173,177,180,185,204,224-225,241,255,265-266,276,284-285,296,313,318,321,333,342,348,354,372,375,390-391,409,417,422,428,440
+frontend/src/components/Footer.tsx
+  s_bb491c178c0226::t_b3c7341aae8998 3,6
+frontend/src/components/ThemeToggle.tsx
+  s_bb491c178c0226::t_06f9e34e27175a 31
+frontend/src/app/posts/page.tsx
+  s_bb491c178c0226::t_427a879a62e364 83,97,114-116,119,128,144-145,160,167,176,249,260,262-263,272,283
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "9731f83a398c75e2d9dbd4ce380470d9ccdf3db2",
+  "prompts": {},
+  "sessions": {
+    "s_bb491c178c0226": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "144ac1d4-a23c-45db-ac44-a3f6ebe1c6cf",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
