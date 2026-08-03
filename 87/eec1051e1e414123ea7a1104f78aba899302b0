@@ -1,0 +1,53 @@
+frontend/src/app/posts/[id]/page.tsx
+  s_6623a619b96086::t_4a750d0acbbec3 261
+  s_6623a619b96086::t_0877057d7f1723 333
+  s_6623a619b96086::t_8b7efb60f07f43 224
+  s_6623a619b96086::t_d148f60c135e2d 296
+  s_6623a619b96086::t_fd052b051f681a 313
+frontend/src/components/Navbar.tsx
+  s_6623a619b96086::t_12b627dcf731cc 118
+  s_6623a619b96086::t_ce94e07b425612 106
+frontend/src/app/styles/components.css
+  s_6623a619b96086::t_841f05661adc97 86-95
+  s_6623a619b96086::t_86d31481c49117 13-26
+  s_6623a619b96086::t_434cc40330b524 551-554
+frontend/src/app/page.tsx
+  s_6623a619b96086::t_8278508a40b4fb 25,32
+  s_6623a619b96086::t_fdb4b0aad7fcd8 39
+  s_6623a619b96086::t_1ad7df38fbdef7 63,65-67
+  s_6623a619b96086::t_2856b5ff8c83e1 75,77
+frontend/src/components/PasswordStrength.tsx
+  s_6623a619b96086::t_82b8e73e5f274b 40
+frontend/src/app/components/page.tsx
+  s_6623a619b96086::t_6808d5fc694c44 307
+frontend/src/components/Alert.tsx
+  s_6623a619b96086::t_cecbc03c38cdc7 23
+frontend/src/app/author/page.tsx
+  s_6623a619b96086::t_c27fceb43d58d1 129
+  s_6623a619b96086::t_9dc200510e1aa0 60
+frontend/src/app/write/page.tsx
+  s_6623a619b96086::t_1d7ebca95f7517 151
+  s_6623a619b96086::t_aa416581c53966 137
+frontend/src/app/posts/page.tsx
+  s_6623a619b96086::t_2b391ed50c8cbd 271
+  s_6623a619b96086::t_67e0cc405d1536 248
+  s_6623a619b96086::t_325b96338b09dc 175
+  s_6623a619b96086::t_b812ce2e5ba5f9 259
+  s_6623a619b96086::t_ae1ef46b5ba57f 142,144
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "87eec1051e1e414123ea7a1104f78aba899302b0",
+  "prompts": {},
+  "sessions": {
+    "s_6623a619b96086": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7d225a9-a881-4268-b721-714d061f0b99",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
