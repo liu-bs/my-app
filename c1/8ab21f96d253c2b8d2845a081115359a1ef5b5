@@ -1,0 +1,23 @@
+frontend/next-env.d.ts
+  s_917934aa7bf906::t_3522fd6323b865 3
+frontend/src/app/styles/tokens.css
+  s_917934aa7bf906::t_d8c616ca5bf3a0 55-64
+  s_917934aa7bf906::t_80990fa8581f22 70-75
+  s_917934aa7bf906::t_e5ed3031cde9cd 20-23,25-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c18ab21f96d253c2b8d2845a081115359a1ef5b5",
+  "prompts": {},
+  "sessions": {
+    "s_917934aa7bf906": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9a196c9a-ffb2-4603-9170-3094af0e249f",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
