@@ -1,0 +1,43 @@
+frontend/src/app/components/page.tsx
+  s_6623a619b96086::t_51e487fe1ad973 358
+  s_6623a619b96086::t_d316abbbca8997 353
+frontend/src/app/styles/components.css
+  s_6623a619b96086::t_87749e9581228c 431
+  s_6623a619b96086::t_5a0406dc758548 615
+frontend/src/app/posts/page.tsx
+  s_6623a619b96086::t_795912da9963ec 83
+frontend/src/components/Input.tsx
+  s_6623a619b96086::t_333f7b2fa819a0 15-16,18
+frontend/src/app/write/page.tsx
+  s_6623a619b96086::t_80555763d8ebc1 112
+  s_6623a619b96086::t_1deffdf2260c7f 100
+  s_6623a619b96086::t_ea46db863ffea8 174
+frontend/src/app/page.tsx
+  h_7a7e6c68a7d90b 51
+  s_6623a619b96086::t_a095a7628cb39b 16
+frontend/src/app/author/page.tsx
+  s_6623a619b96086::t_0608b901fd311d 58
+frontend/src/app/styles/tokens.css
+  s_6623a619b96086::t_421e212258c63f 128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "19eb35b24da61ea32a3a87a465392fab6560d20d",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_6623a619b96086": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7d225a9-a881-4268-b721-714d061f0b99",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
