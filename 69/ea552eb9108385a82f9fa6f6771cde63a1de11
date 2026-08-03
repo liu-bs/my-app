@@ -1,0 +1,31 @@
+frontend/src/components/PasswordStrength.tsx
+  s_bb491c178c0226::t_dcec42c0278a20 17,19
+frontend/src/components/Button.tsx
+  s_bb491c178c0226::t_4338094f8a0dd2 16
+frontend/src/app/components/page.tsx
+  s_bb491c178c0226::t_6bdaf5fece137e 385,387
+  s_bb491c178c0226::t_7a8485f0d08f2e 372,374
+frontend/src/components/Alert.tsx
+  s_bb491c178c0226::t_48ff960b039e0b 7,10-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "69ea552eb9108385a82f9fa6f6771cde63a1de11",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_bb491c178c0226": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "144ac1d4-a23c-45db-ac44-a3f6ebe1c6cf",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
