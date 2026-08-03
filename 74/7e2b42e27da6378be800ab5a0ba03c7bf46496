@@ -1,0 +1,24 @@
+frontend/src/app/styles/components.css
+  s_5c69507455a267::t_19a68d06917215 464-466,469-471
+frontend/src/components/Navbar.tsx
+  s_5c69507455a267::t_da034643524b4a 8
+  s_5c69507455a267::t_6f7d7ed47460c7 92,94-95,102
+  s_5c69507455a267::t_931f788b36d365 132-133
+  s_5c69507455a267::t_2b0298a7fa7a05 79-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "747e2b42e27da6378be800ab5a0ba03c7bf46496",
+  "prompts": {},
+  "sessions": {
+    "s_5c69507455a267": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "42c0d2b9-bc17-47bf-ba30-c58ddc45aac6",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
