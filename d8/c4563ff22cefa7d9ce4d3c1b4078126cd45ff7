@@ -1,0 +1,49 @@
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_fd8b0a8b093f1c::t_e90ea22c480485 20
+backend/src/modules/comment/comment.module.ts
+  s_fd8b0a8b093f1c::t_93aeb4bfb41401 6
+frontend/src/app/layout.tsx
+  s_fd8b0a8b093f1c::t_acb0620129e39f 67
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_fd8b0a8b093f1c::t_3ade461d7f1022 12
+frontend/src/app/login/page.tsx
+  s_fd8b0a8b093f1c::t_90986735d52d92 10
+backend/src/modules/blog/routes/blog.routes.ts
+  s_fd8b0a8b093f1c::t_53a5ef04d6f7fd 6
+frontend/src/components/StatsGrid.tsx
+  s_fd8b0a8b093f1c::t_a591de6a250657 5
+backend/src/modules/blog/blog.module.ts
+  s_fd8b0a8b093f1c::t_446b42331dcc78 6
+backend/src/modules/auth/routes/auth.routes.ts
+  s_fd8b0a8b093f1c::t_dfdfaab41a44de 6,11
+  s_fd8b0a8b093f1c::t_c71caf07177740 93-96
+backend/src/modules/comment/routes/comment.routes.ts
+  s_fd8b0a8b093f1c::t_6ceb8d87ea7dc5 6
+backend/src/utils/asyncHandler.ts
+  s_fd8b0a8b093f1c::t_821f64bd680dc9 6
+backend/src/modules/auth/services/auth.service.ts
+  s_fd8b0a8b093f1c::t_eb86a8c96874ce 6-14,172-173,175-182
+backend/src/modules/blog/services/blog.service.ts
+  s_fd8b0a8b093f1c::t_7dc5248ad3baa9 472-475
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "d8c4563ff22cefa7d9ce4d3c1b4078126cd45ff7",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_fd8b0a8b093f1c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "beff22cb-4044-4b72-bf23-e979ffdfce06",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
