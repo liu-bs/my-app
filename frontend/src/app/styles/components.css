@@ -1,0 +1,997 @@
+/**
+ * components.css — 组件库样式
+ *
+ * 定义全站通用组件的 @utility 类和 CSS 类，按功能分块：
+ * 布局 / 标题 / Hero 代码窗口 / 卡片 / 表单控件 / Chip-Badge /
+ * Segmented Control / Icon Button / Navbar / Auth / Route Manifest /
+ * 按钮变体 / 标签 / Alert / 导航 / 头像封面装饰 / 聚合复用类 / 暗色增强
+ */
+
+/* 间距系统 — Spacing System（统一全站节奏） */
+
+/* 页面主区域容器内边距（全站统一） */
+@utility page-section {
+  @apply py-12 max-md:py-8;
+}
+
+/* 页面标题区域下边距 */
+@utility page-header {
+  @apply mb-8 max-md:mb-6;
+}
+
+/* 页面标题行：flex 两端对齐 + 换行 */
+@utility page-actions {
+  @apply flex flex-wrap items-center justify-between gap-4;
+}
+
+/* 卡片列表垂直间距 */
+@utility card-list {
+  @apply flex flex-col gap-4;
+}
+
+/* 表单垂直堆叠 */
+@utility form-stack {
+  @apply space-y-5;
+}
+
+/* 区块间距 */
+@utility section-gap {
+  @apply mt-12;
+}
+
+/* 内容区块内部统一间距 */
+@utility content-stack {
+  @apply space-y-6;
+}
+@utility content-stack-sm {
+  @apply space-y-4;
+}
+@utility content-stack-lg {
+  @apply space-y-8;
+}
+
+/* 水平元素组间距 */
+@utility row-xs {
+  @apply flex items-center gap-1;
+}
+@utility row-sm {
+  @apply flex items-center gap-2;
+}
+@utility row-md {
+  @apply flex items-center gap-3;
+}
+@utility row-lg {
+  @apply flex items-center gap-4;
+}
+@utility row-xl {
+  @apply flex items-center gap-5;
+}
+
+/* 布局 — Layout */
+
+/* 首页 Hero 区域：上下大间距，移动端缩小 */
+@utility hero-section {
+  padding-top: var(--space-11);
+  padding-bottom: var(--space-10);
+  @apply max-md:!pt-16 max-md:!pb-14;
+}
+
+/* 首页 Hero 主标题 */
+@utility hero-title {
+  font-size: clamp(40px, 5.6vw, 68px);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+/* 首页 Hero 副标题 */
+@utility hero-lead {
+  font-size: clamp(16px, 1.5vw, 19px);
+  line-height: var(--leading-loose);
+  letter-spacing: -0.005em;
+  font-family: var(--font-serif);
+}
+
+/* 文章内容容器最大宽度 */
+@utility page-content {
+  @apply mx-auto max-w-195;
+}
+
+/* Auth 表单卡片最大宽度 */
+@utility page-form {
+  @apply mx-auto w-full max-w-110;
+}
+
+/* 统计栏 */
+@utility stats-grid {
+  @apply divide-stroke border-stroke bg-surface grid grid-cols-3 divide-x rounded-xl border px-5 py-3 max-md:px-4;
+}
+
+/* 统计项 */
+@utility stat-item {
+  @apply flex flex-col items-center gap-0.5;
+}
+
+/* 统计数值 */
+@utility stat-value {
+  @apply text-heading text-(length:--type-3xl) font-bold;
+}
+
+/* 统计标签 */
+@utility stat-label {
+  @apply text-muted text-(length:--type-xs);
+}
+
+/* 标题与强调 — Display */
+
+/* serif 字体 + 紧凑字间距 */
+@utility display-serif {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
+
+/* 首页 Hero 上方的小标签文字 */
+@utility heading-eyebrow {
+  font-size: var(--type-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-faint);
+}
+
+/* 页面主标题 */
+@utility page-title {
+  @apply display-serif text-heading font-bold tracking-[-0.02em];
+  font-size: var(--type-4xl);
+  line-height: var(--leading-tight);
+}
+@utility page-title-mobile {
+  font-size: var(--type-3xl);
+}
+
+/* 页面副标题 */
+@utility page-subtitle {
+  @apply text-muted mt-1.5;
+  font-size: var(--type-md);
+  line-height: var(--leading-loose);
+}
+
+/* 区块标题 */
+@utility section-title {
+  @apply text-heading font-semibold;
+  font-size: var(--type-2xl);
+  line-height: var(--leading-snug);
+}
+
+/* 卡片标题 */
+@utility card-title {
+  @apply text-heading font-semibold tracking-tight;
+  font-size: var(--type-base);
+  line-height: var(--leading-snug);
+}
+
+/* 正文文本 */
+@utility body-text {
+  @apply text-body;
+  font-size: var(--type-md);
+  line-height: var(--leading-loose);
+}
+
+/* 辅助/元信息文本 */
+@utility meta-text {
+  @apply text-faint;
+  font-size: var(--type-xs);
+  line-height: var(--leading-normal);
+}
+
+/* 下划线高亮装饰（首页 Hero） */
+@utility underline-accent {
+  background: linear-gradient(
+    180deg,
+    transparent 70%,
+    color-mix(in srgb, var(--color-faint) 22%, transparent) 70%,
+    color-mix(in srgb, var(--color-faint) 22%, transparent) 94%,
+    transparent 94%
+  );
+  padding: 0 4px;
+}
+
+/* Hero 代码窗口（首页装饰性 Mac 代码窗口） */
+
+/* 代码窗口标题栏渐变背景 */
+@utility hero-titlebar {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-card-bg) 70%, var(--color-surface)),
+    var(--color-card-bg)
+  );
+}
+
+/* Mac 窗口红/黄/绿圆点 */
+@utility hero-dot-close {
+  background: var(--color-mac-close);
+}
+@utility hero-dot-minimize {
+  background: var(--color-mac-minimize);
+}
+@utility hero-dot-maximize {
+  background: var(--color-mac-maximize);
+}
+
+/* 代码窗口主体：3D 透视 + hover 旋转动画 */
+.hero-code-window {
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius-2xl);
+  transform: perspective(1400px) rotateY(-8deg) rotateX(2deg) translateZ(-12px);
+  transition:
+    transform 500ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 500ms ease-in-out;
+
+  @variant max-lg {
+    &,
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+.hero-code-window:hover {
+  transform: perspective(1400px) rotateY(-2deg) rotateX(0) translateZ(0);
+  box-shadow: var(--shadow-md);
+}
+
+/* 卡片 — Card */
+
+/* 基础卡片：圆角 + 边框 + 背景色 */
+@utility card {
+  @apply border-card-border bg-card-bg rounded-xl border;
+}
+
+/* 可悬浮卡片：hover 时背景/边框/阴影变化（ArticleCard 等复用） */
+@utility card-hover {
+  @apply hover:bg-card-hover-bg hover:border-stroke-strong transition-[background-color,border-color,box-shadow] duration-200 ease-out hover:shadow-(--shadow-sm);
+}
+
+/* 表单控件 — Form Controls
+ * 统一状态机：默认 / hover / focus / active / disabled / error / success
+ * 错误/成功态着色边框，聚焦态着色边框（错误/成功态聚焦时保持原色不被覆盖） */
+
+/* 单行文本输入框（Input 组件使用） */
+@utility input-field {
+  @apply border-stroke-strong bg-page text-body placeholder:text-faint h-11 w-full rounded-lg border px-3.5;
+  font-size: var(--type-base);
+  line-height: var(--leading-normal);
+}
+
+/* 多行文本输入框（textarea 元素使用） */
+@utility textarea-field {
+  @apply border-stroke-strong bg-page text-body placeholder:text-faint min-h-24 w-full resize-y rounded-lg border px-3.5 py-3;
+  font-size: var(--type-base);
+  line-height: var(--leading-normal);
+}
+
+/* 焦点态（边框着色）— 所有控件共用 */
+.input-focus {
+  transition:
+    border-color 150ms ease-out,
+    background-color 150ms ease-out;
+}
+.input-focus:focus {
+  border-color: var(--color-accent);
+}
+
+/* 错误态：边框变红 */
+.input-error {
+  border-color: var(--color-state-error) !important;
+}
+.input-error.input-focus:focus {
+  border-color: var(--color-state-error) !important;
+}
+
+/* 成功态：边框变绿 */
+.input-success {
+  border-color: var(--color-state-success) !important;
+}
+.input-success.input-focus:focus {
+  border-color: var(--color-state-success) !important;
+}
+
+/* 带图标输入容器（Input 组件 leftIcon/rightElement 时使用） */
+@utility input-icon-wrap {
+  @apply relative;
+}
+
+/* 左侧图标定位 + 聚焦时颜色加亮 */
+.input-icon-wrap > .input-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-faint);
+  pointer-events: none;
+  transition: color 150ms ease-out;
+}
+.input-icon-wrap:focus-within > .input-icon {
+  color: var(--color-muted);
+}
+
+/* 带左图标时的输入框左内边距 */
+@utility input-with-icon {
+  @apply pl-10;
+}
+
+/* 原生复选框 / 单选（基线：跟随主题 accent-color） */
+input[type='checkbox'],
+input[type='radio'] {
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+/* 自定义复选框（opt-in: 加 .checkbox） */
+@utility checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: var(--radius-xs);
+  border: 1.5px solid var(--color-stroke-strong);
+  background: var(--color-page);
+  cursor: pointer;
+  display: inline-grid;
+  place-content: center;
+  transition:
+    background-color 150ms ease-out,
+    border-color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+.checkbox:hover {
+  border-color: var(--color-muted);
+}
+.checkbox:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+.checkbox:checked {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+.checkbox:checked::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  background: var(--color-page);
+  clip-path: polygon(14% 44%, 0 60%, 50% 100%, 100% 16%, 86% 0, 43% 62%);
+}
+.checkbox:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.checkbox:disabled:checked {
+  background: var(--color-muted);
+  border-color: var(--color-muted);
+}
+
+/* 自定义单选（opt-in: 加 .radio） */
+@utility radio {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  border: 1.5px solid var(--color-stroke-strong);
+  background: var(--color-page);
+  cursor: pointer;
+  display: inline-grid;
+  place-content: center;
+  transition:
+    background-color 150ms ease-out,
+    border-color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+.radio:hover {
+  border-color: var(--color-muted);
+}
+.radio:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+.radio:checked {
+  border-color: var(--color-accent);
+}
+.radio:checked::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+}
+.radio:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 开关（opt-in: input[type="checkbox"].switch） */
+input[type='checkbox'].switch {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 36px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  border: none;
+  background: var(--color-stroke-strong);
+  cursor: pointer;
+  position: relative;
+  transition:
+    background-color 200ms ease-out,
+    box-shadow 150ms ease-out;
+}
+input[type='checkbox'].switch::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--color-page);
+  box-shadow: var(--shadow-xs);
+  transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+input[type='checkbox'].switch:hover {
+  background: var(--color-muted);
+}
+input[type='checkbox'].switch:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+input[type='checkbox'].switch:checked {
+  background: var(--color-accent);
+}
+input[type='checkbox'].switch:checked::before {
+  transform: translateX(16px);
+}
+input[type='checkbox'].switch:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 下拉选择基线 */
+select {
+  cursor: pointer;
+}
+select:disabled {
+  cursor: not-allowed;
+}
+
+/* Chip / Badge（标签 / 徽章） */
+
+/* 实心圆角胶囊标签（文章分类、草稿标记等） */
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: var(--type-xs);
+  font-weight: 600;
+  color: var(--color-heading);
+  background: color-mix(in srgb, var(--color-heading) 12%, var(--color-surface));
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+}
+
+/* 小号实心胶囊（置顶、草稿等紧凑标签） */
+@utility chip-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  padding: 0.125rem 0.5rem;
+  font-size: var(--type-2xs);
+  font-weight: 600;
+  color: var(--color-heading);
+  background: color-mix(in srgb, var(--color-heading) 14%, var(--color-surface));
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+}
+
+/* 描边胶囊标签：hover 时加粗（作者页技能标签等） */
+@utility chip-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: var(--type-xs);
+  font-weight: 500;
+  color: var(--color-body);
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+  transition:
+    background-color 150ms ease-out,
+    color 150ms ease-out;
+}
+.chip-outline:hover {
+  color: var(--color-heading);
+  background: color-mix(in srgb, var(--color-heading) 6%, var(--color-surface));
+}
+
+/* 小号方角徽章（ArticleCard 标签列表） */
+@utility badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  padding: 2px 9px;
+  font-size: var(--type-2xs);
+  font-weight: 500;
+  color: var(--color-body);
+  background: color-mix(in srgb, var(--color-heading) 12%, var(--color-surface));
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+}
+
+/* 大号方角徽章：hover 加深（文章详情页底部标签） */
+@utility badge-lg {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  padding: 0.25rem 0.75rem;
+  font-size: var(--type-sm);
+  font-weight: 500;
+  color: var(--color-heading);
+  background: color-mix(in srgb, var(--color-heading) 12%, var(--color-surface));
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+  transition:
+    background-color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+.badge-lg:hover {
+  background: color-mix(in srgb, var(--color-heading) 20%, var(--color-surface));
+  box-shadow: inset 0 0 0 1px var(--color-stroke-strong);
+}
+
+/* Segmented Control（分段选择器 / Tab 切换）
+ * 用于 settings 页面 Tab 切换、posts 页面 已发布/草稿 切换 */
+
+/* 分段选择器容器：内联 flex + 圆角背景框 */
+@utility segmented {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  border-radius: var(--radius-lg);
+  padding: 3px;
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+}
+
+/* 分段选择器单项：默认灰色文字 + hover/active 加粗 */
+@utility segmented-item {
+  @apply text-muted cursor-pointer rounded-[7px] px-3.5 py-1.5;
+  font-size: var(--type-sm);
+  line-height: var(--leading-normal);
+  transition:
+    background-color 150ms ease-out,
+    color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+.segmented-item:hover {
+  color: var(--color-heading);
+}
+.segmented-item:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+.segmented-item:active {
+  color: var(--color-heading);
+}
+
+/* 分段选择器选中态：白底 + 粗体 + 内阴影 */
+@utility segmented-item-on {
+  background: var(--color-page);
+  font-weight: 500;
+  color: var(--color-heading);
+  box-shadow:
+    var(--shadow-xs),
+    inset 0 0 0 1px var(--color-stroke);
+}
+
+/* Icon Button（图标按钮）
+ * 用于作者页社交链接、文章操作等固定尺寸的图标按钮 */
+@utility icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-md);
+  color: var(--color-muted);
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px var(--color-stroke);
+  transition:
+    background-color 150ms ease-out,
+    color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+.icon-btn:hover {
+  background: color-mix(in srgb, var(--color-heading) 8%, var(--color-surface));
+  color: var(--color-heading);
+  box-shadow: inset 0 0 0 1px var(--color-stroke-strong);
+}
+.icon-btn:active {
+  background: color-mix(in srgb, var(--color-heading) 14%, var(--color-surface));
+}
+.icon-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    inset 0 0 0 1px var(--color-stroke-strong),
+    0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+
+/* Navbar（导航栏链接样式） */
+
+/* 导航项未激活态：透明底，hover 时仅变背景色（无边框） */
+@utility nav-item-inactive {
+  @apply text-body hover:text-heading hover:bg-surface;
+}
+
+/* 导航项通用过渡：背景色/文字色/阴影 */
+@utility nav-item-transition {
+  @apply transition-[background-color,color,box-shadow] duration-150 ease-out;
+}
+
+/* Auth（登录 / 注册页面） */
+
+/* 顶部氛围光晕：径向渐变柔光 */
+@utility auth-halo {
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+  height: 50vh;
+  background: radial-gradient(ellipse 50% 60% at 50% 20%, var(--color-body) 0%, transparent 70%);
+  opacity: 0.06;
+}
+
+/* Auth 卡片：居中 + 圆角 + 边框 + 大阴影 */
+@utility auth-card {
+  @apply anim-fade-up page-form rounded-2xl px-9 py-10 max-[480px]:px-6 max-[480px]:py-8;
+  border: 1px solid var(--color-card-border);
+  background: var(--color-card-bg);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Route Manifest（路由清单折叠面板）
+ * 用于 /components 页面的项目路由清单展示 */
+.route-manifest summary > svg:last-child {
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.route-manifest[open] summary > svg:last-child {
+  transform: rotate(90deg) !important;
+}
+
+.route-manifest-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 350ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.route-manifest[open] .route-manifest-content {
+  max-height: 3000px;
+}
+
+/* 按钮变体 — Button Variants
+ * 由 Button.tsx 组件引用，变体：primary / ghost / outline / danger
+ * 状态：默认 / hover / active / disabled / focus-visible（焦点由全局 outline 接管） */
+
+/* 主要按钮：accent 实心底色 + hover 发光阴影 */
+@utility btn-primary {
+  @apply bg-accent text-page;
+  transition-property: background-color, box-shadow, opacity, transform;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.btn-primary:not(:disabled):not([aria-disabled='true']):hover {
+  background: color-mix(in srgb, var(--color-accent) 88%, var(--color-page));
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--color-accent) 22%, transparent);
+}
+.btn-primary:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-accent) 80%, var(--color-page));
+}
+
+/* 幽灵按钮：透明底 + hover 背景色变化 */
+@utility btn-ghost {
+  @apply bg-btn-bg text-btn-text;
+  transition-property: background-color, color, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.btn-ghost:not(:disabled):not([aria-disabled='true']):hover {
+  background: var(--color-btn-hover-bg);
+  color: var(--color-btn-hover-text);
+}
+.btn-ghost:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-heading) 14%, var(--color-btn-hover-bg));
+}
+
+/* 描边按钮：透明底 + hover 出现背景色和边框加粗 */
+@utility btn-outline {
+  @apply border-stroke-strong text-body border bg-transparent;
+  transition-property: background-color, color, border-color, transform;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.btn-outline:not(:disabled):not([aria-disabled='true']):hover {
+  background: var(--color-surface);
+  color: var(--color-heading);
+  border-color: var(--color-muted);
+}
+.btn-outline:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-heading) 8%, var(--color-surface));
+}
+
+/* 危险按钮：红色底色 + hover 发光阴影（删除操作） */
+@utility btn-danger {
+  @apply bg-state-error-bg text-state-error;
+  transition-property: background-color, box-shadow, opacity, transform;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.btn-danger:not(:disabled):not([aria-disabled='true']):hover {
+  background: color-mix(in srgb, var(--color-state-error) 20%, var(--color-100));
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--color-state-error) 18%, transparent);
+}
+.btn-danger:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-state-error) 26%, var(--color-100));
+}
+
+/* 标签（分类着色）— 对应 tokens.css 四色：ink/ember/crimson/slate */
+@utility tag-ink {
+  @apply bg-tag-ink-bg text-tag-ink rounded-full px-2.5 py-0.5 text-(length:--type-xs) font-medium;
+}
+@utility tag-ember {
+  @apply bg-tag-ember-bg text-tag-ember rounded-full px-2.5 py-0.5 text-(length:--type-xs) font-medium;
+}
+@utility tag-crimson {
+  @apply bg-tag-crimson-bg text-tag-crimson rounded-full px-2.5 py-0.5 text-(length:--type-xs) font-medium;
+}
+@utility tag-slate {
+  @apply bg-tag-slate-bg text-tag-slate rounded-full px-2.5 py-0.5 text-(length:--type-xs) font-medium;
+}
+
+/* Alert 状态色 — 由 Alert.tsx 组件引用，4 种变体：info / success / warning / error */
+@utility alert-info {
+  background: var(--color-state-info-bg);
+  color: var(--color-state-info);
+  --alert-ring: color-mix(in srgb, var(--color-state-info) 30%, transparent);
+}
+@utility alert-success {
+  background: var(--color-state-success-bg);
+  color: var(--color-state-success);
+  --alert-ring: color-mix(in srgb, var(--color-state-success) 30%, transparent);
+}
+@utility alert-warning {
+  background: var(--color-state-warning-bg);
+  color: var(--color-state-warning);
+  --alert-ring: color-mix(in srgb, var(--color-state-warning) 30%, transparent);
+}
+@utility alert-error {
+  background: var(--color-state-error-bg);
+  color: var(--color-state-error);
+  --alert-ring: color-mix(in srgb, var(--color-state-error) 30%, transparent);
+}
+
+/* 导航 */
+
+/* 导航项选中态：accent 底色 + 白色文字 */
+@utility nav-link-active {
+  @apply bg-accent text-page;
+}
+
+/* 头像 / 封面 / 装饰 */
+
+/* 头像渐变背景：link→accent 对角渐变（Avatar 组件使用）
+ * fallback 用 accent 实色底保证白字对比度(≥7:1),渐变仅作为微妙层次 */
+@utility avatar-gradient {
+  background: var(--color-accent);
+  background-image: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-link) 80%, var(--color-accent)),
+    var(--color-accent)
+  );
+  @apply text-page;
+}
+
+/* 封面占位图渐变（无封面时的兜底）— 叠加细密点阵纹理增加层次 */
+@utility cover-fallback {
+  background:
+    radial-gradient(
+        circle at 1px 1px,
+        color-mix(in srgb, var(--color-faint) 40%, transparent) 1px,
+        transparent 0
+      )
+      0 0 / 16px 16px,
+    linear-gradient(135deg, var(--color-stroke), var(--color-stroke-strong));
+}
+
+/* Hero 装饰圆点：发光呼吸效果 */
+@utility hero-dot {
+  background: var(--color-body);
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--color-body) 60%, transparent),
+    0 0 20px color-mix(in srgb, var(--color-body) 30%, transparent);
+}
+
+/* 弹窗遮罩层：accent 混色 + 模糊滤镜 */
+@utility modal-overlay {
+  background: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* 聚合复用类 — Aggregated Utilities
+ * 从多个页面/组件中抽取的重复类名组合，统一为 @utility */
+
+/* 密码可见性切换按钮（login/register/settings 3 个文件 5 处复用） */
+@utility pwd-toggle {
+  @apply text-faint hover:text-body cursor-pointer p-1 transition-colors duration-200;
+}
+
+/* 元数据分隔圆点（ArticleCard / posts/[id] 2 个文件 6 处复用） */
+@utility meta-dot {
+  @apply bg-faint inline-block h-[3px] w-[3px] shrink-0 rounded-full;
+}
+
+/* Auth 页面主区域容器（login/register 2 个文件复用） */
+@utility auth-main {
+  @apply relative z-5 flex min-h-[calc(100vh-64px)] items-center justify-center px-6 py-8;
+}
+
+/* Auth 页面标题（login/register 2 个文件复用） */
+@utility auth-title {
+  @apply text-heading display-serif m-0 mb-1.5 font-bold;
+  font-size: var(--type-3xl);
+  line-height: var(--leading-tight);
+}
+
+/* Auth 页面副标题（login/register 2 个文件复用） */
+@utility auth-subtitle {
+  @apply text-muted m-0;
+  font-size: var(--type-base);
+  line-height: var(--leading-normal);
+}
+
+/* Auth 限速提示行（login/register 2 个文件复用） */
+@utility auth-rate-hint {
+  @apply row-xs text-faint mt-4 justify-center;
+  font-size: var(--type-xs);
+  line-height: var(--leading-normal);
+}
+
+/* Auth 底部切换链接容器（login/register 2 个文件复用） */
+@utility auth-switch {
+  @apply text-muted mt-6 text-center;
+  font-size: var(--type-base);
+  line-height: var(--leading-normal);
+}
+
+/* Auth 底部切换链接本身（login/register 2 个文件复用） */
+@utility auth-switch-link {
+  @apply text-link-hover font-medium transition-opacity duration-200 hover:underline hover:opacity-80;
+}
+
+/* 筛选区小标题（posts/components 2 个文件 4 处复用，统一 tracking 值） */
+@utility filter-heading {
+  @apply text-faint text-(length:--type-xs) font-semibold tracking-[0.06em] uppercase;
+}
+
+/* 分页按钮基类（posts/page.tsx 4 处复用，上下页+页码按钮） */
+@utility page-btn {
+  @apply border-stroke bg-surface text-body hover:bg-stroke hover:text-heading inline-flex h-9 items-center justify-center rounded-lg border transition-[background-color,color] duration-150;
+}
+
+/* 暗色主题 hover 增强
+ * Dark 模式下 color-mix 百分比需提高，因底色深、高亮混合不够明显 */
+.dark .icon-btn:hover {
+  background: color-mix(in srgb, var(--color-heading) 14%, var(--color-surface));
+}
+.dark .icon-btn:active {
+  background: color-mix(in srgb, var(--color-heading) 20%, var(--color-surface));
+}
+.dark .chip-outline:hover {
+  background: color-mix(in srgb, var(--color-heading) 12%, var(--color-surface));
+}
+.dark .badge-lg:hover {
+  background: color-mix(in srgb, var(--color-heading) 18%, var(--color-surface));
+}
+.dark .btn-ghost:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-heading) 20%, var(--color-btn-hover-bg));
+}
+.dark .btn-outline:not(:disabled):not([aria-disabled='true']):active {
+  background: color-mix(in srgb, var(--color-heading) 12%, var(--color-surface));
+}
+.dark .segmented-item:hover {
+  background: color-mix(in srgb, var(--color-heading) 8%, transparent);
+}
+.dark .hero-code-window:hover {
+  box-shadow:
+    var(--shadow-lg),
+    0 0 0 1px var(--color-stroke-strong);
+}
+
+/* react-hot-toast — 极简设计系统适配 */
+
+/* ── 容器 ── */
+.rht-toaster {
+  gap: 8px;
+}
+
+/* ── Toast 主体（所有类型共享） ── */
+.rht-toast {
+  border-radius: var(--radius-xl) !important;
+  border: 1px solid var(--color-stroke-strong) !important;
+  background: var(--color-surface) !important;
+  color: var(--color-heading) !important;
+  box-shadow: var(--shadow-md) !important;
+  padding: 14px 16px !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--type-sm) !important;
+  line-height: var(--leading-normal) !important;
+  gap: 10px !important;
+  align-items: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease !important;
+}
+
+/* 左侧色条（通过 ::before 伪元素实现） */
+.rht-toast::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--color-accent);
+  border-radius: 0 2px 2px 0;
+}
+
+/* ── 状态变体：左侧色条 + 柔和底色 ── */
+
+/* success */
+.rht-success {
+  border-color: color-mix(in srgb, var(--color-state-success) 35%, transparent) !important;
+  background: color-mix(in srgb, var(--color-state-success) 6%, var(--color-surface)) !important;
+}
+.rht-success::before {
+  background: var(--color-state-success);
+}
+
+/* error */
+.rht-error {
+  border-color: color-mix(in srgb, var(--color-state-error) 35%, transparent) !important;
+  background: color-mix(in srgb, var(--color-state-error) 6%, var(--color-surface)) !important;
+}
+.rht-error::before {
+  background: var(--color-state-error);
+}
+
+/* info */
+.rht-info {
+  border-color: color-mix(in srgb, var(--color-state-info) 35%, transparent) !important;
+  background: color-mix(in srgb, var(--color-state-info) 6%, var(--color-surface)) !important;
+}
+.rht-info::before {
+  background: var(--color-state-info);
+}
+
+/* ── 暗色模式微调 ── */
+.dark .rht-toast {
+  box-shadow:
+    var(--shadow-md),
+    0 0 0 1px rgb(255 255 255 / 0.04) !important;
+}

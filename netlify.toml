@@ -1,0 +1,10 @@
+[build]
+  base = "/"
+  command = "pnpm install --frozen-lockfile && pnpm --filter ./frontend build"
+  publish = "frontend/.next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

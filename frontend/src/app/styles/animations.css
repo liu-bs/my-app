@@ -1,0 +1,99 @@
+/**
+ * animations.css — 动画定义
+ *
+ * 包含全站关键帧动画（fade-in-up / fade-in / shake / spin / breathing）
+ * 和对应的工具类（anim-fade-up / shake / animate-*）。
+ *
+ * 交错延迟工具类 stagger-1 ~ stagger-6 用于列表项逐个入场，
+ * 配合 anim-fade-up 实现级联动画效果（值越大延迟越久）。
+ */
+
+/* 关键帧 — Keyframes */
+
+/* 渐入上移：列表项/区块入场动画 */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 纯渐入：封面图/弹窗/TOC 等无位移的淡入 */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 左右抖动：表单错误时提示条震动反馈 */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+/* 旋转：Spinner 加载图标 */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 呼吸缩放：首页 Hero 装饰圆点脉动效果 */
+@keyframes breathing {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 交错延迟工具类 — 配合 anim-fade-up 使用，为列表项设置 40ms 递增延迟 */
+
+@utility stagger-1 {
+  animation-delay: 40ms;
+}
+@utility stagger-2 {
+  animation-delay: 80ms;
+}
+@utility stagger-3 {
+  animation-delay: 120ms;
+}
+@utility stagger-4 {
+  animation-delay: 160ms;
+}
+@utility stagger-5 {
+  animation-delay: 200ms;
+}
+@utility stagger-6 {
+  animation-delay: 240ms;
+}
+
+/* 渐入上移入场：页面区块/卡片列表项逐个出现 */
+@utility anim-fade-up {
+  animation: fade-in-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+/* 抖动：表单提交错误时 Alert 组件震动 */
+@utility shake {
+  animation: shake 0.35s ease-in-out;
+}
