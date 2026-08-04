@@ -1,0 +1,198 @@
+backend/src/modules/comment/types/comment.types.ts
+  s_fc60eae86449ce::t_4ca0fd03ad21d6 1-2
+  s_fc60eae86449ce::t_c398f495c09bc3 3
+frontend/src/app/components/page.tsx
+  s_fc60eae86449ce::t_c7e1ebdc2b9817 56
+  s_fc60eae86449ce::t_ec4d9c10010d65 41,44
+frontend/src/app/posts/[id]/DeletePostButton.tsx
+  s_fc60eae86449ce::t_4ba626b9fbfb5c 10,12
+shared/types/frontend/request.ts
+  s_fc60eae86449ce::t_14f7adee6116db 1-24
+shared/types/backend/express/modules.ts
+  s_fc60eae86449ce::t_0d296e92aec27a 1-21
+backend/src/utils/logger.ts
+  s_fc60eae86449ce::t_b1a3bbb446fdf4 2
+frontend/src/app/register/page.tsx
+  s_fc60eae86449ce::t_4ae27203140df3 18
+backend/src/modules/blog/blog.module.ts
+  s_fc60eae86449ce::t_792e7341521fd5 2,9
+backend/src/modules/blog/routes/blog.routes.ts
+  s_fc60eae86449ce::t_6b9588e0250d23 2,15
+shared/types/frontend/forms.ts
+  s_fc60eae86449ce::t_39e5d0ae6a67ac 1-7
+backend/src/utils/asyncHandler.ts
+  s_fc60eae86449ce::t_6bfb18c4e7a0f6 2
+frontend/src/components/EmptyState.tsx
+  s_fc60eae86449ce::t_443614968a7053 1
+backend/src/modules/auth/services/password.service.ts
+  s_fc60eae86449ce::t_1f4e3545d3358d 3,5
+frontend/src/components/FormField.tsx
+  s_fc60eae86449ce::t_b1771a3804966c 1
+backend/src/modules/blog/types/blog.types.ts
+  s_fc60eae86449ce::t_99e3abaec1d41e 1-3
+  s_fc60eae86449ce::t_e8814f3edf216d 4
+backend/src/modules/blog/services/blog.service.ts
+  s_fc60eae86449ce::t_63e0720bc24f6e 1
+  s_fc60eae86449ce::t_5f2ff7fc6315ff 22
+shared/types/ui.ts
+  s_fc60eae86449ce::t_d3db63f686e317 7
+  s_fc60eae86449ce::t_943cea846b04f5 193-252
+  s_fc60eae86449ce::t_b0d67cd1bf1627 1-6,8-192
+frontend/src/components/PageHeader.tsx
+  s_fc60eae86449ce::t_521771ba9a1245 1
+shared/types/blog.ts
+  s_fc60eae86449ce::t_65bc5a837ee846 117-137
+shared/package.json
+  s_fc60eae86449ce::t_9118ae447a3025 16-17
+shared/types/backend/express/routes.ts
+  s_fc60eae86449ce::t_2cc5a5133c981f 1-28
+shared/types/index.ts
+  s_fc60eae86449ce::t_ed3897a320aa7b 16-17
+  s_fc60eae86449ce::t_b772dbac70702d 18-21
+backend/src/types/express.d.ts
+  s_fc60eae86449ce::t_ba916a98e67f84 1
+frontend/src/components/Input.tsx
+  s_fc60eae86449ce::t_0122aeea7e99a7 1-2
+frontend/src/components/ClientLayout.tsx
+  s_fc60eae86449ce::t_bb50272450933b 5,7
+shared/types/backend/blog.ts
+  s_fc60eae86449ce::t_7b601c533263a9 1-23
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_fc60eae86449ce::t_545c72cc382372 4
+  s_fc60eae86449ce::t_0111313280d5a4 6
+frontend/src/components/Container.tsx
+  s_fc60eae86449ce::t_0e4d875d9468e7 1,3
+frontend/src/components/CoverFallback.tsx
+  s_fc60eae86449ce::t_96724511f152d3 2
+backend/src/infrastructure/JsonDocumentStore.ts
+  s_fc60eae86449ce::t_981a044fa97316 6
+shared/types/frontend/pages.ts
+  s_fc60eae86449ce::t_108be8c75aaaf6 1-35
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_fc60eae86449ce::t_6b80d91c1ef357 13
+  s_fc60eae86449ce::t_ca8647a6209c6d 8
+backend/src/modules/auth/repository/auth.repository.ts
+  s_fc60eae86449ce::t_40d8c8532e3e0f 1,4
+frontend/src/app/my-articles/DeleteArticleButton.tsx
+  s_fc60eae86449ce::t_dee8c381e831fd 9,11
+frontend/src/components/PasswordStrength.tsx
+  s_fc60eae86449ce::t_54d324d2742da7 24
+frontend/src/app/favorites/RemoveFavoriteButton.tsx
+  s_fc60eae86449ce::t_61cf7fc6cb3537 7,9
+frontend/src/components/providers.tsx
+  s_fc60eae86449ce::t_4a393eb58aec3a 15-16
+  s_fc60eae86449ce::t_50d82913fd8e2a 7
+shared/types/frontend/toc.ts
+  s_fc60eae86449ce::t_b9fb86abfe4376 1-5
+backend/src/middleware/rateLimiter.ts
+  s_fc60eae86449ce::t_1c141686ef2569 4
+frontend/src/services/blog/hooks.ts
+  s_fc60eae86449ce::t_b94693521c88b3 103
+  s_fc60eae86449ce::t_a82d93bf638d79 12
+shared/types/backend/infra/store.ts
+  s_fc60eae86449ce::t_1c805c6ae1e805 1-7
+shared/types/backend/index.ts
+  s_fc60eae86449ce::t_32de846d6340e7 1-7
+shared/types/backend/comment.ts
+  s_fc60eae86449ce::t_2e7f78452e26e3 1-21
+frontend/src/components/Alert.tsx
+  s_fc60eae86449ce::t_94969070721562 1
+backend/src/modules/auth/services/token.service.ts
+  s_fc60eae86449ce::t_6ec693555226fb 3,6
+  s_fc60eae86449ce::t_3cdf81735b00e2 5
+shared/types/backend/auth.ts
+  s_fc60eae86449ce::t_07f0f3ff8b8149 1-36
+frontend/src/components/Avatar.tsx
+  s_fc60eae86449ce::t_66bdb69bf1dacb 2
+frontend/src/components/Tag.tsx
+  s_fc60eae86449ce::t_c473b973435a90 1
+frontend/src/components/ArticleCard.tsx
+  s_fc60eae86449ce::t_186bae408ae93c 7
+shared/types/backend/express/middleware.ts
+  s_fc60eae86449ce::t_735f48701d59b0 1-10
+backend/src/modules/auth/routes/auth-cookie.helper.ts
+  s_fc60eae86449ce::t_fe15da86d1c15f 2,11
+backend/src/modules/auth/routes/auth.routes.ts
+  s_fc60eae86449ce::t_2cc63d015c0057 2,11
+frontend/src/app/settings/page.tsx
+  s_fc60eae86449ce::t_4fb7ce8e39150f 17
+  s_fc60eae86449ce::t_4d35ad6093b57d 26
+backend/src/modules/blog/repository/blog.repository.ts
+  s_fc60eae86449ce::t_1ef8a0acdc65e8 28
+  s_fc60eae86449ce::t_7174727c9a3213 3
+backend/src/modules/comment/repository/comment.repository.ts
+  s_fc60eae86449ce::t_7cb40cb0bd73a9 1,4
+frontend/src/components/Spinner.tsx
+  s_fc60eae86449ce::t_af8d79aafa782e 6
+frontend/src/app/posts/PostSidebar.tsx
+  s_fc60eae86449ce::t_7052f88d0274a0 30
+  s_fc60eae86449ce::t_ddb2979abf3521 8
+backend/src/modules/auth/auth.module.ts
+  s_fc60eae86449ce::t_c6050bda941bcb 2,14
+frontend/src/components/Modal.tsx
+  s_fc60eae86449ce::t_34377b87574f40 5
+frontend/src/services/comment/hooks.ts
+  s_fc60eae86449ce::t_7b1ea1438b2272 46
+  s_fc60eae86449ce::t_cf3db6cbe99b59 7
+frontend/src/lib/api/request.ts
+  s_fc60eae86449ce::t_fa86668dc45ab5 112
+  s_fc60eae86449ce::t_17ab7d4c85aff2 1-2
+  s_fc60eae86449ce::t_f375867b833a7f 3
+frontend/src/app/write/page.tsx
+  s_fc60eae86449ce::t_6ada26fa77a0da 14
+  s_fc60eae86449ce::t_033c02077dd323 35
+backend/src/modules/comment/comment.module.ts
+  s_fc60eae86449ce::t_3294c8deee16b8 2,9
+shared/types/user.ts
+  s_fc60eae86449ce::t_751337072fd0af 96-105
+frontend/src/components/StatsGrid.tsx
+  s_fc60eae86449ce::t_81ab3161ae8782 1
+shared/types/frontend/index.ts
+  s_fc60eae86449ce::t_afc86cb8c0428c 1-4
+frontend/src/app/error.tsx
+  s_fc60eae86449ce::t_62b227be2b4da5 5,10
+backend/src/modules/comment/services/comment.service.ts
+  s_fc60eae86449ce::t_e97f2079c62f5c 10
+  s_fc60eae86449ce::t_a3da6862371c43 1
+frontend/src/components/Button.tsx
+  s_fc60eae86449ce::t_05a2dc1f66db67 37
+  s_fc60eae86449ce::t_548fbdb799c291 1,3
+  s_fc60eae86449ce::t_49a139dbbd7e2e 20
+backend/src/modules/auth/services/auth.service.ts
+  s_fc60eae86449ce::t_088578944a100b 1
+  s_fc60eae86449ce::t_34201133a4984f 10
+  s_fc60eae86449ce::t_b69832547d1cc4 11
+  s_fc60eae86449ce::t_cbf22c09390444 12
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_fc60eae86449ce::t_eef95725484263 21
+  s_fc60eae86449ce::t_c9e014d682491a 16
+frontend/src/app/posts/PostsSearchInput.tsx
+  s_fc60eae86449ce::t_7ee1bfacd0307f 6,8
+backend/src/modules/comment/routes/comment.routes.ts
+  s_fc60eae86449ce::t_7707b30ff92650 2,11
+shared/types/comment.ts
+  s_fc60eae86449ce::t_0d0eceff4bc670 33-42
+pnpm-lock.yaml
+  s_fc60eae86449ce::t_9a527608c91a1a 196-201,4858,4895,4909
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7c207d0f74a7ac70e5fa3cd7be674563f2b0c707",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_fc60eae86449ce": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c5bd0afc-d18e-4bda-9b71-6c52d533a614",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
