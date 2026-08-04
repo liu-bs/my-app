@@ -1,0 +1,432 @@
+backend/src/utils/common.ts
+  s_cec027cbd4daf6::t_d4e3178d1fc810 1-5
+  s_cec027cbd4daf6::t_6a2b86e2c6cc86 9-12,17-22
+backend/src/modules/comment/repository/comment.repository.ts
+  s_cec027cbd4daf6::t_60544c7f8dac7b 1-5
+  s_cec027cbd4daf6::t_165bb00acd2b10 11-14,16-18,23-27,33-37,48-54
+backend/src/errors/AppError.ts
+  s_cec027cbd4daf6::t_d1aa4f589f6c2a 1-9,11-17
+  s_cec027cbd4daf6::t_37e9fae538a1f7 29,31-34,40,42-44,50,52-54,60,62-64,70,72-74,80,82-84,90,92-94,100,102-105,111,113-115,121,123-126,132,134-136
+backend/src/errors/index.ts
+  s_cec027cbd4daf6::t_915376e4868821 1-5
+frontend/src/app/favorites/page.tsx
+  s_cec027cbd4daf6::t_523fad7c4a7e93 1-4
+  s_cec027cbd4daf6::t_9db42548c58414 14-17,19,21
+frontend/src/app/layout.tsx
+  s_cec027cbd4daf6::t_4b1c5e58794575 17
+  s_cec027cbd4daf6::t_1861f1bbb42232 58-61
+  s_cec027cbd4daf6::t_c2a6503c038108 50
+  s_cec027cbd4daf6::t_6ca79494d4aa52 1-4
+  s_cec027cbd4daf6::t_18a76a9a4788aa 33
+  s_cec027cbd4daf6::t_64ab94ffff19dc 42
+  s_cec027cbd4daf6::t_5837c6e54e2b28 25
+backend/src/utils/cookie.ts
+  s_cec027cbd4daf6::t_ff9e325c355c6f 53-57
+  s_cec027cbd4daf6::t_4a631962351250 9-13
+  s_cec027cbd4daf6::t_1020aef88bec09 24-28
+  s_cec027cbd4daf6::t_a01a046622be07 39-43
+  s_cec027cbd4daf6::t_1e514fa826de61 1-5
+frontend/src/components/CoverFallback.tsx
+  s_cec027cbd4daf6::t_e3c176d6dc008a 1-4,8-11
+frontend/src/proxy.ts
+  s_cec027cbd4daf6::t_f86a94ddf7ec85 2-7,9-10,12,14,17,20-24
+  s_cec027cbd4daf6::t_d41c180ad8c0f8 31-35
+  s_cec027cbd4daf6::t_e4d86a66c34549 58
+frontend/src/components/ui/sonner.tsx
+  s_cec027cbd4daf6::t_c0cbb9cca73151 1-4,11,18,21,24-27
+shared/types/backend/auth.ts
+  s_cec027cbd4daf6::t_a339e224f1ccc3 1-5,9,14-16,18,20,24-26,28,30,32,34,36,38,42-44,46,48,52-54,56,58,60,62,64,66,68,70
+frontend/src/app/page.tsx
+  s_cec027cbd4daf6::t_4ebcb8e2a2422b 1-4
+  s_cec027cbd4daf6::t_876dbcaa91b951 8-11
+shared/types/frontend/toc.ts
+  s_cec027cbd4daf6::t_c78c2a61f14675 1-8,10,12,14
+frontend/src/app/components/page.tsx
+  s_cec027cbd4daf6::t_ef0bc484b294bc 185
+  s_cec027cbd4daf6::t_8babf648d451f1 47-50
+  s_cec027cbd4daf6::t_5151229fab0e0b 180-183
+  s_cec027cbd4daf6::t_04f986620c0f17 1-4
+  s_cec027cbd4daf6::t_df5cece8818aa2 62-65
+frontend/src/components/Modal.tsx
+  s_cec027cbd4daf6::t_5d32d473b84422 1-4,12-13,16-18,21-24,51,66
+shared/index.ts
+  s_cec027cbd4daf6::t_3fcab30042da59 2-3
+backend/src/modules/comment/comment.module.ts
+  s_cec027cbd4daf6::t_91004ed27d990f 16-21
+  s_cec027cbd4daf6::t_721045a2b717ff 1-5
+backend/src/config/index.ts
+  s_cec027cbd4daf6::t_6f6d74a810eba1 1-5
+  s_cec027cbd4daf6::t_cc782c6bb77abf 12-18
+  s_cec027cbd4daf6::t_9e03c31f3358d1 55,57
+  s_cec027cbd4daf6::t_f09682e0556843 28-34
+  s_cec027cbd4daf6::t_de48110da0a2b2 67-70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100
+  s_cec027cbd4daf6::t_c9b5c7b338f58b 43-47
+frontend/src/services/comment/api.ts
+  s_cec027cbd4daf6::t_11f65e0559b099 1-5,14,17,21,25,29
+frontend/src/components/PasswordStrength.tsx
+  s_cec027cbd4daf6::t_f6d7ad5a33ae4f 1-10,25-26,34,39-42,44,48,53,65
+backend/src/utils/logger.ts
+  s_cec027cbd4daf6::t_18944a31160ce5 9-11,19,22-26,31-34,39-45
+  s_cec027cbd4daf6::t_3bf0d8c9f9f345 1-5
+  s_cec027cbd4daf6::t_a3f1edc68bca65 72-75
+shared/types/backend/infra/store.ts
+  s_cec027cbd4daf6::t_5ea18c07bb39f6 1-9,11,13,15,19
+frontend/src/app/favorites/RemoveFavoriteButton.tsx
+  s_cec027cbd4daf6::t_f3138deb96bb35 1-4
+  s_cec027cbd4daf6::t_67dc034a41cc49 13-16,18
+frontend/src/app/login/page.tsx
+  s_cec027cbd4daf6::t_56d73a3b7b046e 67-70
+  s_cec027cbd4daf6::t_bfebeaa9953b2e 1-4
+  s_cec027cbd4daf6::t_671a3ae80b72a2 78-81
+  s_cec027cbd4daf6::t_90c2439b7d0259 19-22,26,28,33,35-37,40,42,44,46,48,50,52,55,58-60
+frontend/src/components/Tag.tsx
+  s_cec027cbd4daf6::t_0b29e26dd1dc34 1-4,7,15,21-24,38-42
+shared/types/frontend/index.ts
+  s_cec027cbd4daf6::t_75de63cd75df51 1-5
+frontend/src/components/EmptyState.tsx
+  s_cec027cbd4daf6::t_5ae134c926c70a 1-4,7-10,14,18,20,22
+shared/types/user.ts
+  s_cec027cbd4daf6::t_2da7693fcfc0ef 2-3,6-8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,40,42,44,52,54,61,63,67-69,71,73,75,79-81,83,85,87,91-93,95,97,99,101,103,107-109,111,113,117-119,121,123,127-129,131,133,135,137,139,141,143,145,147,152-154,156,160-162,164,166,168,172-174
+backend/src/modules/blog/index.ts
+  s_cec027cbd4daf6::t_637fb7e92d1c1e 1-5
+frontend/src/components/FormField.tsx
+  s_cec027cbd4daf6::t_007bebd7317280 1-4,7-10,12-15,24,30,32
+backend/src/modules/blog/services/summary.service.ts
+  s_cec027cbd4daf6::t_7fa7202c0b7e12 1-5,15-17,32-36
+frontend/src/app/my-articles/DeleteArticleButton.tsx
+  s_cec027cbd4daf6::t_5dcd4f806a2135 15-18,20,22,25-27
+  s_cec027cbd4daf6::t_58f80bfddc9755 1-4
+frontend/src/components/providers.tsx
+  s_cec027cbd4daf6::t_9faf6e5c2ce54d 1-4,14,18,21,27,29
+frontend/src/components/Input.tsx
+  s_cec027cbd4daf6::t_92c8963d0060d2 1-4,8-11,14,17,28,39,42,49,60
+frontend/src/components/ArticleCard.tsx
+  s_cec027cbd4daf6::t_6adc16a9ccf453 1-4,13-16,30,33,57,65,70,75,86,114,124,131
+frontend/src/components/Footer.tsx
+  s_cec027cbd4daf6::t_27ef1e2be965ef 1-7,12,17
+shared/types/frontend/pages.ts
+  s_cec027cbd4daf6::t_3a724d274e0ff2 1-5,8-10,12,14,18-20,22,24,28-30,32,36-38,40,44-46,48,50,54,57
+backend/src/modules/auth/repository/auth.seed.ts
+  s_cec027cbd4daf6::t_1fc2a65521dcdd 1-5
+  s_cec027cbd4daf6::t_b9517c4482f82c 10-15
+backend/src/modules/comment/types/comment.types.ts
+  s_cec027cbd4daf6::t_6a1b795a3238cd 1-5
+frontend/src/services/auth/api.ts
+  s_cec027cbd4daf6::t_84dc48136bf1a3 1-5,16,19,22,25,28,31,35
+shared/types/favorite.ts
+  s_cec027cbd4daf6::t_0dfad2b0a3bc53 2-3,6-8,10,12,14,16,20-22,24,26,28,30,32,34
+frontend/src/app/not-found.tsx
+  s_cec027cbd4daf6::t_632fdc08daf081 1-4
+  s_cec027cbd4daf6::t_2e3f6351f3054b 8-11
+frontend/src/services/auth/hooks.ts
+  s_cec027cbd4daf6::t_5953915d52c751 56-61
+  s_cec027cbd4daf6::t_6f44a184ecd5f5 72-76
+  s_cec027cbd4daf6::t_694c887795307e 112-116
+  s_cec027cbd4daf6::t_a7142331a92fbe 28-31
+  s_cec027cbd4daf6::t_01af08e32d6a1f 97-101
+  s_cec027cbd4daf6::t_b190a35630ed2d 83-86
+  s_cec027cbd4daf6::t_09d8a26322c33a 39-44
+  s_cec027cbd4daf6::t_af03f0d6bbbff1 1-5,19-21,23
+frontend/src/lib/api/request.ts
+  s_cec027cbd4daf6::t_bb832e0c3f4afd 78-81
+  s_cec027cbd4daf6::t_bf85df2eb59dce 150-152,154,157,160,163,166
+  s_cec027cbd4daf6::t_c11d0094d63619 62,65-68
+  s_cec027cbd4daf6::t_5bcb30068c6363 43-48
+  s_cec027cbd4daf6::t_959f9d9c527755 19
+  s_cec027cbd4daf6::t_0d8ce2a1d50d1c 1-9,14,16
+  s_cec027cbd4daf6::t_6d359b8aa41aaa 26-28
+backend/src/modules/comment/routes/comment.routes.ts
+  s_cec027cbd4daf6::t_ca651bbdfed120 46-50
+  s_cec027cbd4daf6::t_970f8dc2d4f6bb 18-23
+  s_cec027cbd4daf6::t_b4b51cd31381af 1-5
+  s_cec027cbd4daf6::t_f04e87273a1a70 32-37
+shared/types/backend/blog.ts
+  s_cec027cbd4daf6::t_85317ca56d63f1 1-5,8-10,12,14,16,18,20,22,24,26,28,30,32,34,38-40,42,44,46,48
+frontend/src/components/StatsGrid.tsx
+  s_cec027cbd4daf6::t_1fc30f0e515f27 1-4,7-10,16,18
+shared/types/ui.ts
+  s_cec027cbd4daf6::t_dbfbd9a2f55a7a 2-3,12-14,16,18,24,27-29,31,33,35,37,39,45-47,49,69,75,78-80,82,84,86,88,94-96,98,100,106-108,110,112,118-120,122,124,126,128,130,136-138,140,142,144,146,148,150,156-158,160,162,164,166,168,174-176,178,180,182,184,190-192,194,200-202,204,206,212-214,216,218,222-224,226,228,234,237-239,241,243,245,247,253-255,257,261-263,265,269-271,273,275,277,279,281,285-287,289,291,295-297,299,301,305-307,309,315,317,320-322,324,326,328,332,336,340,345-347,349,351,353,355,361-363,365,367,371-373,385-387,389,391,395-397,399,401
+frontend/src/lib/utils.ts
+  s_cec027cbd4daf6::t_5219dbf3d20be1 17-21
+  s_cec027cbd4daf6::t_a85e7a8ada5db5 39-43
+  s_cec027cbd4daf6::t_7fcbf1881e65c5 57-61
+  s_cec027cbd4daf6::t_fec3c1621b3443 26-30
+  s_cec027cbd4daf6::t_65ebb3f5bc98dc 1-12
+backend/src/modules/auth/routes/auth.routes.ts
+  s_cec027cbd4daf6::t_4d52810c749a28 1-5,18,21
+  s_cec027cbd4daf6::t_5f9846551a2590 28,31,43,55,65,76,89
+  s_cec027cbd4daf6::t_520c5b7e56f094 19-20
+backend/src/modules/blog/routes/blog.validators.ts
+  s_cec027cbd4daf6::t_283940d132ecb4 1-5
+  s_cec027cbd4daf6::t_b0318df15b0674 11-16,25-29,37,49,52,58,83-87,95-100,109-114,123-128,137-142
+backend/src/modules/auth/services/token.service.ts
+  s_cec027cbd4daf6::t_53c4f6ba7f37b9 1-5
+  s_cec027cbd4daf6::t_0a0169f3cf64e7 13-16,19-23,28-32
+frontend/src/services/comment/hooks.ts
+  s_cec027cbd4daf6::t_672e66607b4ca9 1-5,16-18,20,24-28,37-42,56-61,80-85
+frontend/src/lib/query-client.ts
+  s_cec027cbd4daf6::t_38e6f8473d9199 39,42-46
+  s_cec027cbd4daf6::t_da2ade92e90529 1-5,13-17
+backend/src/middleware/errorHandler.ts
+  s_cec027cbd4daf6::t_17bfea3fc2e56c 11-18
+  s_cec027cbd4daf6::t_5af06b6065148e 43-48
+  s_cec027cbd4daf6::t_37842e561241c0 1-5
+frontend/src/components/ThemeToggle.tsx
+  s_cec027cbd4daf6::t_f1d499eead2d7e 1-4,10-12,14,16,19-22,27-30,50,58,66
+frontend/src/app/posts/PostsSearchInput.tsx
+  s_cec027cbd4daf6::t_c0f66f0521a43c 12-15,19,21,24-26
+  s_cec027cbd4daf6::t_59534c67548462 1-4
+  s_cec027cbd4daf6::t_a28acbc7965740 39-41
+shared/types/common.ts
+  s_cec027cbd4daf6::t_57882eff403502 2-3,6-8,16-18,20,22,24,26,28,30,34-36,38,40,42,46-48,50,52,56-58,60,62
+frontend/src/components/ClientLayout.tsx
+  s_cec027cbd4daf6::t_8441a2d51a201d 1-4,11-14,18,20,22
+backend/src/utils/asyncHandler.ts
+  s_cec027cbd4daf6::t_7c5a3ade6b18e5 1-5
+  s_cec027cbd4daf6::t_33c1bdc6d8cf83 9-14
+shared/types/backend/express/middleware.ts
+  s_cec027cbd4daf6::t_ed753fba4e50d8 1-5,8-10,12,14,16,18,22
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_cec027cbd4daf6::t_e024de30208277 14-17,23,25,28,30,33-36
+  s_cec027cbd4daf6::t_6289342b0bf7f1 46-48
+  s_cec027cbd4daf6::t_3e57185552b0c8 1-4
+  s_cec027cbd4daf6::t_621c4bb9722d0e 59-61
+backend/src/modules/auth/services/auth.service.ts
+  s_cec027cbd4daf6::t_d1e3c322313da0 33-37,44-49,74,85-90,102-107,116-119,129-134,143,147-153
+  s_cec027cbd4daf6::t_9432fe87c133b8 22-23
+  s_cec027cbd4daf6::t_01f206578e02b8 1-5
+frontend/src/services/blog/hooks.ts
+  s_cec027cbd4daf6::t_d654b40a176c54 69-72
+  s_cec027cbd4daf6::t_3f9dd3ddcc4dc5 81-84
+  s_cec027cbd4daf6::t_adeee019165d21 105-108
+  s_cec027cbd4daf6::t_27e7cbd6b07faa 154-158
+  s_cec027cbd4daf6::t_8d3425093aa6eb 1-5,22-24,26,28,30,32,34,36,41-44
+  s_cec027cbd4daf6::t_66f372bf98eefa 116-121
+  s_cec027cbd4daf6::t_7f70d8540cc701 174-177
+  s_cec027cbd4daf6::t_0688651425fafd 195-198
+  s_cec027cbd4daf6::t_3355fe4981cea6 218-222
+  s_cec027cbd4daf6::t_b01c0f8e9c693e 55-60
+  s_cec027cbd4daf6::t_b21af9162bab2b 93-96
+  s_cec027cbd4daf6::t_0b306143337b42 135-139
+backend/src/infrastructure/JsonRepository.ts
+  s_cec027cbd4daf6::t_79eba3ef660ae5 10-13,15,18-21,26-30,39-43,49-54
+  s_cec027cbd4daf6::t_73d06c16cd58a7 72-76
+  s_cec027cbd4daf6::t_b3da54d1ca6b16 106-109
+  s_cec027cbd4daf6::t_b9bd5106775edb 135-139
+  s_cec027cbd4daf6::t_0cc4814a95c1ae 1-5
+  s_cec027cbd4daf6::t_2aad198087e593 69
+backend/src/modules/auth/auth.module.ts
+  s_cec027cbd4daf6::t_c7cd3684774345 1-5
+  s_cec027cbd4daf6::t_b508344c1a09ae 21-27,33,37,40,42
+frontend/src/components/Avatar.tsx
+  s_cec027cbd4daf6::t_5bd129cc9e742d 1-4,8,17-20
+backend/src/index.ts
+  s_cec027cbd4daf6::t_cd31368162ee2f 1-5
+  s_cec027cbd4daf6::t_57acefe19d9e43 22,73-76
+frontend/src/app/register/page.tsx
+  s_cec027cbd4daf6::t_a183334b14d1bc 1-4
+  s_cec027cbd4daf6::t_d0d894e67a6292 50
+  s_cec027cbd4daf6::t_8feb769097aebf 24,27-32
+  s_cec027cbd4daf6::t_9800bcef79a6bb 109-113
+  s_cec027cbd4daf6::t_1934dc8650c44a 126-129
+  s_cec027cbd4daf6::t_c06a5522c4d107 179-183
+  s_cec027cbd4daf6::t_5262642ae00380 59-62,65-67,70,78,80,82,84,86,89-91
+  s_cec027cbd4daf6::t_dfb5968c4e2a89 98-101
+backend/src/modules/blog/types/blog.types.ts
+  s_cec027cbd4daf6::t_68444c82a1549f 1-5
+shared/types/backend/express/routes.ts
+  s_cec027cbd4daf6::t_3dd267870dd8cf 1-5,12-14,16,18,22-24,26,28,30,34-36,38,40,42,46-48,50,52,54
+backend/src/modules/blog/blog.module.ts
+  s_cec027cbd4daf6::t_9fd80217f9618f 28,34
+  s_cec027cbd4daf6::t_3c4187486799f8 16-20
+  s_cec027cbd4daf6::t_46a54a0ce2df85 1-5
+backend/src/modules/comment/index.ts
+  s_cec027cbd4daf6::t_9d050fd06d5081 1-5
+backend/src/modules/blog/repository/blog.repository.ts
+  s_cec027cbd4daf6::t_b0b80a155af958 10,16,23-27
+  s_cec027cbd4daf6::t_e182c8e7ee4658 1-5
+  s_cec027cbd4daf6::t_1a6a10c3525cf9 42-45,49-51,56-60,70-74,86-89,98-102
+backend/src/modules/blog/routes/blog.routes.ts
+  s_cec027cbd4daf6::t_054f129805b16c 1-5
+  s_cec027cbd4daf6::t_418fa6d204d313 22-27,36-39,43,57,67,78,89,99,109,119,129,138,147,156
+frontend/src/app/posts/PostSidebar.tsx
+  s_cec027cbd4daf6::t_1e85e2cbb1beda 34-37,45
+  s_cec027cbd4daf6::t_12cffb491b0561 1-4
+  s_cec027cbd4daf6::t_b45ddabe1e538b 14-19
+backend/src/middleware/requestLogger.ts
+  s_cec027cbd4daf6::t_262476fe283a9c 70-76
+  s_cec027cbd4daf6::t_860eee9577b86c 9
+  s_cec027cbd4daf6::t_747f458adfae8a 1-5
+  s_cec027cbd4daf6::t_5d75cd457e2460 19-23
+  s_cec027cbd4daf6::t_a3379cac547602 29-33
+  s_cec027cbd4daf6::t_891fe8b4320f65 57-61
+frontend/src/components/Button.tsx
+  s_cec027cbd4daf6::t_01be916d17f7e0 1-4,10,18,25,29-32,37,40,58,74
+shared/types/comment.ts
+  s_cec027cbd4daf6::t_32c871a38ecb67 2-3,6-8,10,12,14,20,22,24,28-30,32,36-38,40,44-46,48,57
+shared/types/backend/index.ts
+  s_cec027cbd4daf6::t_a083edd7bf9a56 1-5
+shared/types/backend/express/modules.ts
+  s_cec027cbd4daf6::t_4c2eb19fc2588d 1-5,10-12,14,16,18,20,24-26,28,30,32,36-38,40,42
+backend/src/middleware/rateLimiter.ts
+  s_cec027cbd4daf6::t_8d857e88bba237 1-5
+  s_cec027cbd4daf6::t_490596a848f9e9 35-39
+  s_cec027cbd4daf6::t_fd7f03febfed37 11-15
+  s_cec027cbd4daf6::t_d60f42084a20d5 29
+shared/types/blog.ts
+  s_cec027cbd4daf6::t_9f4d69e56e66a1 2-3,6-8,10,12,14,16,18,20,22,24,26,28,30,32,34,48-50,52,54,58-60,64,66,70,72,76-78,80,82,84,86,88,90,92,94,98-100,103-105,107,109,111,113,115,119-121,123,127-129,131,133,137-139,141,143,147-149,151,155-157,159,163-165,167,171-173,175,179-181,183,185,187,191-193,195,197,206,208,210,212,214,216
+frontend/src/app/posts/[id]/DeletePostButton.tsx
+  s_cec027cbd4daf6::t_c967f7088271b8 16-19,22,24,27-29
+  s_cec027cbd4daf6::t_b3b62464f2d6ea 1-4
+frontend/src/app/write/page.tsx
+  s_cec027cbd4daf6::t_b1af99ecf23c36 167-170
+  s_cec027cbd4daf6::t_b10059c0f64a3c 1-4
+  s_cec027cbd4daf6::t_25dae9d5f41e60 20-23,27,30,33,36,38,40,43,45,47,49,51,53,55,57,60,62-64,66-68,71-73
+  s_cec027cbd4daf6::t_cbe5b8dbc5fa63 108-110,119-122,127-130,138-140,145-148
+  s_cec027cbd4daf6::t_5e5ba50f3adb45 86-88
+  s_cec027cbd4daf6::t_9406b3a3b85742 183-186
+backend/src/modules/auth/services/auth.guard.ts
+  s_cec027cbd4daf6::t_beaab82f0cd13f 12-17,58
+  s_cec027cbd4daf6::t_35dce4c7bb66cf 1-5
+  s_cec027cbd4daf6::t_f3261af5c908c1 106-111
+backend/src/modules/auth/repository/auth.seed.data.ts
+  s_cec027cbd4daf6::t_e3d04ad0c075a5 1-5
+  s_cec027cbd4daf6::t_549ee8f19cb284 10-14,16
+  s_cec027cbd4daf6::t_4289ad05341ac3 78-82
+frontend/src/app/posts/page.tsx
+  s_cec027cbd4daf6::t_feb7a162a26139 103,105,107,109,112,115,117,119,121,124
+  s_cec027cbd4daf6::t_a5ba97a4b07a42 17,20-25
+  s_cec027cbd4daf6::t_101dc2df37e0e6 1-4
+  s_cec027cbd4daf6::t_51047221836f43 46-49,57,59,61,63,65,69
+  s_cec027cbd4daf6::t_35c04d38719abf 128,130,132,135
+  s_cec027cbd4daf6::t_946e64575477f3 78
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_cec027cbd4daf6::t_1b721b679695cb 123
+  s_cec027cbd4daf6::t_8d0ea70221d48f 58-60
+  s_cec027cbd4daf6::t_55ad1857d902c3 96-99
+  s_cec027cbd4daf6::t_9a863e0ab0c1ae 44-46
+  s_cec027cbd4daf6::t_49312bf783c519 1-4
+  s_cec027cbd4daf6::t_7c99328a47467d 111-113
+  s_cec027cbd4daf6::t_a50a26c777c0e9 10-13,15,17,19,21-23,26-28
+shared/types/frontend/forms.ts
+  s_cec027cbd4daf6::t_14ace2b77a0162 1-6,9-11,13,15,17
+shared/types/backend/comment.ts
+  s_cec027cbd4daf6::t_f0699bcf2af698 1-5,8-10,12,14,16,18,20,24-26,28,30,32,34,36,38,40,42,44
+frontend/src/app/my-articles/page.tsx
+  s_cec027cbd4daf6::t_3fc83cf75d3527 43
+  s_cec027cbd4daf6::t_b3d6a0dac1dbf3 17-20,22
+  s_cec027cbd4daf6::t_01f74da3c5e349 1-4
+backend/src/infrastructure/JsonDocumentStore.ts
+  s_cec027cbd4daf6::t_c30bc33a7ec1cd 114-117
+  s_cec027cbd4daf6::t_bbe8fd5de09267 167-170
+  s_cec027cbd4daf6::t_b014a17d9c7fd1 1-5,21,23,25,27,29,31,33,35,38-42,49-52,62-66
+  s_cec027cbd4daf6::t_d2a6e052f0297c 140-143
+  s_cec027cbd4daf6::t_947e1137d8825b 178-181
+backend/src/modules/auth/routes/auth.validators.ts
+  s_cec027cbd4daf6::t_68a1c338daf381 1-5
+  s_cec027cbd4daf6::t_1692c9dd8c6ac7 10,13,35,41,52-56,64-69,87-92,104-109
+frontend/src/app/settings/page.tsx
+  s_cec027cbd4daf6::t_cc4487734a17f4 1-4
+  s_cec027cbd4daf6::t_e63dea261a9cac 103-106
+  s_cec027cbd4daf6::t_b324bcc4738522 82-85
+  s_cec027cbd4daf6::t_666a876cbaffec 23-26,30,32,34,37,39,41,43,45,47,49,52,54,56,58,60,62,64,67-69
+  s_cec027cbd4daf6::t_bcf466672ee8cc 140
+backend/src/modules/blog/services/blog.service.ts
+  s_cec027cbd4daf6::t_696b3543504466 1-5
+  s_cec027cbd4daf6::t_d6f55223dd5976 21-25,33-37,48-52,60-64,70-74,88-92,100-104,115-121,130-135,146-150,156-160,211-216,231-237,288-293,330,338,354-361,408,413,447-452,494-500,573-579,634-639,656-659,665-668,683-686,692-698
+backend/src/modules/auth/index.ts
+  s_cec027cbd4daf6::t_af3c44b245dbba 1-5
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_cec027cbd4daf6::t_ca44a3a18ed476 90-92
+  s_cec027cbd4daf6::t_b2b5e29f5b44f2 1-4
+  s_cec027cbd4daf6::t_4b1802d7129883 22-25,32,34,36,38,41,43,45,48-51
+  s_cec027cbd4daf6::t_77ef60918f7ba9 61-63
+  s_cec027cbd4daf6::t_66b847aa670114 80-84
+backend/src/modules/comment/services/comment.service.ts
+  s_cec027cbd4daf6::t_a6b83c19ab26d9 1-5
+  s_cec027cbd4daf6::t_8d402afa60f074 38-44
+  s_cec027cbd4daf6::t_be4ce4bf50664f 17-22,28-32
+  s_cec027cbd4daf6::t_c72a7647419171 86-94
+  s_cec027cbd4daf6::t_8f216f1b75a23f 121-127
+  s_cec027cbd4daf6::t_336145b98f07d5 152-156
+frontend/src/components/Container.tsx
+  s_cec027cbd4daf6::t_d9b047beaebaba 1-4,7-10
+backend/src/types/express.d.ts
+  s_cec027cbd4daf6::t_8a5f6c824f8570 1-5,8-11,14-16,18,20
+backend/src/modules/auth/routes/auth-cookie.helper.ts
+  s_cec027cbd4daf6::t_26133f732196c5 18-22,25-29,39-42
+  s_cec027cbd4daf6::t_c02ad0c6e18d6e 1-5
+frontend/src/app/posts/[id]/page.tsx
+  s_cec027cbd4daf6::t_b7cef4a96e44dd 77,80
+  s_cec027cbd4daf6::t_ef1ce2e8bed7ef 31-34
+  s_cec027cbd4daf6::t_86cc6b9d1a1ab6 1-4
+  s_cec027cbd4daf6::t_9e67d84c40c6a3 44-47,53,56
+backend/src/modules/auth/services/password.service.ts
+  s_cec027cbd4daf6::t_cbe66289809552 12-15,18-22,24-29
+  s_cec027cbd4daf6::t_9936048d69d764 1-5
+frontend/src/components/Navbar.tsx
+  s_cec027cbd4daf6::t_182119d19f9071 1-4,18,25,34-36,40,42,47,49-51,53-55,58-60,75-78,111-115,123,128,141,160,170,242,252,264
+shared/types/index.ts
+  s_cec027cbd4daf6::t_fd08e7e5ade4f1 2-3
+backend/src/modules/auth/repository/auth.repository.ts
+  s_cec027cbd4daf6::t_fa4a3215f5cb47 11-14,16-18,23-27,34-39,47,50-53
+  s_cec027cbd4daf6::t_120a1a21b2aa6a 1-5
+frontend/src/components/Alert.tsx
+  s_cec027cbd4daf6::t_5ddb7b66a7744d 1-4,7,15-18,24,26
+frontend/src/app/loading.tsx
+  s_cec027cbd4daf6::t_a724c566e47e75 1-4
+  s_cec027cbd4daf6::t_3cce4173ff097b 7-10
+backend/src/modules/comment/routes/comment.validators.ts
+  s_cec027cbd4daf6::t_4e3a6abf3e04f5 24
+  s_cec027cbd4daf6::t_035e05db978612 1-5
+  s_cec027cbd4daf6::t_a79b0727c5e9bb 11-15
+  s_cec027cbd4daf6::t_b80d273c3553f5 29-33
+  s_cec027cbd4daf6::t_d0aa2e53ea8cac 41-46
+frontend/src/components/PageHeader.tsx
+  s_cec027cbd4daf6::t_5bad3dc9d13c45 1-4,7-10,23,32
+shared/types/frontend/request.ts
+  s_cec027cbd4daf6::t_cbadc0283eb97b 1-5,8-10,12-17,19,21,24
+frontend/src/app/error.tsx
+  s_cec027cbd4daf6::t_26836a5cd063ed 1-4
+  s_cec027cbd4daf6::t_87241baa3d0e53 11-15,20-22
+backend/src/infrastructure/JsonFileStore.ts
+  s_cec027cbd4daf6::t_f041b2ee55f92e 45-48,53-56,61-64
+  s_cec027cbd4daf6::t_8ea2c8e9f94b3d 1-5,8
+  s_cec027cbd4daf6::t_262ba3ab8e1e38 19,22-25,30-34
+frontend/src/components/ThemeInit.tsx
+  s_cec027cbd4daf6::t_168029203b152d 1-4,8,11
+frontend/src/components/Spinner.tsx
+  s_cec027cbd4daf6::t_84677bcde0db70 1-6,14-17
+frontend/src/services/blog/api.ts
+  s_cec027cbd4daf6::t_33532f50ebe6ee 1-5,23,26,30,33,36,40,43,46,50,53,56,59,62
+frontend/src/app/author/page.tsx
+  s_cec027cbd4daf6::t_58ee35970e0dff 34-36
+  s_cec027cbd4daf6::t_584fc2feef400b 99,101-108
+  s_cec027cbd4daf6::t_a4b712b019b6fe 56,59-62
+  s_cec027cbd4daf6::t_8319cfba1a3006 121
+  s_cec027cbd4daf6::t_b719a76d87cd3a 45-47
+  s_cec027cbd4daf6::t_e2f62c55927c94 1-4,23-25
+  s_cec027cbd4daf6::t_6bc2ae75420771 92
+  s_cec027cbd4daf6::t_7ac45a8d6e045a 72-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "87f5ee96eb07dbb5b2aa6e4a44f7bbe9120aaf21",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_cec027cbd4daf6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "20745d9a-4fd0-4b7d-98ec-c17d2badeac9",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
