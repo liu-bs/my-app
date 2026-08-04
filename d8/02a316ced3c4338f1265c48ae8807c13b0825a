@@ -1,0 +1,73 @@
+frontend/src/app/login/page.tsx
+  s_d3930fc5b1dedc::t_fbf464db4c64ca 19-23
+  s_d3930fc5b1dedc::t_bb7c6ab865c228 67
+frontend/src/services/comment/hooks.ts
+  s_d3930fc5b1dedc::t_75c84bf7e23f6f 33
+backend/src/modules/blog/services/blog.service.ts
+  s_d3930fc5b1dedc::t_80a4db60e56e1e 403
+  s_d3930fc5b1dedc::t_26b6ffae6211f5 363
+  s_d3930fc5b1dedc::t_b0bdeea23fbdbf 354
+  s_d3930fc5b1dedc::t_296eefc6df04c1 471
+  s_d3930fc5b1dedc::t_e7e79507c7771f 281
+  s_d3930fc5b1dedc::t_79c44fcab87d05 16-21
+  s_d3930fc5b1dedc::t_d6c23301bc3b8f 210
+frontend/src/services/auth/hooks.ts
+  s_d3930fc5b1dedc::t_5d691e3decf65a 20-28,31,34,40
+  s_d3930fc5b1dedc::t_0d6b6274d22ede 46-47,53
+  s_d3930fc5b1dedc::t_f5ffc27d61d810 19
+backend/src/middleware/errorHandler.ts
+  s_d3930fc5b1dedc::t_ea985a2a035cda 26
+frontend/src/app/settings/page.tsx
+  s_d3930fc5b1dedc::t_ee872ec0b2d739 58-60
+frontend/src/app/write/page.tsx
+  s_d3930fc5b1dedc::t_fa7301cd369420 268
+  s_d3930fc5b1dedc::t_55cedb4b9fc4d9 254,256-266
+  s_d3930fc5b1dedc::t_0967d120d5ee79 288
+  s_d3930fc5b1dedc::t_28bcba4a34ccc0 137,142
+  s_d3930fc5b1dedc::t_6ab87921a923ab 33
+  s_d3930fc5b1dedc::t_62df48a94739c4 48
+  s_d3930fc5b1dedc::t_30063a41e9fd45 267
+frontend/src/services/auth/api.ts
+  s_d3930fc5b1dedc::t_19e4a416d784ba 19
+frontend/src/app/posts/[id]/page.tsx
+  s_d3930fc5b1dedc::t_fe9cb2c3706d20 122-128,130-136
+  s_d3930fc5b1dedc::t_2d3e9ca9148bab 169
+frontend/src/app/my-articles/page.tsx
+  s_d3930fc5b1dedc::t_4ea98206ac4ae9 5
+  s_d3930fc5b1dedc::t_0e188edfd7995c 42
+  s_d3930fc5b1dedc::t_4659a7340fdf8b 62-64
+  s_d3930fc5b1dedc::t_a5816051ac7b97 15
+backend/src/modules/auth/routes/auth.routes.ts
+  s_d3930fc5b1dedc::t_e529a6b1020ac4 81,87-88
+frontend/src/app/favorites/page.tsx
+  s_d3930fc5b1dedc::t_3fde3247dee6da 4
+  s_d3930fc5b1dedc::t_e2527eb489502e 66-71
+frontend/src/app/author/page.tsx
+  s_d3930fc5b1dedc::t_a1cde63453d907 82-84
+  s_d3930fc5b1dedc::t_1390ebab752c41 88-91
+  s_d3930fc5b1dedc::t_feda1f46b8be3b 150-151,155-156,160-161
+backend/src/modules/auth/services/auth.service.ts
+  s_d3930fc5b1dedc::t_ccdc7ae6bd6ef9 133-134,136
+  s_d3930fc5b1dedc::t_cd0f950b4c3cda 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "d802a316ced3c4338f1265c48ae8807c13b0825a",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_d3930fc5b1dedc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d4a029c1-a1b4-4238-b9bc-7898f0b3b47f",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
