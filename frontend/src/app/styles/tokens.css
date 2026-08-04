@@ -1,0 +1,212 @@
+/**
+ * tokens.css — 设计令牌
+ *
+ * 分层架构：原始色阶 (:root / .dark) → 语义令牌 (@theme)
+ * 1. 原始层只定义色阶变量（--color-50 到 --color-900）和点缀色
+ * 2. 语义层通过 @theme 引用原始层并暴露为 Tailwind 工具类
+ *
+ * 明暗双主题：.dark 覆盖原始色阶 + color-scheme，令原生控件/滚动条自适应
+ */
+
+/* 原始色阶 — Primitive Palette */
+
+:root {
+  /* 中性灰阶（Light）：从白到黑，50 最亮、900 最暗 */
+  --color-50: #ffffff;
+  --color-100: #f6f6f7;
+  --color-200: #e9e9eb;
+  --color-300: #d6d6d9;
+  --color-400: #6e6e76;
+  --color-500: #71717a;
+  --color-600: #52525b;
+  --color-700: #3f3f46;
+  --color-800: #1f1f23;
+  --color-900: #09090b;
+
+  /* 语义点缀色（仅用于状态/标签，保持极简主色调）
+   * 饱和度统一在 38–53% 区间，四色明度对齐在 L≈45–47% */
+  --color-ink-tint: #90a1ba;
+  --color-ink-base: #4a6fa5;
+  --color-ember-tint: #d7aa7e;
+  --color-ember-base: #b07238;
+  --color-crimson-tint: #ce8888;
+  --color-crimson-base: #b84238;
+  --color-slate-tint: #789385;
+  --color-slate-base: #437d61;
+
+  /* 阴影透明度（Light 偏淡） */
+  --shadow-opacity-sm: 0.05;
+  --shadow-opacity-md: 0.07;
+  --shadow-opacity-lg: 0.09;
+
+  color-scheme: light;
+}
+
+.dark {
+  /* 中性灰阶（Dark，反向）：50 最暗、900 最亮，与 Light 对调 */
+  --color-50: #000000;
+  --color-100: #0c0c0e;
+  --color-200: #1a1a1e;
+  --color-300: #2a2a30;
+  --color-400: #52525b;
+  --color-500: #71717a;
+  --color-600: #a1a1aa;
+  --color-700: #d4d4d8;
+  --color-800: #ececef;
+  --color-900: #fafafa;
+
+  /* 点缀色暗色变体（提亮以保证对比度）
+   * 四色统一 S≈40-50%、L≈62-66%，与亮色版保持相同的相对关系 */
+  --color-ink-tint: #6984a4;
+  --color-ink-base: #7ba8d8;
+  --color-ember-tint: #b0855c;
+  --color-ember-base: #dfa068;
+  --color-crimson-tint: #a66868;
+  --color-crimson-base: #e07878;
+  --color-slate-tint: #5a8670;
+  --color-slate-base: #67b090;
+
+  /* 暗色主题 hover 覆盖（变亮而非变暗） */
+  --color-card-hover-bg: var(--color-200);
+  --color-btn-hover-bg: var(--color-300);
+
+  /* 阴影透明度（Dark 适度加深，避免过度沉重） */
+  --shadow-opacity-sm: 0.36;
+  --shadow-opacity-md: 0.42;
+  --shadow-opacity-lg: 0.52;
+
+  /* faint 在深底色上对比度偏低（#52525b≈2.5:1），提到 #6e6e76 保证 ≥4.5:1
+   * 通过单独变量覆盖，不破坏原始灰阶层次 */
+  --color-400: #6e6e76;
+
+  color-scheme: dark;
+}
+
+/* @theme 语义令牌 — 暴露为 Tailwind 工具类（bg-/text-/border- 等） */
+
+@theme {
+  /* 表面与文本：page 页面底色 / surface 卡片底色 / stroke 边框 / faint 极弱文本 */
+  --color-page: var(--color-50);
+  --color-surface: var(--color-100);
+  --color-stroke: var(--color-200);
+  --color-stroke-strong: var(--color-300);
+  --color-heading: var(--color-800);
+  --color-body: var(--color-600);
+  --color-muted: var(--color-500);
+  --color-faint: var(--color-400);
+  --color-accent: var(--color-900);
+
+  /* 按钮 */
+  --color-btn-bg: var(--color-100);
+  --color-btn-text: var(--color-600);
+  --color-btn-hover-bg: var(--color-200);
+  --color-btn-hover-text: var(--color-800);
+
+  /* 链接 */
+  --color-link: var(--color-700);
+  --color-link-hover: var(--color-800);
+
+  /* 卡片 */
+  --color-card-bg: var(--color-100);
+  --color-card-border: var(--color-200);
+  --color-card-hover-bg: var(--color-50);
+
+  /* 代码高亮 */
+  --color-syntax-comment: var(--color-400);
+  --color-syntax-punct: var(--color-600);
+  --color-syntax-keyword: var(--color-800);
+  --color-syntax-fn: var(--color-700);
+  --color-syntax-type: var(--color-500);
+
+  /* 状态色（语义层，明暗自适应）— 用于 Alert / 表单校验 / 密码强度 */
+  --color-state-info-bg: color-mix(in srgb, var(--color-ink-tint) 14%, var(--color-100));
+  --color-state-info: var(--color-ink-base);
+  --color-state-success-bg: color-mix(in srgb, var(--color-slate-tint) 14%, var(--color-100));
+  --color-state-success: var(--color-slate-base);
+  --color-state-warning-bg: color-mix(in srgb, var(--color-ember-tint) 14%, var(--color-100));
+  --color-state-warning: var(--color-ember-base);
+  --color-state-error-bg: color-mix(in srgb, var(--color-crimson-tint) 14%, var(--color-100));
+  --color-state-error: var(--color-crimson-base);
+
+  /* Mac 窗口红黄绿 — 用于首页 Hero 代码窗口标题栏 */
+  --color-mac-close: var(--color-crimson-base);
+  --color-mac-minimize: var(--color-ember-base);
+  --color-mac-maximize: var(--color-slate-base);
+
+  /* 标签四色 — 对应原始色阶 ink/ember/crimson/slate */
+  --color-tag-ink-bg: color-mix(in srgb, var(--color-ink-tint) 18%, var(--color-100));
+  --color-tag-ink: var(--color-ink-base);
+  --color-tag-ember-bg: color-mix(in srgb, var(--color-ember-tint) 18%, var(--color-100));
+  --color-tag-ember: var(--color-ember-base);
+  --color-tag-crimson-bg: color-mix(in srgb, var(--color-crimson-tint) 18%, var(--color-100));
+  --color-tag-crimson: var(--color-crimson-base);
+  --color-tag-slate-bg: color-mix(in srgb, var(--color-slate-tint) 18%, var(--color-100));
+  --color-tag-slate: var(--color-slate-base);
+
+  /* 间距尺度（统一全站，基于 4px 网格） */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+
+  /* 排版尺度（统一全站字号层级，使用 --type-* 避免覆盖 Tailwind 默认 text-* scale） */
+  --type-2xs: 11px;
+  --type-xs: 12px;
+  --type-sm: 13px;
+  --type-base: 14px;
+  --type-md: 15px;
+  --type-lg: 16px;
+  --type-xl: 17px;
+  --type-2xl: 20px;
+  --type-3xl: 24px;
+  --type-4xl: 28px;
+  --type-5xl: 36px;
+  --type-6xl: 48px;
+
+  /* 行高尺度 */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+  --leading-loose: 1.7;
+
+  /* 圆角尺度（统一全站）: xs 4 / sm 6 / md 8 / lg 10 / xl 12 / 2xl 16 */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+
+  /* 阴影/海拔（克制、层次清晰） */
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / var(--shadow-opacity-sm));
+  --shadow-sm:
+    0 1px 3px rgb(0 0 0 / var(--shadow-opacity-sm)), 0 1px 2px rgb(0 0 0 / var(--shadow-opacity-sm));
+  --shadow-md:
+    0 4px 12px rgb(0 0 0 / var(--shadow-opacity-md)),
+    0 2px 4px rgb(0 0 0 / var(--shadow-opacity-sm));
+  --shadow-lg:
+    0 12px 32px rgb(0 0 0 / var(--shadow-opacity-lg)),
+    0 4px 12px rgb(0 0 0 / var(--shadow-opacity-md));
+
+  /* 字体: 统一使用 sans（标题用 bold 区分层级），代码用系统等宽 */
+  --font-serif: var(--font-sans);
+  --font-sans:
+    var(--font-inter), var(--font-noto-sans-sc), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* 动画 */
+  --animate-fade-in: fade-in 0.3s ease-out forwards;
+  --animate-spin: spin 0.6s linear infinite;
+  --animate-breathing: breathing 4.5s ease-in-out infinite;
+}

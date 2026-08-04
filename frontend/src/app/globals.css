@@ -1,0 +1,33 @@
+/**
+ * globals.css — 全局样式入口
+ *
+ * Tailwind v4 主入口，负责引入框架与所有样式分层文件。
+ * 加载顺序：框架 → 暗色变体 → 字体 → 令牌 → 基础重置 → 动画 → 排版 → 组件
+ */
+
+@import 'tailwindcss';
+
+/* 暗色主题变体：.dark 类切换（由 ThemeToggle 运行时控制 <html>） */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 字体在 layout.tsx <head> 通过 <link> 引入 */
+
+/* 样式分层（按依赖顺序引入，后者可引用前者） */
+
+/* 设计令牌：原始色阶 → 语义令牌（颜色/圆角/阴影/字体/动画变量） */
+@import './styles/tokens.css';
+
+/* 基础重置：全局元素默认值（body/焦点/占位符/选区/滚动条/表单原生控件） */
+@import './styles/base.css';
+
+/* 动画：关键帧定义 + 交错延迟工具类 + 入场/抖动动画 */
+@import './styles/animations.css';
+
+/* 排版：文章正文 .article-content 的富文本样式 + 代码高亮 token */
+@import './styles/typography.css';
+
+/* highlight.js 代码高亮主题 — 浅色为默认，深色在 .dark 下生效 */
+@import './styles/hljs-theme.css';
+
+/* 组件库：布局/卡片/表单/Chip/Badge/分段控件/图标按钮/导航/Auth 等聚合 @utility */
+@import './styles/components.css';

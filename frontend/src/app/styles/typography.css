@@ -1,0 +1,234 @@
+/**
+ * typography.css — 排版样式
+ *
+ * 定义文章正文 .article-content 的富文本排版规则（h2-h4/p/a/strong/
+ * blockquote/code/pre/img/hr/table 等元素），以及首页代码窗口的
+ * 语法高亮 token 类（.tok-comment / .tok-key / .tok-fn / .tok-type / .tok-punct）。
+ *
+ * 用于 /posts/[id] 文章详情页的正文渲染。
+ */
+
+/* 文章正文 — 通过 dangerouslySetInnerHTML 渲染的 HTML 内容 */
+@utility article-content {
+  color: var(--color-body);
+  font-size: var(--type-xl);
+  line-height: var(--leading-loose);
+  font-family: var(--font-sans);
+
+  /* 段落间距：所有相邻兄弟元素之间统一 1.4rem */
+  & > * + * {
+    margin-top: var(--space-5);
+  }
+
+  /* 标题 h2/h3/h4 */
+  & h2,
+  & h3,
+  & h4 {
+    color: var(--color-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: var(--leading-snug);
+    margin-top: var(--space-8);
+    scroll-margin-top: 6rem;
+  }
+
+  /* h2：带底部分割线 */
+  & h2 {
+    font-size: var(--type-2xl);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--color-stroke);
+  }
+
+  & h3 {
+    font-size: var(--type-xl);
+  }
+  & h4 {
+    font-size: var(--type-lg);
+  }
+
+  /* 段落 */
+  & p {
+    color: var(--color-body);
+  }
+
+  /* 链接：带下划线动画 */
+  & a {
+    color: var(--color-link);
+    text-decoration: none;
+    position: relative;
+    transition: color 150ms ease-out;
+  }
+
+  /* 链接下划线：从左展开，hover 时加粗 */
+  & a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0.3);
+    transform-origin: left;
+    opacity: 0.4;
+    transition:
+      transform 200ms ease-out,
+      opacity 200ms ease-out;
+  }
+
+  & a:hover {
+    color: var(--color-accent);
+  }
+  & a:hover::after {
+    transform: scaleX(1);
+    opacity: 0.8;
+  }
+
+  /* 加粗/斜体 */
+  & strong,
+  & b {
+    color: var(--color-heading);
+    font-weight: 600;
+  }
+
+  & em,
+  & i {
+    font-style: italic;
+    color: var(--color-heading);
+  }
+
+  /* 列表 */
+  & ul,
+  & ol {
+    padding-left: 1.5rem;
+    color: var(--color-body);
+  }
+
+  & ul {
+    list-style-type: disc;
+  }
+  & ol {
+    list-style-type: decimal;
+  }
+
+  & li + li {
+    margin-top: 0.55rem;
+  }
+
+  & li::marker {
+    color: var(--color-muted);
+  }
+
+  /* 引用块：左侧 1px 色条 + 斜体 + 背景色(craft-floor: border-left ≤1px) */
+  & blockquote {
+    border-left: 1px solid var(--color-stroke-strong);
+    padding: var(--space-4) 0 var(--space-4) var(--space-6);
+    color: var(--color-body);
+    font-style: italic;
+    font-size: var(--type-lg);
+    background: var(--color-surface);
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  }
+
+  & blockquote p {
+    color: var(--color-body);
+  }
+
+  /* 行内代码：带边框圆角背景 */
+  & code {
+    background: var(--color-surface);
+    color: var(--color-link);
+    padding: 0.18em 0.45em;
+    border-radius: var(--radius-xs);
+    font-size: var(--type-sm);
+    font-family: var(--font-mono);
+    font-weight: 500;
+    border: 1px solid var(--color-stroke);
+  }
+
+  /* 代码块：圆角 + 边框 + 水平滚动 + 触摸惯性 + 细滚动条 */
+  & pre {
+    background: var(--color-surface);
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-stroke) transparent;
+  }
+
+  /* 代码块内的 code 重置（去掉行内样式） */
+  & pre code {
+    background: transparent;
+    padding: 0;
+    color: var(--color-body);
+    font-size: var(--type-sm);
+    line-height: var(--leading-loose);
+    border: none;
+    font-weight: 400;
+  }
+
+  /* 图片：圆角 + 居中 + 阴影 */
+  & img {
+    border-radius: var(--radius-xl);
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: var(--shadow-md);
+  }
+
+  /* 分割线 */
+  & hr {
+    border: 0;
+    border-top: 1px solid var(--color-stroke);
+    margin: var(--space-8) 0;
+  }
+
+  /* 表格：圆角边框 + 表头背景 */
+  & table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: var(--type-base);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-stroke);
+  }
+
+  & th,
+  & td {
+    padding: var(--space-3) var(--space-4);
+    text-align: left;
+    border-bottom: 1px solid var(--color-stroke);
+  }
+
+  & th {
+    background: var(--color-surface);
+    color: var(--color-heading);
+    font-weight: 600;
+  }
+
+  & tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+/* 代码高亮 token — 用于首页 Hero 代码窗口中的语法着色 */
+.tok-comment {
+  color: var(--color-syntax-comment);
+  font-style: italic;
+}
+.tok-key {
+  color: var(--color-syntax-keyword);
+  font-weight: 600;
+}
+.tok-fn {
+  color: var(--color-syntax-fn);
+}
+.tok-type {
+  color: var(--color-syntax-type);
+}
+.tok-punct {
+  color: var(--color-syntax-punct);
+}

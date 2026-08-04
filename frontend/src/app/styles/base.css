@@ -1,0 +1,167 @@
+/**
+ * base.css — 全局基础重置
+ *
+ * 定义所有元素的全局默认值：body/焦点/占位符/选区/滚动条/
+ * 表单原生控件基线（appearance-none/disabled/textarea/select）。
+ * 不包含组件级样式，组件样式见 components.css。
+ */
+
+/* 全局边框色：统一使用 --color-stroke */
+* {
+  border-color: var(--color-stroke);
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 页面 body */
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-size: var(--type-lg);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+/* 焦点可见性（无障碍）
+ * 非控件元素统一 2px accent 轮廓 + 2px 偏移（明暗均可见）
+ * 表单控件由 input-focus 以 box-shadow 光环接管，此处移除其轮廓 */
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* 表单控件的焦点由 .input-focus 控制（光环而非轮廓） */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+.input-focus:focus {
+  outline: none;
+}
+
+/* 占位符文本颜色 */
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-faint);
+  opacity: 1;
+}
+
+/* 文本选区高亮 */
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 22%, transparent);
+  color: var(--color-heading);
+}
+
+/* 降低动效偏好：尊重用户系统设置 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-stroke-strong);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
+
+/* 链接默认去掉下划线 */
+a {
+  text-decoration: none;
+}
+
+/* 图片默认 block + max-width */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* 表单元素基线 */
+@layer base {
+  /* button 重置 */
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: inherit;
+  }
+
+  /* 表单控件继承字体/颜色 */
+  input,
+  textarea,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+
+  /* 移除 macOS 原生外观（beveled border / 内阴影） */
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='url'],
+  input[type='search'],
+  input[type='tel'],
+  input[type='number'],
+  input[type='date'],
+  textarea,
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    border-style: solid;
+    font-size: var(--type-base);
+    line-height: 1.5;
+  }
+
+  /* 禁用态（统一降透明 + 禁止光标，明暗一致） */
+  input:disabled,
+  textarea:disabled,
+  select:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    -webkit-text-fill-color: currentColor;
+  }
+
+  /* 文本域去掉拖拽手柄溢出抖动 */
+  textarea {
+    font-family: inherit;
+  }
+
+  /* 下拉原生箭头随主题（appearance-none 由组件层接管外观） */
+  select {
+    background-color: var(--color-page);
+  }
+}
+
+/* SVG 默认尺寸基线 */
+svg {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+}

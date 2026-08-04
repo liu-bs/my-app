@@ -1,0 +1,35 @@
+{
+  "name": "my-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My App Monorepo - Next.js 16, Express, Shared Types",
+  "scripts": {
+    "setup": "pnpm install && cp -n backend/.env.example backend/.env 2>/dev/null; echo '✓ 依赖安装完成，backend/.env 已就绪'",
+    "dev": "pnpm --filter ./backend dev",
+    "dev:backend": "pnpm --filter ./backend dev",
+    "dev:frontend": "pnpm --filter ./frontend dev",
+    "dev:all": "cross-env NODE_ENV=development concurrently -k -n backend,frontend -c blue,magenta \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "start": "bash scripts/dev.sh",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix",
+    "format": "pnpm -r format",
+    "format:check": "pnpm -r format:check",
+    "lint:format": "pnpm -r lint:fix && pnpm -r format",
+    "check": "pnpm -r typecheck && pnpm -r lint && pnpm -r format:check",
+    "clean": "pnpm -r exec rimraf dist build .next .turbo",
+    "clean:all": "pnpm clean && pnpm -r exec rimraf node_modules && rimraf node_modules"
+  },
+  "devDependencies": {
+    "@alloc/quick-lru": "^5.2.0",
+    "@types/node": "^22",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "concurrently": "^9.1.0",
+    "cross-env": "^10.1.0",
+    "pnpm": "^10.0.0",
+    "rimraf": "^6.0.1"
+  },
+  "packageManager": "pnpm@10.0.0"
+}

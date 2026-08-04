@@ -1,0 +1,14 @@
+/**
+ * hljs-theme.css — highlight.js 代码高亮主题
+ *
+ * 浅色模式（github.css）为默认，深色模式（github-dark.css）
+ * 在 .dark 类下生效。
+ */
+
+/* 浅色主题 — 默认 */
+@import 'highlight.js/styles/github.css';
+
+/* 深色主题 — 仅在 .dark 类下覆盖 */
+.dark {
+  @import 'highlight.js/styles/github-dark.css';
+}
