@@ -1,0 +1,33 @@
+frontend/src/app/posts/[id]/page.tsx
+  s_d3930fc5b1dedc::t_2e2f095d51a4f1 313
+  s_d3930fc5b1dedc::t_47c64502da6006 26
+frontend/src/components/FormField.tsx
+  s_d3930fc5b1dedc::t_3916700a795696 13-19,22
+frontend/src/app/settings/page.tsx
+  s_d3930fc5b1dedc::t_f6c469bbf1c26a 181
+  s_d3930fc5b1dedc::t_bbf2d7908c1bdf 147
+  s_d3930fc5b1dedc::t_50d35b6677e6f1 196
+  s_d3930fc5b1dedc::t_89ed2919343ed5 210
+  s_d3930fc5b1dedc::t_e1a2d7388d6ae9 219
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "142f6dd6eb48ad0825d9afb4e7163242733f27af",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_d3930fc5b1dedc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d4a029c1-a1b4-4238-b9bc-7898f0b3b47f",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
