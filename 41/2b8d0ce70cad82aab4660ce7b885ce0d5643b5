@@ -1,0 +1,55 @@
+backend/src/modules/blog/routes/blog.validators.ts
+  s_52f474a97bc583::t_9e6d124d050055 44
+  s_52f474a97bc583::t_ba96644598f2b9 65-67
+  s_52f474a97bc583::t_11540bb53efff8 30,34
+backend/src/modules/auth/routes/auth.routes.ts
+  s_52f474a97bc583::t_d1a9421ac629b8 88,93-94
+  s_52f474a97bc583::t_9b062c59466b4f 99,102,109-118,121
+  s_52f474a97bc583::t_d766998dcfdf8b 13
+backend/src/modules/comment/services/comment.service.ts
+  s_52f474a97bc583::t_cfdfc41ed82771 76
+  s_52f474a97bc583::t_a1b4fe63fbab6b 118
+  s_52f474a97bc583::t_aca3ba98720e8c 10,16-23
+  s_52f474a97bc583::t_8cffc46b6e411a 24
+backend/src/middleware/originCheck.ts
+  s_52f474a97bc583::t_1f1cad541fd12c 1-50
+backend/src/modules/auth/routes/auth.validators.ts
+  s_52f474a97bc583::t_dadfd26fc03bdc 120
+  s_52f474a97bc583::t_333ade980fe315 121-150
+  s_52f474a97bc583::t_f4265cb897bc99 151
+backend/src/config/index.ts
+  s_52f474a97bc583::t_6ce4048ba79597 61
+  s_52f474a97bc583::t_63d9c237a31a3b 58
+  s_52f474a97bc583::t_57c2c0a9fb87df 9
+frontend/src/lib/utils.ts
+  s_52f474a97bc583::t_03d10cdba3d58a 74-107
+backend/src/index.ts
+  s_52f474a97bc583::t_9320f9360f5399 14
+  s_52f474a97bc583::t_ec7e899a77d433 41
+frontend/src/app/write/page.tsx
+  s_52f474a97bc583::t_3f6e407bce2ee0 22
+  s_52f474a97bc583::t_930b33bc8baab6 240-241
+  s_52f474a97bc583::t_ee890c6e0205c6 650
+  s_52f474a97bc583::t_72a9c77dc84bfc 466
+frontend/next.config.ts
+  s_52f474a97bc583::t_0c133c186e75c9 7-8
+backend/src/modules/blog/services/blog.service.ts
+  s_52f474a97bc583::t_0f3e9065f864e7 90,92,99-119
+  s_52f474a97bc583::t_d6839ebe9b1075 120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "412b8d0ce70cad82aab4660ce7b885ce0d5643b5",
+  "prompts": {},
+  "sessions": {
+    "s_52f474a97bc583": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91da0f34-67df-4bad-9c01-f2b4e368eab2",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
