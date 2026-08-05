@@ -1,0 +1,24 @@
+backend/API.md
+  s_116f75bea78b81::t_da0222a09190f0 436,445
+  s_116f75bea78b81::t_a62bdd50bfde68 79-80
+  s_116f75bea78b81::t_ba0933bcb6dfe2 584-585
+  s_116f75bea78b81::t_546708c4da40c5 69-71
+  s_116f75bea78b81::t_21df5f90611b59 217-224,236-252
+  s_116f75bea78b81::t_e63ec85361b5d8 253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "d1e6e829ea309f68272836df6e8d7fcfaefec403",
+  "prompts": {},
+  "sessions": {
+    "s_116f75bea78b81": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe4c9341-c4a6-4a49-88c5-d5c6eee25b71",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
