@@ -1,0 +1,63 @@
+frontend/src/app/page.tsx
+  s_d93eea50c4e506::t_81175214b06abb 5,9
+  s_d93eea50c4e506::t_6cd67981bf6c6e 142-161
+  s_d93eea50c4e506::t_21de12de6c0544 20-21
+frontend/src/components/MarkdownToolbar.tsx
+  s_d93eea50c4e506::t_a4d0456f48671d 29-30,32,34
+  s_d93eea50c4e506::t_288a873fab8abb 10
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_d93eea50c4e506::t_8fb64438918480 31
+  s_d93eea50c4e506::t_1433f240629e95 155-165
+  s_d93eea50c4e506::t_84475f21fefad3 122-128
+frontend/src/app/posts/[id]/page.tsx
+  s_d93eea50c4e506::t_71bbc6211c3869 52-53,55,57,59,66
+  s_d93eea50c4e506::t_e645e2933a7951 316-331
+frontend/src/components/BackToTop.tsx
+  s_d93eea50c4e506::t_4a75d622f67697 32
+frontend/src/app/sitemap.ts
+  s_d93eea50c4e506::t_3c6331cfa3ae33 13-19,21-44
+frontend/src/app/posts/page.tsx
+  s_d93eea50c4e506::t_9c87ecd768b903 125-134
+  s_d93eea50c4e506::t_a962e01f82c5e7 213-219
+  s_d93eea50c4e506::t_042c3e04e4f576 6-7
+  s_d93eea50c4e506::t_e3a27e3367a4b2 110-112
+  s_d93eea50c4e506::t_eba207aed47191 22-26
+frontend/src/app/write/page.tsx
+  s_d93eea50c4e506::t_53b3d0ad4d1961 12
+  s_d93eea50c4e506::t_ba4e3d53613706 235,240,245-261
+  s_d93eea50c4e506::t_9f4a1f3e06f350 505
+  s_d93eea50c4e506::t_c64b54fcc01b0b 619-625
+  s_d93eea50c4e506::t_f02393b6ec51fe 66-69
+frontend/src/app/not-found.tsx
+  s_d93eea50c4e506::t_f1a3abde8d8619 20
+frontend/src/app/robots.ts
+  s_d93eea50c4e506::t_bfdb57c5a53c7d 9
+frontend/src/app/error.tsx
+  s_d93eea50c4e506::t_4dcf6c3f808585 7,9-10,18-20,25-35,37-55,57
+frontend/src/app/styles/typography.css
+  s_d93eea50c4e506::t_c0ccffe20ccaaa 129,136-138
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_d93eea50c4e506::t_b67305735fe6f8 128
+  s_d93eea50c4e506::t_605c4d72d54e38 127
+frontend/src/app/posts/PostSidebar.tsx
+  s_d93eea50c4e506::t_dde759c09a7141 112
+  s_d93eea50c4e506::t_58426f34bae78c 51-53
+frontend/src/components/ArticleCard.tsx
+  s_d93eea50c4e506::t_63a801c3e77b97 71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "d1f315faea79ae00f14b39b98024a6ff8a7739f5",
+  "prompts": {},
+  "sessions": {
+    "s_d93eea50c4e506": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7788246f-aed0-4d61-aab1-c386d2c63791",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
