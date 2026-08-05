@@ -1,0 +1,64 @@
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_acd434ca391d03::t_616efebe1d7702 78,85,92,97,104,111
+frontend/src/app/posts/PostSidebar.tsx
+  s_acd434ca391d03::t_1b7b50284a1d56 101-103,106,108,115,118-121
+shared/types/ui.ts
+  s_acd434ca391d03::t_aef4a2f8a69e5a 275-276
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_acd434ca391d03::t_be947922e8037f 230-240
+  s_acd434ca391d03::t_171abccee481ae 47-48
+  s_acd434ca391d03::t_d5880d57adbfdb 154
+frontend/src/components/BackToTop.tsx
+  s_acd434ca391d03::t_2a711cec5d7737 1-37
+shared/types/backend/blog.ts
+  s_acd434ca391d03::t_18d5a8d66a0257 31
+.trae/skills/ui-to-interface/SKILL.md
+  h_7a7e6c68a7d90b 1
+frontend/src/lib/utils.ts
+  s_acd434ca391d03::t_399ed38d707a3e 75-97
+  s_acd434ca391d03::t_5c7ca888e589e5 74
+backend/src/modules/blog/services/blog.service.ts
+  s_acd434ca391d03::t_4464bd71fc2347 703,705,710-712,716-718
+  s_acd434ca391d03::t_93d8d2544bd312 701
+frontend/src/app/posts/[id]/page.tsx
+  s_acd434ca391d03::t_f6786e8edc7abf 28
+  s_acd434ca391d03::t_243d1a37e3720a 170
+  s_acd434ca391d03::t_474d724138bb4e 211
+  s_acd434ca391d03::t_42e2aa38a87a89 116-120,122,124
+  s_acd434ca391d03::t_ddd35994ac1ece 291-313
+  s_acd434ca391d03::t_a3b81f85e3a18b 248-285
+  s_acd434ca391d03::t_36e71b13005cc9 162
+  s_acd434ca391d03::t_5f03ff86bcbd87 15-16,21
+  s_acd434ca391d03::t_7b623481fb05df 121,123
+frontend/src/app/page.tsx
+  s_acd434ca391d03::t_4b1851ab6df35b 150
+  s_acd434ca391d03::t_e846f915d18a4a 19-20
+shared/types/blog.ts
+  s_acd434ca391d03::t_1fd8a6c8512fdf 169-170
+frontend/src/components/ArticleCard.tsx
+  s_acd434ca391d03::t_3d6cc9372a7d02 10
+  s_acd434ca391d03::t_80583b4a3324b0 86,90-95
+  s_acd434ca391d03::t_92ed1615d575d8 67
+  s_acd434ca391d03::t_0182ea10011860 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3b5365ce94c2dd9ae86d9923cab47ca604b365a5",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_acd434ca391d03": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ff4382c-1f65-4971-a60f-79adc97d044e",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
