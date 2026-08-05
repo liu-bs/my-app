@@ -1,0 +1,88 @@
+frontend/src/app/posts/PostsSearchInput.tsx
+  s_1e0aef736dd379::t_68515e7033a8fc 59
+shared/types/backend/auth.ts
+  s_1e0aef736dd379::t_f1a2bca7f75b5e 22-23
+  s_1e0aef736dd379::t_a2c14f83465b2c 42-43
+frontend/src/app/write/page.tsx
+  s_1e0aef736dd379::t_c8725ee6807e83 503
+  s_1e0aef736dd379::t_10cb8f8c3d5471 482-487,489
+  s_1e0aef736dd379::t_4c4dcc1bf75f21 334
+  s_1e0aef736dd379::t_ff94a0a1c82e18 351-378,381
+  s_1e0aef736dd379::t_10c2877d3d428b 473,475-481,488,491-502,504-522
+  s_1e0aef736dd379::t_7fe825f321c85a 59-60
+  s_1e0aef736dd379::t_4754ce1129d937 73-83
+  s_1e0aef736dd379::t_5acda654a986c5 180-212
+  s_1e0aef736dd379::t_70e01e381065f5 7,11,17
+  s_1e0aef736dd379::t_e8b4397fb00375 437
+  s_1e0aef736dd379::t_8da44773f995d7 9
+  s_1e0aef736dd379::t_ba18885dec6936 108-179
+  s_1e0aef736dd379::t_1f308af831cb20 213-214
+frontend/src/app/posts/[id]/page.tsx
+  s_1e0aef736dd379::t_fa85188604b73d 103
+  s_1e0aef736dd379::t_af35df38fdccb5 7-8,33-66
+  s_1e0aef736dd379::t_dfee72f17c00d1 67
+backend/src/modules/auth/services/auth.service.ts
+  s_1e0aef736dd379::t_60a5c0a4f8bed6 248
+  s_1e0aef736dd379::t_49fbe03d8ba2ac 14
+  s_1e0aef736dd379::t_76e1d167be7332 227-247
+shared/types/backend/express/routes.ts
+  s_1e0aef736dd379::t_26b605982c08c5 32-33
+  s_1e0aef736dd379::t_afc10ae731ba0c 8
+frontend/src/app/globals.css
+  s_1e0aef736dd379::t_3dbb134f0fcb74 31
+  s_1e0aef736dd379::t_cc94fe81d7db1b 29-30
+frontend/package.json
+  s_1e0aef736dd379::t_0e3ae0626d679d 19
+  s_1e0aef736dd379::t_4ee2b552eb5df5 21
+backend/src/modules/auth/services/token.service.ts
+  s_1e0aef736dd379::t_519e99d5d6ac16 44-55
+backend/package.json
+  s_1e0aef736dd379::t_080f371a93fc32 26,28
+  s_1e0aef736dd379::t_48f04f5d9174c2 27,30
+  s_1e0aef736dd379::t_a8237ea30c9a3a 44
+frontend/src/app/robots.ts
+  s_1e0aef736dd379::t_e83a5ae1e1fcd8 1-12
+backend/src/modules/blog/services/blog.service.ts
+  s_1e0aef736dd379::t_9dc5cf7e836d51 20
+  s_1e0aef736dd379::t_3ed30e8998bb91 286-292
+backend/src/modules/blog/services/markdown.service.ts
+  s_1e0aef736dd379::t_d60144e2f2accd 1-2,5-6,10-11,38-89,91-95,97-100
+  s_1e0aef736dd379::t_8646cd99a5e6ac 3-4,7-9,12-37,90,96
+frontend/src/app/sitemap.ts
+  s_1e0aef736dd379::t_b5ff3c356d545e 1-26
+frontend/src/app/posts/[id]/loading.tsx
+  s_1e0aef736dd379::t_9e1cf37e5742a5 1-21
+backend/src/modules/auth/routes/auth.routes.ts
+  s_1e0aef736dd379::t_972c3abe75af0e 109-128
+frontend/src/lib/api/request.ts
+  s_1e0aef736dd379::t_29bdb65e18cbda 65-67,69-70,72-91
+  s_1e0aef736dd379::t_1981b84c446cc6 158-170
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_1e0aef736dd379::t_f2f45b3e8f1118 147-151
+backend/src/modules/auth/auth.module.ts
+  s_1e0aef736dd379::t_9ed81e01749148 42
+frontend/src/app/styles/hljs-theme.css
+  s_1e0aef736dd379::t_ba721ea50b56ed 1-14
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_1e0aef736dd379::t_d3728272a78f6b 81,98
+frontend/src/components/MarkdownToolbar.tsx
+  s_1e0aef736dd379::t_8a7b55c9e7964e 1-55
+pnpm-lock.yaml
+  s_1e0aef736dd379::t_ef67db93d26d57 59-61,65-70,77-79,111-113,156-158,162-164,1250-1252,1710-1712,1733-1736,1757-1785,1817-1828,2224-2234,2349-2352,2467-2469,2605-2614,2798-2800,3076-3079,4248-4251,4727-4728,4739-4740,4761-4796,4824-4829,5450-5465,5580-5581,5703-5706,5807-5812,5999-6000,6240-6249
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3eaaaf1fcdb48ba58137c61f8a069801753ec16d",
+  "prompts": {},
+  "sessions": {
+    "s_1e0aef736dd379": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e082d035-eb79-43d8-9e71-a46c4d98a508",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
