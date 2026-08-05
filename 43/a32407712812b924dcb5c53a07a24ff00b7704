@@ -1,0 +1,46 @@
+frontend/src/components/Footer.tsx
+  s_2653e2ffd75ec8::t_c5ed9a23d10317 11
+frontend/src/app/posts/[id]/page.tsx
+  s_2653e2ffd75ec8::t_c68c3c7c5dc264 17
+  s_2653e2ffd75ec8::t_b338c401498846 219
+  s_2653e2ffd75ec8::t_da9111e69e8221 138
+frontend/src/app/styles/components.css
+  s_2653e2ffd75ec8::t_73b1cb6342a454 198
+  s_2653e2ffd75ec8::t_343ef263bd2b1d 668,670-672
+frontend/src/app/posts/page.tsx
+  s_2653e2ffd75ec8::t_85d375b212563d 276
+frontend/src/app/posts/PostSidebar.tsx
+  s_2653e2ffd75ec8::t_b152d2cce20f70 71
+frontend/src/components/Navbar.tsx
+  s_2653e2ffd75ec8::t_f8623af57b3e26 216
+  s_2653e2ffd75ec8::t_96fc1785c5c0c7 127
+frontend/src/app/styles/tokens.css
+  s_2653e2ffd75ec8::t_50f314418bbb92 78-81
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_2653e2ffd75ec8::t_5bcb7277614779 229
+  s_2653e2ffd75ec8::t_7478f6fd6705d4 109
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_2653e2ffd75ec8::t_9b16ac4183f6c0 10-11,20-21,29-34
+  s_2653e2ffd75ec8::t_27e5f4d400b136 35
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_2653e2ffd75ec8::t_de7587af147d88 128
+frontend/src/app/write/page.tsx
+  s_2653e2ffd75ec8::t_656f4c7028cbf9 440-445
+  s_2653e2ffd75ec8::t_2172d3b8626021 679
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "43a32407712812b924dcb5c53a07a24ff00b7704",
+  "prompts": {},
+  "sessions": {
+    "s_2653e2ffd75ec8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "90839dfc-f8c3-4e90-87fb-f9193ca3e2fc",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
