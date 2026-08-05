@@ -1,0 +1,51 @@
+frontend/src/app/page.tsx
+  s_52f474a97bc583::t_ce6602d2b06bc7 5
+  s_52f474a97bc583::t_641acbb9f80105 135-173
+  s_52f474a97bc583::t_ce8408561e7e28 8-9,15-19,21
+frontend/src/app/posts/page.tsx
+  s_52f474a97bc583::t_48baf074108437 121-124,126-127
+  s_52f474a97bc583::t_ed771570549e1a 155
+frontend/src/app/posts/PostSidebar.tsx
+  s_52f474a97bc583::t_78ffed5da47fc1 80
+  s_52f474a97bc583::t_b4a5230816daec 49-50
+  s_52f474a97bc583::t_a1c6e2fe5296b2 44
+  s_52f474a97bc583::t_a1509987bbfe38 107
+frontend/src/components/ArticleCard.tsx
+  s_52f474a97bc583::t_7e2cd515243897 72
+  s_52f474a97bc583::t_d2db6b790fa590 120-129
+  s_52f474a97bc583::t_629583b5871374 10
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_52f474a97bc583::t_6c9001d7c06960 32-33
+  s_52f474a97bc583::t_ffe818b2aa7284 79,84
+  s_52f474a97bc583::t_1d0f56e0fd1adc 97,102
+shared/types/ui.ts
+  s_52f474a97bc583::t_f5b6393e630485 283-284
+frontend/src/app/posts/PostsSearchInput.tsx
+  s_52f474a97bc583::t_a17b6cff38076a 9
+  s_52f474a97bc583::t_07700762a5a415 49-60,68-69,75-85
+frontend/src/app/posts/[id]/page.tsx
+  s_52f474a97bc583::t_ef347b6ba6dbe4 14
+  s_52f474a97bc583::t_367f80f55fe042 153
+  s_52f474a97bc583::t_2f0e6337570307 24
+  s_52f474a97bc583::t_d7c5e1940ec12f 125-133
+frontend/src/lib/utils.ts
+  s_52f474a97bc583::t_9ae974cb8688ea 62-73
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_52f474a97bc583::t_e35ad055be0680 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ac0111ccb40caa840d8b8961988193a9991a10bc",
+  "prompts": {},
+  "sessions": {
+    "s_52f474a97bc583": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91da0f34-67df-4bad-9c01-f2b4e368eab2",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
