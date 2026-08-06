@@ -1,0 +1,70 @@
+frontend/src/app/styles/typography.css
+  s_46601295e54e65::t_38f24061488691 104,106-108
+frontend/.impeccable/design.json
+  s_46601295e54e65::t_d805b12c2860c6 1-198
+frontend/src/app/styles/tokens.css
+  h_7a7e6c68a7d90b 19
+  s_46601295e54e65::t_27da9ee857477b 42
+frontend/src/app/page.tsx
+  s_46601295e54e65::t_044b035d632bfe 34,39-40,60,70-71
+  s_46601295e54e65::t_2ac05acceba8fb 44
+frontend/src/app/login/page.tsx
+  s_46601295e54e65::t_b9c32a3c543a61 186-195
+frontend/src/app/profile/page.tsx
+  s_46601295e54e65::t_f7d873e11e6dd0 145
+frontend/src/app/styles/components.css
+  s_46601295e54e65::t_142b0475699bf0 670-671,673-674
+frontend/src/app/posts/page.tsx
+  s_46601295e54e65::t_f0abc5c5c4833f 174
+frontend/src/components/ui/sonner.tsx
+  h_7a7e6c68a7d90b 43
+frontend/src/app/posts/[id]/page.tsx
+  s_46601295e54e65::t_3006d550813c8a 155
+  s_46601295e54e65::t_3eaa49b301124b 140
+frontend/DESIGN.md
+  s_46601295e54e65::t_d6f8f906c53802 1-284
+frontend/src/app/settings/page.tsx
+  s_46601295e54e65::t_f5be053482e20b 135
+  s_46601295e54e65::t_4a545ac0cedf33 144-155
+  s_46601295e54e65::t_52f233b505a7c8 30
+frontend/src/components/FormField.tsx
+  s_46601295e54e65::t_0d21e39c9b3994 27
+frontend/src/app/register/page.tsx
+  s_46601295e54e65::t_52efcd7c6972a9 262
+frontend/PRODUCT.md
+  s_46601295e54e65::t_4a4def4636a8ce 1-67
+frontend/src/components/ArticleCard.tsx
+  s_46601295e54e65::t_b455f391e671b5 9
+  s_46601295e54e65::t_8c6be47d936cce 92
+  s_46601295e54e65::t_c8e342a5f29d8a 72
+frontend/src/app/write/page.tsx
+  s_46601295e54e65::t_1a041fc3e36bfd 39
+  s_46601295e54e65::t_01bfc2be96f513 457
+  s_46601295e54e65::t_299cbbcecd1b1d 21
+  s_46601295e54e65::t_1db75daef6d34e 300-312
+  s_46601295e54e65::t_ecec962f73868a 716
+  s_46601295e54e65::t_a0a74256b296b0 313
+frontend/next-env.d.ts
+  s_46601295e54e65::t_5f8c6be2140a42 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a727c127b92adb8e5ef5919553556e5a946bc7e8",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_46601295e54e65": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe8f25c0-8e99-4b32-b12d-279d3458b4f8",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
