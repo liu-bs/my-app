@@ -1,0 +1,100 @@
+frontend/src/components/ui/Button.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-80
+frontend/src/components/layout/Footer.tsx
+  s_f6357087f1742e::t_98a888c17172e2 5
+  s_f6357087f1742e::t_51706dd88acff9 1-4,6-26
+frontend/src/components/ui/FormField.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-54
+frontend/src/app/(dashboard)/profile/_components/DeleteArticleButton.tsx
+  s_f6357087f1742e::t_26667798f5144f 1
+frontend/src/components/ui/StatsGrid.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-24
+frontend/src/app/posts/[id]/_components/DeletePostButton.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-88
+frontend/src/components/ui/CoverFallback.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-18
+frontend/src/components/layout/PageHeader.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-31
+frontend/src/app/posts/_components/PostSidebar.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-10,12,14-115
+  s_f6357087f1742e::t_26667798f5144f 11
+  s_f6357087f1742e::t_0e4783c1cfa21b 13
+frontend/src/app/(dashboard)/write/page.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-805
+frontend/src/components/ui/Modal.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-74
+frontend/src/app/posts/[id]/_components/CommentsSection.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-251
+frontend/src/components/ui/Tag.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-44
+frontend/src/app/(dashboard)/settings/page.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-343
+frontend/src/app/(dashboard)/profile/_components/RemoveFavoriteButton.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-37
+frontend/src/app/(auth)/register/page.tsx
+  s_f6357087f1742e::t_bc757067477e5e 308-316
+  s_f6357087f1742e::t_13b67212ca0444 167-168
+  s_f6357087f1742e::t_26667798f5144f 13-16
+  s_f6357087f1742e::t_786fa2e6bb5155 169-306
+  s_f6357087f1742e::t_c636ff7170f835 1-12,17-166,307,317-318
+frontend/src/app/posts/_lib/buildPostsUrl.ts
+  s_f6357087f1742e::t_26667798f5144f 1-27
+frontend/src/components/ui/EmptyState.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-32
+frontend/src/app/(dashboard)/profile/_components/ProfileTabs.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-132
+frontend/src/components/ui/Input.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-49
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_f6357087f1742e::t_b0fc78f47cd511 16
+  s_f6357087f1742e::t_26667798f5144f 6-9
+  s_f6357087f1742e::t_1d5b8ab0d524eb 1-5,10-15,17-255
+frontend/src/app/posts/[id]/_components/PostToc.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-193
+frontend/src/components/ui/Spinner.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-26
+frontend/src/app/(auth)/login/page.tsx
+  s_f6357087f1742e::t_786fa2e6bb5155 95-168
+  s_f6357087f1742e::t_26667798f5144f 13-16
+  s_f6357087f1742e::t_d3b32024565e04 93-94
+  s_f6357087f1742e::t_e3dab10d9d0c59 170-177
+  s_f6357087f1742e::t_599954ff1a7a60 1-12,17-92,169,178-179
+frontend/src/app/posts/[id]/_components/PostActions.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-116
+frontend/src/components/ui/Container.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-13
+frontend/src/components/layout/Navbar.tsx
+  s_f6357087f1742e::t_f5ebf72773d1b1 12-14
+  s_f6357087f1742e::t_51706dd88acff9 1-11,15-310
+frontend/src/app/posts/_components/PostsSearchInput.tsx
+  s_f6357087f1742e::t_26667798f5144f 1-88
+frontend/src/components/ui/PinnedBadge.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-15
+frontend/src/components/ui/LoadingSkeleton.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-10
+frontend/src/components/ui/Alert.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-35
+frontend/src/components/ui/Avatar.tsx
+  s_f6357087f1742e::t_51706dd88acff9 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "8100b2141309ac3519769092a5bbc154f6db0576",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_f6357087f1742e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9e31f027-4859-4d52-accb-eaba89f91a5a",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
