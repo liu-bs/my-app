@@ -1,0 +1,100 @@
+frontend/src/components/ui/sonner.tsx
+  s_f6357087f1742e::t_50d969869229df 3,7,13,20,24
+frontend/src/services/blog/hooks.ts
+  s_f6357087f1742e::t_51706dd88acff9 15
+frontend/src/app/sitemap.ts
+  s_f6357087f1742e::t_f5e2737a42a5e7 3,6
+.next/trace-build
+  s_f6357087f1742e::t_b85f79dda8e9e6 1
+frontend/src/app/error.tsx
+  s_f6357087f1742e::t_26667798f5144f 8-9
+frontend/src/app/robots.ts
+  s_f6357087f1742e::t_9d70d8dbf6d987 2,5
+frontend/src/components/LoginRequired.tsx
+  s_f6357087f1742e::t_e0598523281722 6-8
+.next/trace
+  s_f6357087f1742e::t_b85f79dda8e9e6 1
+frontend/src/app/posts/page.tsx
+  s_f6357087f1742e::t_72ae2dd539ca9a 17
+  s_f6357087f1742e::t_26667798f5144f 9,11-14
+  s_f6357087f1742e::t_0bc68865c99427 18-20
+frontend/src/lib/format.ts
+  s_f6357087f1742e::t_a37ce662bc7e4d 1-55
+frontend/src/app/page.tsx
+  s_f6357087f1742e::t_26667798f5144f 6-7,9-10
+frontend/src/app/loading.tsx
+  s_f6357087f1742e::t_26667798f5144f 5
+frontend/src/components/providers.tsx
+  s_f6357087f1742e::t_a83e83c7f3fd5c 3,7,16,27-37
+frontend/src/app/(auth)/layout.tsx
+  s_f6357087f1742e::t_d689fda159c91c 1-15
+frontend/src/lib/utils.ts
+  s_f6357087f1742e::t_51706dd88acff9 3-4,6-7
+frontend/src/components/ArticleCard.tsx
+  s_f6357087f1742e::t_448657bce7000d 9-11
+frontend/src/app/posts/[id]/page.tsx
+  s_f6357087f1742e::t_26667798f5144f 19-21,31
+  s_f6357087f1742e::t_42488f725aeb17 35-38
+frontend/src/components/ThemeToggle.tsx
+  s_f6357087f1742e::t_d61c3826cd5a08 3,7,15-16,18,20-22,33,41
+frontend/src/services/auth/hooks.ts
+  s_f6357087f1742e::t_51706dd88acff9 8,44
+frontend/src/components/ClientLayout.tsx
+  s_f6357087f1742e::t_e1c7b386a65e6f 7-8
+frontend/src/config/site.ts
+  s_f6357087f1742e::t_abe0286d8335b4 1-21
+frontend/src/app/components/page.tsx
+  s_f6357087f1742e::t_5cdab7d1664dfa 37
+  s_f6357087f1742e::t_26667798f5144f 26-36
+  s_f6357087f1742e::t_dd792248ec2d2d 250
+frontend/src/config/query.ts
+  s_f6357087f1742e::t_048a36b232f674 1-12
+frontend/src/app/components/_PasswordDemo.tsx
+  s_f6357087f1742e::t_870ea520c8c390 10
+  s_f6357087f1742e::t_e5516e3ebc5c3a 1-9,11-31
+frontend/src/app/posts/[id]/loading.tsx
+  s_f6357087f1742e::t_26667798f5144f 1
+frontend/src/proxy.ts
+  s_f6357087f1742e::t_51706dd88acff9 12
+frontend/src/app/not-found.tsx
+  s_f6357087f1742e::t_26667798f5144f 5-6
+frontend/package.json
+  s_f6357087f1742e::t_faf31cc8e9ea98 23
+  s_f6357087f1742e::t_fd7350a0b71a8b 26-27
+frontend/src/app/global-error.tsx
+  s_f6357087f1742e::t_52ccb8d17ddde6 1-50
+frontend/src/lib/markdown.ts
+  s_f6357087f1742e::t_396635d319fb76 1-100
+frontend/src/services/auth/server.ts
+  s_f6357087f1742e::t_51706dd88acff9 5
+frontend/src/app/layout.tsx
+  s_f6357087f1742e::t_1a5e4aba829f47 3
+  s_f6357087f1742e::t_e9b641a7f30cbd 84
+frontend/src/app/(auth)/login/page.tsx
+  s_f6357087f1742e::t_b7bce6e32bfa31 95-98,100-108,110-127,129-146,148-156,158-162,164-168
+frontend/src/app/(auth)/register/page.tsx
+  s_f6357087f1742e::t_487ea8254f48dc 169-172,174-182,184-206,208-228,230-251,253-272,274-294,296-300,302-306
+pnpm-lock.yaml
+  s_f6357087f1742e::t_f0bdddf0f64cb9 168-170,177-179,2708-2713,3115-3117,5033-5034,5060,5071,5075,5081,5085,5096,5903-5907,6307-6308
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7726583f6521291c46a3af16b16be4f5cd0f28b5",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_f6357087f1742e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9e31f027-4859-4d52-accb-eaba89f91a5a",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
