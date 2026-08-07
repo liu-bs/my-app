@@ -1,0 +1,106 @@
+frontend/src/app/page.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 29,37,86
+  s_7a215da355224f::t_527152df039da5 31
+  s_7a215da355224f::t_1b5eb001cdfdef 92,140,159
+frontend/src/components/ArticleCard.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 60,67,72
+  s_7a215da355224f::t_69131a0c4f1e26 123
+  s_7a215da355224f::t_49e8c092c1629f 27
+frontend/src/app/posts/[id]/page.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 128,243,247,259,263
+  s_7a215da355224f::t_1b5eb001cdfdef 146,150,158,167
+frontend/src/components/Button.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 26-28
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 88,90-91,108,110-111,119
+frontend/src/components/Modal.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 56
+frontend/src/components/Tag.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 17-18
+frontend/src/components/Alert.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 23
+frontend/src/app/posts/PostSidebar.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 56,111
+  s_7a215da355224f::t_b16fcdd7082c07 64
+  s_7a215da355224f::t_69131a0c4f1e26 81
+frontend/src/components/EmptyState.tsx
+  s_7a215da355224f::t_7cd893ba796ac8 26
+  s_7a215da355224f::t_1b5eb001cdfdef 21
+frontend/src/components/Avatar.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 10-14
+frontend/src/components/Navbar.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 121,213,216,233,251
+  s_7a215da355224f::t_5dba7ed32c3856 203
+  s_7a215da355224f::t_69131a0c4f1e26 159,299
+frontend/src/app/not-found.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 16,19
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 107,143,155,163,182,219,226,232
+  s_7a215da355224f::t_69131a0c4f1e26 109
+frontend/src/app/components/page.tsx
+  s_7a215da355224f::t_d1c95626fbc7b7 256
+  s_7a215da355224f::t_7c265ab5317568 270
+  s_7a215da355224f::t_b09aafee8730d9 285
+  s_7a215da355224f::t_bd0e9f38884e7c 408
+  s_7a215da355224f::t_69131a0c4f1e26 339,342,357,360,363,366,369,372,391,394,410
+  s_7a215da355224f::t_236d8f6c6f3c5c 332,381
+frontend/src/app/styles/components.css
+  s_7a215da355224f::t_60f04aa814efbb 214
+  s_7a215da355224f::t_188c7dd81bf899 71
+  s_7a215da355224f::t_69131a0c4f1e26 82,85,198,636-639,752
+  s_7a215da355224f::t_716a7abc9df662 68
+frontend/src/app/write/page.tsx
+  s_7a215da355224f::t_3cef732c652a9a 494
+  s_7a215da355224f::t_69131a0c4f1e26 664
+  s_7a215da355224f::t_1b5eb001cdfdef 566,622,698,704,717,732,743,777
+frontend/src/app/profile/page.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 131,143,149,165
+frontend/src/app/posts/page.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 276
+  s_7a215da355224f::t_1b5eb001cdfdef 175
+frontend/src/app/login/page.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 183
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 131,147,171,186
+  s_7a215da355224f::t_1b5eb001cdfdef 144
+  s_7a215da355224f::t_11cd2ad5a608e9 127
+  h_7a7e6c68a7d90b 135,145
+frontend/src/components/PasswordStrength.tsx
+  s_7a215da355224f::t_236d8f6c6f3c5c 58
+  s_7a215da355224f::t_69131a0c4f1e26 66
+frontend/src/components/Footer.tsx
+  s_7a215da355224f::t_69131a0c4f1e26 20
+  s_7a215da355224f::t_1b5eb001cdfdef 13
+frontend/src/app/profile/DeleteArticleButton.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 43
+frontend/src/components/FormField.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 34
+  s_7a215da355224f::t_7cd893ba796ac8 46,50
+frontend/src/app/posts/PostsSearchInput.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 73
+frontend/src/app/error.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 41,44
+frontend/src/app/posts/[id]/DeletePostButton.tsx
+  s_7a215da355224f::t_1b5eb001cdfdef 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "28ae7715217ee80850ce0e6c629a634a6834fb44",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_7a215da355224f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0034ea33-597a-400c-b1b7-8e778dc61093",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
