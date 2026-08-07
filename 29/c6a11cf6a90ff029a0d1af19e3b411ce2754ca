@@ -1,0 +1,115 @@
+frontend/src/components/LoadingSkeleton.tsx
+  s_f6357087f1742e::t_c610f993273179 1-10
+frontend/src/components/ArticleCard.tsx
+  s_f6357087f1742e::t_ccb7ce5c57d659 5,19,44,84-88,149
+frontend/src/app/layout.tsx
+  s_f6357087f1742e::t_81bbdf6f63809d 21
+frontend/src/app/posts/[id]/DeletePostButton.tsx
+  s_f6357087f1742e::t_5b36dcc2f8892f 3,16-24,27-28,30-35,43,47-50,57-68,71,73,76
+frontend/src/app/login/page.tsx
+  s_f6357087f1742e::t_272fb8e9bdf813 39-40
+  s_f6357087f1742e::t_4e25a7967325f5 7,18
+frontend/src/app/posts/PostSidebar.tsx
+  s_f6357087f1742e::t_d79ef8e4304bf5 30
+  s_f6357087f1742e::t_bc907f00ffa589 13
+  s_f6357087f1742e::t_4d42ccb8a93479 59
+  s_f6357087f1742e::t_c0eed7919f749d 89
+frontend/src/proxy.ts
+  s_f6357087f1742e::t_faa69ab3ff74ae 11
+frontend/src/app/posts/[id]/PostToc.tsx
+  s_f6357087f1742e::t_95331669e169f8 41-42
+frontend/src/app/posts/[id]/PostActions.tsx
+  s_f6357087f1742e::t_4081f214b62c4e 42
+  s_f6357087f1742e::t_96046d1304d5e8 12
+frontend/src/app/posts/[id]/page.tsx
+  s_f6357087f1742e::t_eae3a78438a8b8 186
+  s_f6357087f1742e::t_126e45925f0129 102-103
+frontend/src/app/page.tsx
+  s_f6357087f1742e::t_21f1a076ae26d2 5,10
+  s_f6357087f1742e::t_343bb2c1e16c07 176
+frontend/src/app/register/page.tsx
+  s_f6357087f1742e::t_8ca7d4bee54ff3 64-65
+  s_f6357087f1742e::t_b6f814caf2c1cc 7,19
+frontend/src/components/PasswordToggle.tsx
+  s_f6357087f1742e::t_bf978071be9df7 8-9,12,16
+frontend/src/app/profile/DeleteArticleButton.tsx
+  s_f6357087f1742e::t_1bf228c3276b86 1
+frontend/src/lib/api/request.ts
+  s_f6357087f1742e::t_3b40e902e5b0b8 78-79,84,86
+  s_f6357087f1742e::t_77c975fdd512bc 12,19-20,24
+  s_f6357087f1742e::t_c3e1d0d8ff3e1a 106
+  s_f6357087f1742e::t_6b9fbd4448799d 158-159,163
+frontend/src/services/blog/hooks.ts
+  s_f6357087f1742e::t_d39e0e1d9645f5 53,56
+  s_f6357087f1742e::t_6a5845c5589af1 147
+  s_f6357087f1742e::t_8ff37f3e34b426 169
+  s_f6357087f1742e::t_e24337adfb39ad 35-44
+frontend/src/app/settings/page.tsx
+  s_f6357087f1742e::t_1542ff44d04687 23
+  s_f6357087f1742e::t_adf9428c989601 148
+  s_f6357087f1742e::t_79360959f4f894 143
+  s_f6357087f1742e::t_b44401240369bb 20
+frontend/src/lib/utils.ts
+  s_f6357087f1742e::t_05825f468d3a79 130-134,136-137
+frontend/src/hooks/useRequireAuth.ts
+  s_f6357087f1742e::t_b6579d91709741 1-21
+frontend/src/app/posts/buildPostsUrl.ts
+  s_f6357087f1742e::t_ffdd053794ab9f 1-27
+frontend/src/hooks/useAlert.ts
+  s_f6357087f1742e::t_5c30d24470d36d 1-27
+frontend/src/app/profile/ProfileTabs.tsx
+  s_f6357087f1742e::t_f165dc33853b9c 12
+  s_f6357087f1742e::t_53656790230b48 92-96
+frontend/src/app/write/page.tsx
+  s_f6357087f1742e::t_423e735bfb06f7 315
+  s_f6357087f1742e::t_ab693119c21bd5 228,235
+  s_f6357087f1742e::t_ce64f0817d3f0d 12-35
+  s_f6357087f1742e::t_b45f4300c4ee4b 188-195
+  s_f6357087f1742e::t_4c5f2e1c4126ef 419
+  s_f6357087f1742e::t_601a23e9c9a729 87
+  s_f6357087f1742e::t_ad89fde1f59e70 44
+  s_f6357087f1742e::t_50d3bceb9c5bdf 187
+frontend/src/components/ThemeToggle.tsx
+  s_f6357087f1742e::t_afa09533955533 22-29
+shared/types/frontend/pages.ts
+  s_f6357087f1742e::t_08067c48602055 54-55
+frontend/src/app/posts/[id]/CommentsSection.tsx
+  s_f6357087f1742e::t_2efae11952c87e 9,12
+  s_f6357087f1742e::t_f34cc43e9cad2a 147-155,158-162
+  s_f6357087f1742e::t_c2fadf8d03e642 50
+  s_f6357087f1742e::t_741fc8abd91a9a 20
+frontend/src/components/PinnedBadge.tsx
+  s_f6357087f1742e::t_e28b7f6e368117 1-15
+frontend/src/components/CoverFallback.tsx
+  s_f6357087f1742e::t_19a84bef6b188e 12,14
+frontend/src/app/posts/page.tsx
+  s_f6357087f1742e::t_799cb0065f1f1d 159
+  s_f6357087f1742e::t_af9310b0d98cc7 255-257
+  s_f6357087f1742e::t_0dcf0a926ec1f5 8,13
+  s_f6357087f1742e::t_556d16b79b4665 19
+  s_f6357087f1742e::t_60db281ec32e47 165
+  s_f6357087f1742e::t_cc9c2ddcb38c30 242
+  s_f6357087f1742e::t_a6b40ed1903854 223
+  s_f6357087f1742e::t_e77e4f1152c495 232
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "29c6a11cf6a90ff029a0d1af19e3b411ce2754ca",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_f6357087f1742e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9e31f027-4859-4d52-accb-eaba89f91a5a",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
