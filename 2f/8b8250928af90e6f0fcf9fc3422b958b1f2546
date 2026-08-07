@@ -1,0 +1,80 @@
+frontend/src/app/styles/components.css
+  s_6edf630c5838a1::t_e2c249dd265942 787,789-791,794-795,816,827,830,834,839,843,848,852,856-857
+  s_f6357087f1742e::t_57d23af21dd1a1 786,788,792-793,796-815,817-826,828-829,831-833,835-838,840-842,844-847,849-851,853-855,858-859
+frontend/src/lib/toast.ts
+  s_6edf630c5838a1::t_d5942384abc6d7 22,25-33
+  s_6edf630c5838a1::t_175651ed18c9b9 1-21,23-24
+frontend/src/services/auth/server.ts
+  s_f6357087f1742e::t_898125e4651374 9-11,14-15,20-25
+frontend/src/hooks/useRequireAuth.ts
+  s_6edf630c5838a1::t_40733c9c0a8cb7 3
+frontend/src/services/blog/hooks.ts
+  s_6edf630c5838a1::t_40733c9c0a8cb7 7
+frontend/src/app/(auth)/register/page.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 12
+  s_f6357087f1742e::t_e77389354411c3 117,136-138,140
+  s_f6357087f1742e::t_5bf560c9371b28 10
+frontend/package.json
+  s_6edf630c5838a1::t_06bed901433755 26
+frontend/src/components/layout/Navbar.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 11
+frontend/src/app/posts/[id]/_components/PostActions.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 8
+frontend/src/components/providers.tsx
+  s_6edf630c5838a1::t_0e2b19249b1725 3,11,18
+frontend/src/services/comment/hooks.ts
+  s_6edf630c5838a1::t_40733c9c0a8cb7 7
+frontend/src/services/auth/hooks.ts
+  s_f6357087f1742e::t_9c71ab98a709c1 26
+frontend/src/components/ui/toaster.tsx
+  s_6edf630c5838a1::t_784683c423e77e 20
+  s_6edf630c5838a1::t_9409fa5f512a77 2-3,5,8,13-14,16,18,22-25
+frontend/src/app/posts/[id]/_components/DeletePostButton.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 10
+frontend/src/app/(auth)/login/page.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 12
+  s_f6357087f1742e::t_1acd5cdc5c8d7a 10,64,77-79,81
+frontend/src/app/(dashboard)/write/page.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 11
+  s_6edf630c5838a1::t_96d196eab7e328 9
+  s_6edf630c5838a1::t_8fdc5e9441e696 653,656-658
+frontend/src/app/(dashboard)/profile/_components/RemoveFavoriteButton.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 8
+frontend/src/app/(dashboard)/settings/page.tsx
+  s_6edf630c5838a1::t_40733c9c0a8cb7 11
+pnpm-lock.yaml
+  s_6edf630c5838a1::t_6f710cd2e4787e 177-179,2185-2189,3007-3013,5039-5040,5066,5077,5081,5087,5091,5102,5437-5440,6146-6152
+.next/trace
+  s_f6357087f1742e::t_7dcc71fa61242d 1
+.next/trace-build
+  s_f6357087f1742e::t_0dc9d1d2e67c80 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2f8b8250928af90e6f0fcf9fc3422b958b1f2546",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_6edf630c5838a1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fbcf3a06-7d09-441d-8a32-9fc1dfe51c42",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    },
+    "s_f6357087f1742e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9e31f027-4859-4d52-accb-eaba89f91a5a",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
