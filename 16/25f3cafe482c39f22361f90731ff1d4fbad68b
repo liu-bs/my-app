@@ -1,0 +1,21 @@
+frontend/src/components/layout/Footer.tsx
+  s_d9c7d45acf6b78::t_8522aad99baca4 12
+frontend/src/components/ClientLayout.tsx
+  s_d9c7d45acf6b78::t_3f9627a4e8a1d6 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1625f3cafe482c39f22361f90731ff1d4fbad68b",
+  "prompts": {},
+  "sessions": {
+    "s_d9c7d45acf6b78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f668a957-fff3-4a36-92a2-4ef140344950",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
