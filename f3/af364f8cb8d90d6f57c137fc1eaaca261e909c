@@ -1,0 +1,56 @@
+frontend/src/app/page.tsx
+  s_d9c7d45acf6b78::t_aa2bd255f40ce6 163-165,171,180
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_d9c7d45acf6b78::t_fff35484188bad 54
+frontend/src/app/(dashboard)/settings/_components/SettingsForm.tsx
+  s_d9c7d45acf6b78::t_d96013f26bba98 1-228
+frontend/src/app/posts/error.tsx
+  s_d9c7d45acf6b78::t_b00886a1e909ed 1-27
+frontend/src/app/(dashboard)/write/page.tsx
+  s_d9c7d45acf6b78::t_2adea1a9f6f9e2 3,5-6,10,12-13,15,17
+frontend/src/app/loading.tsx
+  s_d9c7d45acf6b78::t_0149e726b8d4ef 4-5,10-25
+frontend/src/app/error.tsx
+  s_d9c7d45acf6b78::t_154da280bd0d50 1,40
+frontend/src/components/ArticleCard.tsx
+  s_d9c7d45acf6b78::t_6857fc7e1a9a02 184-186
+  s_d9c7d45acf6b78::t_74f3230e2e45aa 30,35-58,60-61,63-72,74-98
+shared/types/ui.ts
+  s_d9c7d45acf6b78::t_e4113ba4fd97e0 67-68
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_d9c7d45acf6b78::t_46e669c9b97f38 107
+  s_d9c7d45acf6b78::t_f96e1a7569354c 2-3
+  s_d9c7d45acf6b78::t_6e861efe4026ac 1
+  s_d9c7d45acf6b78::t_53023029abf77c 4-6,104-106
+  s_d9c7d45acf6b78::t_193a7e153f54e1 108-110
+  s_d9c7d45acf6b78::t_928b63ba70eda3 7-103,111-846
+frontend/src/app/(dashboard)/layout.tsx
+  s_d9c7d45acf6b78::t_d007020bb7e95d 1-41
+frontend/src/app/posts/loading.tsx
+  s_d9c7d45acf6b78::t_e8a22b5497ab17 1-37
+frontend/src/app/(auth)/register/page.tsx
+  s_d9c7d45acf6b78::t_fb46819b4dd37c 165
+frontend/src/app/(dashboard)/settings/page.tsx
+  s_d9c7d45acf6b78::t_62c98d9c5dd307 3,7-8,12,14-15,17,22
+  s_d9c7d45acf6b78::t_c5c2d13d2a453a 26
+frontend/src/app/not-found.tsx
+  s_d9c7d45acf6b78::t_e1b63b09210633 1
+frontend/src/app/components/page.tsx
+  s_d9c7d45acf6b78::t_de3c591d836d43 158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f3af364f8cb8d90d6f57c137fc1eaaca261e909c",
+  "prompts": {},
+  "sessions": {
+    "s_d9c7d45acf6b78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f668a957-fff3-4a36-92a2-4ef140344950",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
