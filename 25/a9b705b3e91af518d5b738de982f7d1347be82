@@ -1,0 +1,63 @@
+frontend/src/app/error.tsx
+  s_d9c7d45acf6b78::t_b824973655b800 40-42
+frontend/src/app/components/page.tsx
+  s_d9c7d45acf6b78::t_b824973655b800 158-162
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_d9c7d45acf6b78::t_5e00f6aa5a5f79 5
+frontend/DESIGN.md
+  s_79c988cbf5121f::t_1ef1ad8dfedfad 28-29,32,34-35,38,40-41
+  s_d9c7d45acf6b78::t_ec5402df1c1bcb 5-25,45-46,50-51,53,55-56,59-64,66-78,81-83,85,87-89,91-92,94-96,98-100,102-103,105-107,109-111,113-115,117-119,121-123,125-127,143,156,160,167,189,207,221,240,249,256,264,271,280,289
+frontend/src/app/(dashboard)/layout.tsx
+  s_d9c7d45acf6b78::t_b824973655b800 15,23
+frontend/src/app/(dashboard)/settings/_components/SettingsForm.tsx
+  s_d9c7d45acf6b78::t_b824973655b800 72-83,145-151,154-160,164-168,182-189,192-199,215-219,229-232,244-247,260-263
+frontend/PRODUCT.md
+  s_d9c7d45acf6b78::t_16693fbc5f8c17 24,40,51
+frontend/README.md
+  s_d9c7d45acf6b78::t_b795b30c515766 47-57
+frontend/src/app/globals.css
+  s_d9c7d45acf6b78::t_9092b489d8d6c7 8,18,21,24,27,30,33
+frontend/src/app/styles/animations.css
+  s_d9c7d45acf6b78::t_e305a9101137d6 26-33,37-46,50-54,58-59,71-88
+frontend/src/app/styles/base.css
+  s_d9c7d45acf6b78::t_91638a901a3d03 124-131
+frontend/src/app/styles/components.css
+  s_d9c7d45acf6b78::t_db183e790be651 13-15,18-20,23-25,28-30,33-35,38-40,43-51,54-68,96-98,101-103,107,111-113,116-118,121-123,144,154,161,168,189-195,203-204,206-207,211-219,226-228,247,252,261,268,275-277,300-302,319-321,324-325,343-349,360,366-373,388-394,400-402,404,410-413,416,427-429,431-432,443-446,450-459,462-467,511-513,544-546,569,572-578,584-586,593-595,610-613,625-627,658,695,699,710,714,720,725,730,741,745,750-761,764-783,798-802,809-814,821-823,838,843,853,860,867,874,881,886,891,908,911,918-920,953,994-996
+frontend/src/app/styles/hljs-theme.css
+  s_d9c7d45acf6b78::t_c3739c96d2bc43 9,13
+frontend/src/app/styles/tokens.css
+  s_d9c7d45acf6b78::t_ffe1d3f8c774f3 206
+frontend/src/app/styles/typography.css
+  s_d9c7d45acf6b78::t_409126847ecf71 42-47,50-52,64,74-76,79-81,107-112,114-116,118-120,133-135,212-214,218-234
+frontend/tsconfig.json
+  s_d9c7d45acf6b78::t_2f1a5651c85d46 4,22-24,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "25a9b705b3e91af518d5b738de982f7d1347be82",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_79c988cbf5121f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8a1ee1a5-90ff-40ce-a5dd-d2acb6815d7f",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    },
+    "s_d9c7d45acf6b78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f668a957-fff3-4a36-92a2-4ef140344950",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
