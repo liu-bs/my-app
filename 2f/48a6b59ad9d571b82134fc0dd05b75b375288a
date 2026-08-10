@@ -1,0 +1,87 @@
+frontend/src/components/ThemeToggle.tsx
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 33-35,43-45
+frontend/src/config/site.ts
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 7
+frontend/next-env.d.ts
+  s_79c988cbf5121f::t_f9483200f84af4 3
+shared/types/blog.ts
+  s_79c988cbf5121f::t_ec3dbcc26c3f3b 182-190
+  s_79c988cbf5121f::t_0f10928f412ebf 181
+frontend/src/app/posts/[id]/_components/PostToc.tsx
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 41
+frontend/src/services/blog/api.ts
+  s_79c988cbf5121f::t_fdb4399416d855 34-36
+  s_79c988cbf5121f::t_6f91d8104507c1 14
+frontend/src/components/ui/CoverFallback.tsx
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 14-16
+frontend/src/components/layout/Navbar.tsx
+  s_79c988cbf5121f::t_13560a8fea8eb8 16
+frontend/README.md
+  s_79c988cbf5121f::t_9f4a22b3b78500 1-136
+frontend/src/app/posts/[id]/_components/PostActions.tsx
+  s_79c988cbf5121f::t_915cbd81820899 11
+frontend/src/app/posts/[id]/page.tsx
+  s_79c988cbf5121f::t_454836f77cede6 27-28
+  s_79c988cbf5121f::t_22136273a02fcf 205
+  s_79c988cbf5121f::t_f61eeca35315f4 22
+  s_79c988cbf5121f::t_1561c9a63be76f 100-101,103,105
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_79c988cbf5121f::t_fc3e38ab027835 14
+frontend/src/app/(dashboard)/write/page.tsx
+  s_79c988cbf5121f::t_adc192c3711ec9 48
+frontend/src/lib/markdown.ts
+  s_79c988cbf5121f::t_268c58c6e1300b 43,46-62,73-74,78,86,90-97,120
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 44-45,98-119
+  s_79c988cbf5121f::t_4219f0a68bc817 121
+frontend/src/app/(dashboard)/settings/page.tsx
+  s_79c988cbf5121f::t_e6b72fab9c3ccd 23
+backend/src/modules/blog/services/blog.service.ts
+  s_79c988cbf5121f::t_5a12446da46f94 752-774,788
+frontend/src/lib/api/request.ts
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 23,105-109
+frontend/src/app/global-error.tsx
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 27
+frontend/src/lib/toast.ts
+  s_79c988cbf5121f::t_b4ba1c1a8f254b 23
+frontend/src/app/posts/[id]/_components/CommentsSection.tsx
+  s_79c988cbf5121f::t_8ba7ce75262b83 19
+frontend/src/services/blog/hooks.ts
+  s_79c988cbf5121f::t_3c526da6cc4f1c 10
+  s_79c988cbf5121f::t_649f01b5749e57 157
+  s_79c988cbf5121f::t_df1d81b640e63e 136
+frontend/src/components/ArticleCard.tsx
+  h_7a7e6c68a7d90b 45
+  s_79c988cbf5121f::t_a57e380da6cd62 12-13
+shared/types/backend/blog.ts
+  s_79c988cbf5121f::t_6836be95af536c 36-37
+backend/src/modules/blog/routes/blog.routes.ts
+  s_79c988cbf5121f::t_7373757f148c48 66-74
+frontend/DESIGN.md
+  s_79c988cbf5121f::t_941ab092066b4b 193
+  s_79c988cbf5121f::t_dd6389ac0c7528 279
+  s_79c988cbf5121f::t_2302a32a569702 138,144
+  s_79c988cbf5121f::t_7aa648e93df204 179-180,182
+  s_79c988cbf5121f::t_24542a84f96ad1 28,34,55
+  s_79c988cbf5121f::t_630c6519f8b25a 271
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2f48a6b59ad9d571b82134fc0dd05b75b375288a",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_79c988cbf5121f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8a1ee1a5-90ff-40ce-a5dd-d2acb6815d7f",
+        "model": "zai-org/GLM-5.2/TeleAI-002"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
