@@ -1,0 +1,78 @@
+shared/eslint.config.mjs
+  s_5e1fd15ad0df9e::t_f4c97e6f060e92 1-27
+backend/scripts/audit-backend.ts
+  s_5e1fd15ad0df9e::t_48d42f0ca8b13e 34-37,90-94,137-141,154-158,171-175,188-192,210-227,449-457,573-581,684-692,739-743,908-913,939-948,961
+shared/package.json
+  s_5e1fd15ad0df9e::t_9e2f600c0cc9e1 13-17,20,23-27
+backend/tsconfig.json
+  s_5e1fd15ad0df9e::t_48d42f0ca8b13e 14,17-18
+.vscode/extensions.json
+  s_5e1fd15ad0df9e::t_2aaf6a002e217c 1-8
+.vscode/settings.json
+  s_5e1fd15ad0df9e::t_692102ddf5591c 1-33
+backend/API.md
+  s_5e1fd15ad0df9e::t_48d42f0ca8b13e 27-30,62-73,77-80,115-121,143-146,171-173,198-201,219-226,270-277,319-328,447-452,481-482,484,510-511,532-534,554-556
+.prettierrc.mjs
+  s_5e1fd15ad0df9e::t_726440eeb08b11 1-10
+frontend/.prettierrc.mjs
+  s_5e1fd15ad0df9e::t_6b68c2b1d5b488 4,8-9
+  s_5e1fd15ad0df9e::t_e3cb66a4f54fde 1-3,5-7
+backend/scripts/test-blog-api.ts
+  s_5e1fd15ad0df9e::t_48d42f0ca8b13e 99-102,109-112,160-163,183-185,193-196,210-211,226-231,236-239,248-251,285-286
+shared/.prettierignore
+  s_5e1fd15ad0df9e::t_e5c836dae719b5 1-2
+package.json
+  s_5e1fd15ad0df9e::t_f6ffb29c3cb935 7,19-22
+.gitignore
+  s_5e1fd15ad0df9e::t_ab8fb0f488b092 46
+pnpm-lock.yaml
+  s_5e1fd15ad0df9e::t_67b8499e403d87 223-225,232-240,244-246,5250-5251,5277,5288,5292,5298,5302,5313
+shared/types/backend/blog.ts
+  s_5e1fd15ad0df9e::t_4711c2d06ee961 6-15,34-37
+shared/types/backend/comment.ts
+  s_5e1fd15ad0df9e::t_8f12f2eb8a7768 6
+shared/types/backend/express/middleware.ts
+  s_5e1fd15ad0df9e::t_14983f7e8ed7f3 6,23-27
+shared/types/backend/express/modules.ts
+  s_5e1fd15ad0df9e::t_320e2b82a57af1 6-8
+shared/types/backend/express/routes.ts
+  s_5e1fd15ad0df9e::t_705fb3b0a787d4 6-10
+shared/types/backend/index.ts
+  s_5e1fd15ad0df9e::t_0a0676dd4c9f9d 6-12
+shared/types/blog.ts
+  s_5e1fd15ad0df9e::t_6cbc404691789a 65,231
+shared/types/comment.ts
+  s_5e1fd15ad0df9e::t_4e5204b3f7b96c 60
+shared/types/frontend/forms.ts
+  s_5e1fd15ad0df9e::t_9d8d446396ddc7 7
+shared/types/frontend/index.ts
+  s_5e1fd15ad0df9e::t_b0916c41b1121c 6-9
+shared/types/frontend/pages.ts
+  s_5e1fd15ad0df9e::t_ed20d32def3bf9 6,55,58
+shared/types/frontend/request.ts
+  s_5e1fd15ad0df9e::t_032f5ecd76837d 6,28
+shared/types/index.ts
+  s_5e1fd15ad0df9e::t_4b60a72d2a9400 7,9,11,13,15,17,19,21
+shared/types/ui.ts
+  s_5e1fd15ad0df9e::t_5f572301b70adb 6-13,30,79,208,238,249,321,323,379,397,407
+shared/types/user.ts
+  s_5e1fd15ad0df9e::t_54d90ff817989b 53,55,146,148,175
+shared/types/backend/auth.ts
+  s_5e1fd15ad0df9e::t_8ab70460e67057 6-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f3bcedb6442bf561d576e07a70647ae95be97bc3",
+  "prompts": {},
+  "sessions": {
+    "s_5e1fd15ad0df9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7695d241-2355-471b-a2f9-9b70d4d3277d",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
