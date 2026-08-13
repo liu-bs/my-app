@@ -1,0 +1,28 @@
+backend/package.json
+  s_eecc19cc943524::t_48613ce7c4e194 43
+shared/tsconfig.json
+  s_eecc19cc943524::t_5be9c1f62fd289 10
+package.json
+  s_eecc19cc943524::t_3f69d0eee5668e 8
+.gitignore
+  s_eecc19cc943524::t_09b15e693e51c8 39-42
+  s_eecc19cc943524::t_8f73cba4255919 50
+pnpm-lock.yaml
+  s_eecc19cc943524::t_038e571434172f 99-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "852499ca695b5c05f73f150ed6c521c47330ecbf",
+  "prompts": {},
+  "sessions": {
+    "s_eecc19cc943524": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3e50e9e6-6e2c-472c-a53f-2232a18b03f8",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
