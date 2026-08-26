@@ -1,0 +1,47 @@
+backend/src/infrastructure/JsonDocumentStore.ts
+  s_cf69ee51ce7003::t_6858b72c74482d 142,149,164
+frontend/src/app/(dashboard)/layout.tsx
+  s_cf69ee51ce7003::t_50f0234113ac9b 19,21-30
+frontend/src/lib/api/request.ts
+  s_cf69ee51ce7003::t_cb4a0ccd37fc3c 64-65,78,81,95
+  s_cf69ee51ce7003::t_70721aa9b46a1f 175-180
+frontend/src/app/posts/[id]/_components/CommentsSection.tsx
+  s_cf69ee51ce7003::t_33fc70132c9955 7
+  s_cf69ee51ce7003::t_e941d616249029 47-53
+frontend/next.config.ts
+  s_cf69ee51ce7003::t_6ff35617e0105b 47-60
+shared/types/common.ts
+  s_cf69ee51ce7003::t_43deb41ce805b9 3
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_cf69ee51ce7003::t_06cf6a7490fc21 209,214,216-229
+backend/src/modules/comment/services/comment.service.ts
+  s_cf69ee51ce7003::t_9da5df6994cd47 63-66
+backend/src/modules/blog/services/markdown.service.ts
+  s_cf69ee51ce7003::t_f01802b888af27 85
+backend/src/modules/blog/services/blog.service.ts
+  s_cf69ee51ce7003::t_b846390570b363 493-506,509-525,527-531,536-546
+  s_cf69ee51ce7003::t_1a7d00d5330573 766-769
+frontend/src/app/(auth)/login/page.tsx
+  s_cf69ee51ce7003::t_d2883f45a66cc6 134,136-138
+backend/.gitignore
+  s_cf69ee51ce7003::t_2fb28dca306065 6
+backend/src/modules/auth/routes/auth.routes.ts
+  s_cf69ee51ce7003::t_a83c75e0b1bf4f 109,112,117,122
+  s_cf69ee51ce7003::t_072cce113185ae 6,11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "aa765662d67c1943e0ee2b8b0cd4c58caae1e36b",
+  "prompts": {},
+  "sessions": {
+    "s_cf69ee51ce7003": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "31b95a18-0633-494f-a80f-e3985b76aeeb",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
