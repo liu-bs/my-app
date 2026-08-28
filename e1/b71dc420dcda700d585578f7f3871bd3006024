@@ -1,0 +1,66 @@
+frontend/src/components/providers.tsx
+  s_dc97a8b53fcc9d::t_c57113fa4dddc8 41-44
+  s_dc97a8b53fcc9d::t_3fc177b2e6e1b0 15-16
+  s_dc97a8b53fcc9d::t_145caff28bc21c 7,14,17-20
+  s_dc97a8b53fcc9d::t_939215f487fd05 21
+frontend/src/components/layout/NavLinks.tsx
+  s_dc97a8b53fcc9d::t_9b50617ea8cfef 1-44
+frontend/src/components/layout/UserMenu.tsx
+  s_dc97a8b53fcc9d::t_a2d1d37b6cdc5a 1-166
+frontend/src/app/layout.tsx
+  s_dc97a8b53fcc9d::t_59aa69e450040d 9
+  s_dc97a8b53fcc9d::t_3dd1142d3c83a8 56,59,62
+  s_dc97a8b53fcc9d::t_3d64a550ab9189 80
+frontend/src/components/layout/MobileMenu.tsx
+  s_dc97a8b53fcc9d::t_d33ef1a72c4b1c 1-96
+frontend/src/app/sitemap.ts
+  s_dc97a8b53fcc9d::t_cefb3a3534a64d 5-7
+frontend/src/app/posts/[id]/_components/LazyIslands.tsx
+  s_dc97a8b53fcc9d::t_d296bc6896bda4 1-10,15-33
+  s_dc97a8b53fcc9d::t_08b519347bd434 11-14
+frontend/src/lib/api/request.ts
+  s_dc97a8b53fcc9d::t_95983ee7fb9fbe 194-198,200-205
+  s_dc97a8b53fcc9d::t_428fe690b52ea0 193,199,206
+frontend/src/lib/sanitize.ts
+  s_dc97a8b53fcc9d::t_6e840230ed50cf 1-28,83-84,105-119
+  s_dc97a8b53fcc9d::t_95983ee7fb9fbe 29-82,85-104
+frontend/src/services/blog/api.ts
+  s_dc97a8b53fcc9d::t_c225183bd6985b 5,7,31,34,37-38,55,59,62,65,70-84
+frontend/src/lib/markdown.ts
+  s_dc97a8b53fcc9d::t_1492a47f9c4208 3-4
+frontend/src/app/posts/[id]/page.tsx
+  s_dc97a8b53fcc9d::t_5d44db02b5481a 72-132
+  s_dc97a8b53fcc9d::t_87170688ca75a7 281
+  s_dc97a8b53fcc9d::t_40ae93f8e4b9ed 8,24,26
+  s_dc97a8b53fcc9d::t_966bce5028cff0 284,288-289
+  s_dc97a8b53fcc9d::t_8534a3dcc395c1 297
+  s_dc97a8b53fcc9d::t_4665323d7f2caa 144-146
+  s_dc97a8b53fcc9d::t_492a0d7a0cf029 33
+  s_dc97a8b53fcc9d::t_00feb823ba04fd 46
+  s_dc97a8b53fcc9d::t_95983ee7fb9fbe 23,285-287
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_dc97a8b53fcc9d::t_30e70ca4ce9ad7 23-24
+frontend/src/components/layout/Navbar.tsx
+  s_dc97a8b53fcc9d::t_b1e380123f0e11 3-4,8-10,14,61-62,67-68
+frontend/src/app/posts/page.tsx
+  s_dc97a8b53fcc9d::t_ea2558d9d26de4 18
+  s_dc97a8b53fcc9d::t_39c16168486c75 142-149
+  s_dc97a8b53fcc9d::t_553202f581ca45 276-277
+  s_dc97a8b53fcc9d::t_95983ee7fb9fbe 150-235,237-239,241,243-244,246-254,256,258-275
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "e1b71dc420dcda700d585578f7f3871bd3006024",
+  "prompts": {},
+  "sessions": {
+    "s_dc97a8b53fcc9d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a4b37b82-b009-4b59-bafa-079200700036",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
