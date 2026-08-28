@@ -1,0 +1,66 @@
+frontend/src/hooks/useRequireAuth.ts
+  s_dc97a8b53fcc9d::t_b2559bcde2533d 4,12
+frontend/src/lib/api/request.ts
+  s_dc97a8b53fcc9d::t_8873ba298b371c 15,19
+backend/.env.example
+  s_dc97a8b53fcc9d::t_b560e29130bfb4 17,19,21
+frontend/src/services/auth/server.ts
+  s_dc97a8b53fcc9d::t_b746ea5c750e9b 6,13-15,19,32
+frontend/next.config.ts
+  s_dc97a8b53fcc9d::t_743f7a0a7d2396 52
+自我介绍.md
+  h_7a7e6c68a7d90b 1-4
+backend/src/modules/blog/services/blog.service.ts
+  s_dc97a8b53fcc9d::t_86bf986b6b0d45 582-583,585-599,614-617,619,623-625,629,635
+  s_dc97a8b53fcc9d::t_3dc786bd3a54dc 669-670,672-686,699
+frontend/src/app/(auth)/login/page.tsx
+  s_dc97a8b53fcc9d::t_bd5748d69ef57c 136
+backend/src/middleware/requestLogger.ts
+  s_dc97a8b53fcc9d::t_43f5d530378453 68
+  s_dc97a8b53fcc9d::t_33440d93f4f66a 6,10,13-14,16
+backend/scripts/test-blog-api.ts
+  s_dc97a8b53fcc9d::t_ab65c1b898c2f7 297
+backend/src/utils/zod.ts
+  s_dc97a8b53fcc9d::t_e6d26039a11a31 13
+  s_dc97a8b53fcc9d::t_19deb008d1d7bb 1-12,14-18
+backend/src/modules/auth/routes/auth.validators.ts
+  s_dc97a8b53fcc9d::t_23482944324807 114-118,121-125
+  s_dc97a8b53fcc9d::t_9b2157f5cd18e5 9
+backend/src/modules/comment/routes/comment.validators.ts
+  s_dc97a8b53fcc9d::t_e88b6e511ac8c9 9
+backend/src/modules/blog/routes/blog.validators.ts
+  s_dc97a8b53fcc9d::t_5c278429726ff3 9
+backend/src/modules/blog/repository/blog.repository.ts
+  s_dc97a8b53fcc9d::t_22a9903a41d5a2 88-105,111-115,124-128
+  s_dc97a8b53fcc9d::t_026a8a81eae07c 8
+  s_dc97a8b53fcc9d::t_94ab5ab03eb2c9 87
+backend/scripts/audit-backend.ts
+  s_dc97a8b53fcc9d::t_e6d26039a11a31 940-949
+shared/types/backend/blog.ts
+  s_dc97a8b53fcc9d::t_afdf9d1a1c4d71 60-61
+backend/src/index.ts
+  s_dc97a8b53fcc9d::t_1972c52bc9c581 6
+  s_dc97a8b53fcc9d::t_c3ed86bde220a8 37
+  s_dc97a8b53fcc9d::t_b029c72342c809 83,86-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "69262a6d8f1883f87d9281dfa50a97d16532688b",
+  "prompts": {},
+  "humans": {
+    "h_7a7e6c68a7d90b": {
+      "author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  },
+  "sessions": {
+    "s_dc97a8b53fcc9d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a4b37b82-b009-4b59-bafa-079200700036",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
