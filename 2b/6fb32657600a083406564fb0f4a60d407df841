@@ -1,0 +1,36 @@
+render.yaml
+  s_6bc9e8ee163bf6::t_ab61c26438e574 1-30
+.dockerignore
+  s_6bc9e8ee163bf6::t_8eb7c6d194b0e9 1-12
+Dockerfile
+  s_6bc9e8ee163bf6::t_816c92cb1db8f8 8,21,39,43-44
+  s_6bc9e8ee163bf6::t_db9249b7984af0 54
+  s_6bc9e8ee163bf6::t_3e122a51184d28 1-7,9-20,22-27,30-31,33-38,42,45-53,55-57,59
+  s_6bc9e8ee163bf6::t_60211ca14cce50 32
+  s_6bc9e8ee163bf6::t_40c008f055f8c5 28-29,40-41,58,60-61
+backend/src/index.ts
+  s_6bc9e8ee163bf6::t_fb2b199365044d 32
+frontend/next.config.ts
+  s_6bc9e8ee163bf6::t_79240e7118635b 17
+backend/src/middleware/originCheck.ts
+  s_6bc9e8ee163bf6::t_765d2b66ac1786 11-12
+  s_6bc9e8ee163bf6::t_ec0b9472a777e7 46
+frontend/next-env.d.ts
+  s_6bc9e8ee163bf6::t_669e2075b50e96 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2b6fb32657600a083406564fb0f4a60d407df841",
+  "prompts": {},
+  "sessions": {
+    "s_6bc9e8ee163bf6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "49049e3b-deb7-4302-a3ee-f791ae6a144d",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
