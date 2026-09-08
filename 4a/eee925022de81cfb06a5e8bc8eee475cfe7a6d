@@ -1,0 +1,56 @@
+vercel.json
+  s_6bc9e8ee163bf6::t_bb06c9f5ab2ddf 1-6
+backend/src/infrastructure/JsonFileStore.ts
+  s_6bc9e8ee163bf6::t_ff411350809123 19-20,27
+  s_6bc9e8ee163bf6::t_b031c0262f64f9 6
+frontend/src/pages/api/[...slug].ts
+  s_6bc9e8ee163bf6::t_8c2549e04d8eae 1-31
+backend/tsup.config.ts
+  s_6bc9e8ee163bf6::t_8d90efd96b36d6 14
+  s_6bc9e8ee163bf6::t_1f782a469e6d92 4
+frontend/src/lib/api/request.ts
+  s_6bc9e8ee163bf6::t_65095ea8bf0669 22-27
+backend/scripts/seed-kv.ts
+  s_6bc9e8ee163bf6::t_e84ce7a09b5002 1-40
+frontend/src/proxy.ts
+  s_6bc9e8ee163bf6::t_4fef7e12dafd6a 33-39
+frontend/package.json
+  s_6bc9e8ee163bf6::t_d6f89a7b8a3e93 17
+backend/package.json
+  s_6bc9e8ee163bf6::t_9e0c1a938a25f4 17-24
+  s_6bc9e8ee163bf6::t_9de5642fffe52b 16,25
+  s_6bc9e8ee163bf6::t_16ee63e7d21d07 28
+backend/src/server.ts
+  s_6bc9e8ee163bf6::t_72f1b89058d143 1-119
+backend/src/modules/blog/repository/blog.repository.ts
+  s_6bc9e8ee163bf6::t_1394d63531d018 7
+  s_6bc9e8ee163bf6::t_ab4a5319af3908 48,54
+backend/src/config/index.ts
+  s_6bc9e8ee163bf6::t_4890a569ff6382 103-108
+backend/src/infrastructure/KvDocumentStore.ts
+  s_6bc9e8ee163bf6::t_e91d223e96e90f 1-148
+frontend/next.config.ts
+  s_6bc9e8ee163bf6::t_9c87a75da44cae 17
+backend/src/infrastructure/createDocumentStore.ts
+  s_6bc9e8ee163bf6::t_196c68db5129d4 1-21
+backend/src/index.ts
+  s_6bc9e8ee163bf6::t_60e28fd4f5192f 3,7,12,18,25-29
+pnpm-lock.yaml
+  s_6bc9e8ee163bf6::t_c2be7e00f0d029 41-43,144-146,1524-1526,3521-3523,4670-4673,5282,5319,5333,6960-6961
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "4aeee925022de81cfb06a5e8bc8eee475cfe7a6d",
+  "prompts": {},
+  "sessions": {
+    "s_6bc9e8ee163bf6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "49049e3b-deb7-4302-a3ee-f791ae6a144d",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
