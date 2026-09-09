@@ -1,0 +1,30 @@
+frontend/src/app/(dashboard)/profile/_components/ProfileTabs.tsx
+  s_763389d06917f0::t_c2500a06a45dc9 8,23,34,47,61,79
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_763389d06917f0::t_6ab2a202feb200 3,10,24,120-121,123,134,136,138-140,143-145,147,247-255,258-259,273,275,292-294,428,444,483,510,514,521
+frontend/src/app/posts/page.tsx
+  s_763389d06917f0::t_3cf923664f3621 3,87,119,133-134
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_763389d06917f0::t_c7a292938a64f0 56-57,62
+  s_763389d06917f0::t_0c31896bbec356 240
+frontend/src/services/blog/api.ts
+  s_763389d06917f0::t_2d33b1cf09046c 34
+frontend/src/app/posts/[id]/page.tsx
+  s_763389d06917f0::t_6ffc6b1d656078 35-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2170ae42a4d25de7b842d09fd591d5f774d734a8",
+  "prompts": {},
+  "sessions": {
+    "s_763389d06917f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d525287a-3836-4541-8354-ad80f8ec2bb5",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
