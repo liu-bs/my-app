@@ -1,0 +1,52 @@
+frontend/src/proxy.ts
+  s_eb86896975996e::t_6b117d8fbbf23a 3,5,14-15,24-46,49,55-57,66-68,85
+  s_eb86896975996e::t_1397040c1f8137 54,58-65
+  s_eb86896975996e::t_42100224d558d7 48,69
+  s_eb86896975996e::t_d71339208acf12 83
+  s_eb86896975996e::t_313f2fbbf84c43 47
+frontend/src/app/api/auth/refresh/route.ts
+  s_eb86896975996e::t_2617bc28c587df 5,11
+frontend/src/server/utils/api-response.ts
+  s_eb86896975996e::t_ba80da6700be91 5
+  s_eb86896975996e::t_f838f20233e53d 8
+  s_eb86896975996e::t_43332c36c1253a 31-33,36
+frontend/src/app/api/[...catchAll]/route.ts
+  s_eb86896975996e::t_c649c2e2c6f4f4 1-27
+frontend/src/services/blog/api.ts
+  s_eb86896975996e::t_06bf07d3643b8d 34,38
+frontend/src/app/api/auth/register/route.ts
+  s_eb86896975996e::t_5a372111394975 5,11
+frontend/src/app/api/auth/login/route.ts
+  s_eb86896975996e::t_e47c106e92562f 5,11
+frontend/src/server/config/env.ts
+  s_eb86896975996e::t_3cb6de33be5455 44-48
+  s_eb86896975996e::t_cbe7fa95b97606 21-24
+frontend/src/server/middleware/rate-limiter.ts
+  s_eb86896975996e::t_d7195253e1bb46 1-62
+frontend/.env.example
+  s_eb86896975996e::t_022b29741bb924 9-11
+  s_eb86896975996e::t_c52f54ee48c8ca 12-17
+frontend/src/app/api/auth/change-password/route.ts
+  s_eb86896975996e::t_f06a9afff93fdf 6,12
+frontend/src/lib/api/request.ts
+  s_eb86896975996e::t_0912e7e746d698 19-23
+  s_eb86896975996e::t_c396281f51b7c2 50-51
+frontend/src/app/api/health/route.ts
+  s_eb86896975996e::t_a9dd7c09ef62e6 1,6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "894d46fde19cfa4fd606b81d14e0f24b11cfe133",
+  "prompts": {},
+  "sessions": {
+    "s_eb86896975996e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "81f2de61-11e2-43f4-85b3-5e4102559ec7",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
