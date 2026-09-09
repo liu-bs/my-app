@@ -1,0 +1,25 @@
+frontend/src/app/posts/[id]/_components/CommentsSection.tsx
+  s_763389d06917f0::t_6156036f230ce2 28
+  s_763389d06917f0::t_86d62fab671df0 230,232-247
+  s_763389d06917f0::t_4ba48c9ccbbde1 177
+frontend/src/app/posts/[id]/page.tsx
+  s_763389d06917f0::t_b6ea2dc64f690d 262
+shared/types/ui.ts
+  s_763389d06917f0::t_de465bb3cd2f06 308-309
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b6f6ae899275d11dcaea70cf87098ad6f112240b",
+  "prompts": {},
+  "sessions": {
+    "s_763389d06917f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d525287a-3836-4541-8354-ad80f8ec2bb5",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
