@@ -1,0 +1,23 @@
+frontend/src/app/posts/[id]/page.tsx
+  s_763389d06917f0::t_010c662314b385 217
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_763389d06917f0::t_040242a661fab0 62
+frontend/src/app/(dashboard)/profile/_components/ProfileTabs.tsx
+  s_763389d06917f0::t_8201209b5d2ee4 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3e7efdf65eafa88aeb2d689ed20906a93a8a5e38",
+  "prompts": {},
+  "sessions": {
+    "s_763389d06917f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d525287a-3836-4541-8354-ad80f8ec2bb5",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
