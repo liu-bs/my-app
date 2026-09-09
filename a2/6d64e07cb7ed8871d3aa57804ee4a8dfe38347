@@ -1,0 +1,19 @@
+frontend/src/services/auth/hooks.ts
+  s_2998305f8f8220::t_bb1d733911ab53 61-63,70-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a26d64e07cb7ed8871d3aa57804ee4a8dfe38347",
+  "prompts": {},
+  "sessions": {
+    "s_2998305f8f8220": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b5a7d4cd-3403-407f-b818-e5082037fde7",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
