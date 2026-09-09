@@ -1,0 +1,28 @@
+frontend/vercel.json
+  s_c346c443e7c425::t_f52f158bc89bf7 2
+  s_c346c443e7c425::t_0cc00d137fc3de 3
+.gitignore
+  s_c346c443e7c425::t_b3f418f1dc6bf3 52
+package.json
+  s_c346c443e7c425::t_05dc32244dd4a4 25
+frontend/.gitignore
+  s_c346c443e7c425::t_b719bdf0369d7c 1-2
+pnpm-lock.yaml
+  s_c346c443e7c425::t_d958cbde857543 29-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a843a14a94dbe8b0cb98658fb46f7c02ac20be96",
+  "prompts": {},
+  "sessions": {
+    "s_c346c443e7c425": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784bcfe6-3d61-431d-a708-77d5163ec990",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
