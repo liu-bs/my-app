@@ -1,0 +1,21 @@
+frontend/.env.example
+  s_c346c443e7c425::t_77ed90ae80b733 7,11-20
+frontend/vercel.json
+  s_c346c443e7c425::t_3e7557e88903d3 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "019578aa9f195091dd324415bdf47b9649daf167",
+  "prompts": {},
+  "sessions": {
+    "s_c346c443e7c425": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784bcfe6-3d61-431d-a708-77d5163ec990",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
