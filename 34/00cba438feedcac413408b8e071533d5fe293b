@@ -1,0 +1,29 @@
+frontend/src/server/config/env.ts
+  s_2998305f8f8220::t_2aadf753207b5c 23,26-28
+frontend/src/services/auth/hooks.ts
+  s_2998305f8f8220::t_0f203b69a62fcf 21-24,27-36,42,49,53
+  s_2998305f8f8220::t_ec781cccc1dded 6
+frontend/src/lib/api/request.ts
+  s_2998305f8f8220::t_4d626fb3fc8ae1 59-80,137,139
+  s_2998305f8f8220::t_a110d2647b6341 136,138
+  s_2998305f8f8220::t_40db9975b1cadf 81-82
+frontend/src/server/container.ts
+  s_2998305f8f8220::t_f3c6710e4c8798 24-25,28
+  s_2998305f8f8220::t_ea79a1f7b7828c 58,70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3400cba438feedcac413408b8e071533d5fe293b",
+  "prompts": {},
+  "sessions": {
+    "s_2998305f8f8220": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b5a7d4cd-3403-407f-b818-e5082037fde7",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
