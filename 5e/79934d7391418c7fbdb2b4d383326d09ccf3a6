@@ -1,0 +1,41 @@
+shared/types/backend/blog.ts
+  s_763389d06917f0::t_cf413f94b9a86f 60-61
+frontend/src/app/api/health/route.ts
+  s_763389d06917f0::t_31bc496a1e6816 1
+  s_763389d06917f0::t_4a5682f00a8c0e 15
+frontend/src/server/modules/blog/services/blog.service.ts
+  s_763389d06917f0::t_8a86858c16bb63 491
+  s_763389d06917f0::t_03189d73ce9ad2 789-794
+  s_763389d06917f0::t_53357e9bcc382c 395-396,398-402,404-405,407-411,413-415,417-420,422-427,429-448,450-453,455-458,461,463-464,467,470,472-473,476
+  s_763389d06917f0::t_361f930b5cb9ab 368-369,371-375
+  s_763389d06917f0::t_1e2e1f3e886962 492-497,499-503
+.gitignore
+  s_763389d06917f0::t_4ab8406bda83a4 39
+frontend/src/server/infrastructure/kv-store.ts
+  s_763389d06917f0::t_3619df016317bb 44,53
+  s_763389d06917f0::t_958290af07f0af 42,51
+frontend/src/server/modules/auth/services/auth.service.ts
+  s_763389d06917f0::t_77bc4ebfa108b1 207-211,213-214
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_763389d06917f0::t_2922dede6f7121 293-295,298,305-306
+  s_763389d06917f0::t_68d4154647b3ff 158-162
+  s_763389d06917f0::t_f4699292e7748d 307,512-517,528-537
+frontend/src/server/modules/blog/kv-blog.repository.ts
+  s_763389d06917f0::t_637fd1b3f63f32 56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "5e79934d7391418c7fbdb2b4d383326d09ccf3a6",
+  "prompts": {},
+  "sessions": {
+    "s_763389d06917f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d525287a-3836-4541-8354-ad80f8ec2bb5",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
