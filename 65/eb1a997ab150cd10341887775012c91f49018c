@@ -1,0 +1,21 @@
+README.md
+  s_7eaf0e0d0d04ee::t_0b5989c73bd065 1-199
+API.md
+  s_7eaf0e0d0d04ee::t_87a22d70064882 1-940
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "65eb1a997ab150cd10341887775012c91f49018c",
+  "prompts": {},
+  "sessions": {
+    "s_7eaf0e0d0d04ee": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "822aa503-3b34-4970-afdb-53b1f946a72a",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
