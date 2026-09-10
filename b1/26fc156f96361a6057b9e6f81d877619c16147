@@ -1,0 +1,124 @@
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_ba9b68729d238d::t_519bd99f301a7c 58
+frontend/src/server/utils/zod.ts
+  s_ba9b68729d238d::t_44420c22482721 6,17-27
+  s_ba9b68729d238d::t_3a03a9b92ad64c 28
+frontend/src/server/modules/blog/blog.validators.ts
+  s_ba9b68729d238d::t_d343bf4552eafc 4
+  s_ba9b68729d238d::t_4c09b2882dd0f4 10
+frontend/src/server/modules/comment/comment.validators.ts
+  s_ba9b68729d238d::t_ea5a47f22f7835 4
+frontend/src/components/layout/NavLinks.tsx
+  s_ba9b68729d238d::t_71091c5cd117af 9
+  s_ba9b68729d238d::t_c83e09eb40e5ce 21
+frontend/src/components/layout/MobileMenu.tsx
+  s_ba9b68729d238d::t_7809c456d3b38a 71
+  s_ba9b68729d238d::t_7373d3efd8177b 11
+frontend/src/components/ui/CoverFallback.tsx
+  s_ba9b68729d238d::t_f51ab19ed9a5d7 12
+frontend/src/app/api/auth/change-password/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 16-19
+frontend/src/app/api/auth/login/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 14-17
+AGENTS.md
+  s_afa4759fdf5a56::t_fd6692ef6aea9d 1-32
+frontend/src/server/infrastructure/kv-mock.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 222-224,236-241,252-255,259-262,266-269
+  s_ba9b68729d238d::t_732d9939a91ca4 140-141,144-145,148-149,152-153,156-157
+frontend/src/server/modules/auth/auth-cookie.helper.ts
+  s_ba9b68729d238d::t_ffb38a45a251d3 4
+  s_ba9b68729d238d::t_884494f6149b29 20-21
+  s_ba9b68729d238d::t_330edc7b77319e 24-25
+frontend/src/app/api/auth/logout/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 13-16
+frontend/src/app/api/comments/[id]/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 10
+frontend/src/app/api/posts/[id]/comments/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 10,26
+frontend/src/app/api/posts/[id]/like/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 9
+frontend/src/app/posts/[id]/page.tsx
+  s_ba9b68729d238d::t_ab2c42471ce0dc 238
+shared/types/common.ts
+  s_ba9b68729d238d::t_cc0276c13994d8 3
+frontend/src/server/utils/api-response.ts
+  s_ba9b68729d238d::t_414720fde4bbfb 7
+  s_ba9b68729d238d::t_ab2c42471ce0dc 32-37
+shared/package.json
+  s_ba9b68729d238d::t_26ebf870fec4ce 8
+frontend/src/app/api/posts/[id]/favorite/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 9
+frontend/src/server/utils/cookie.ts
+  s_ba9b68729d238d::t_36127047099276 12-14,20
+frontend/src/server/modules/blog/services/blog.service.ts
+  s_ba9b68729d238d::t_9577120214ce9f 118
+  s_ba9b68729d238d::t_ab2c42471ce0dc 9-14
+shared/types/backend/infra/store.ts
+  s_ba9b68729d238d::t_fa778e32bee9d5 3
+frontend/src/app/api/auth/refresh/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 24-27
+frontend/src/app/loading.tsx
+  s_ba9b68729d238d::t_ab2c42471ce0dc 64
+frontend/src/app/posts/[id]/_components/CommentsSection.tsx
+  s_ba9b68729d238d::t_ab2c42471ce0dc 177-178
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_ba9b68729d238d::t_93c353ba97b49a 23
+  s_ba9b68729d238d::t_32206559de5175 90
+  s_ba9b68729d238d::t_ab2c42471ce0dc 494-496,507-513
+frontend/src/lib/api/request.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 72-73
+frontend/src/server/modules/blog/kv-blog.repository.ts
+  s_ba9b68729d238d::t_6013c3a1f79335 4
+frontend/src/config/site.ts
+  s_ba9b68729d238d::t_e07ca577c46c39 21-27
+shared/types/backend/blog.ts
+  s_ba9b68729d238d::t_b38f18d17aba45 14,22
+frontend/src/server/modules/auth/auth.guard.ts
+  s_ba9b68729d238d::t_c4b3b716a977fa 49,53
+  s_ba9b68729d238d::t_089be7bb4fc8d0 5
+  s_ba9b68729d238d::t_ab2c42471ce0dc 16,51
+frontend/src/app/api/health/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 9-16
+frontend/src/app/api/posts/[id]/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 10,23
+frontend/src/app/icon.svg
+  s_58331cdeeacd9b::t_e037d63b8ce5f1 1-4
+frontend/src/app/api/posts/[id]/neighbors/route.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 8
+frontend/next.config.ts
+  s_ba9b68729d238d::t_ab2c42471ce0dc 11-13
+shared/types/ui.ts
+  s_ba9b68729d238d::t_adceb64cf02165 99-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b126fc156f96361a6057b9e6f81d877619c16147",
+  "prompts": {},
+  "sessions": {
+    "s_58331cdeeacd9b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "785fe937-eae6-4068-b467-871fbdbd0c44",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    },
+    "s_afa4759fdf5a56": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e3d65862-a570-4d63-9809-77d4c1bb5315",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    },
+    "s_ba9b68729d238d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d76b3567-8493-44ea-b0b9-dc525ddcc5fc",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
