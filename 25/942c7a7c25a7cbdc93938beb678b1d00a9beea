@@ -1,0 +1,73 @@
+frontend/src/server/modules/blog/kv-blog.repository.ts
+  s_019eaf8dd6de2e::t_1e4cc89165028f 39,43
+frontend/src/server/infrastructure/kv-store.ts
+  s_019eaf8dd6de2e::t_460b357e7f600e 43
+frontend/src/components/MarkdownToolbar.tsx
+  s_019eaf8dd6de2e::t_eccdc736b66f9f 41
+frontend/src/app/posts/[id]/_components/PostActions.tsx
+  s_019eaf8dd6de2e::t_fdfdbe493f6c12 87
+  s_019eaf8dd6de2e::t_c97c43a110755b 109
+frontend/package.json
+  s_019eaf8dd6de2e::t_0f0ed4c39ad973 14-15
+frontend/src/server/modules/blog/services/blog.service.ts
+  s_019eaf8dd6de2e::t_5a3ca8747e99bb 8
+  s_019eaf8dd6de2e::t_16a300ec05d9de 573,575,577,579,581,587,592,602-614,616,618-620,622-623,625,627-628,632-638,642,644,652
+  s_019eaf8dd6de2e::t_325ea723ad48e2 520
+frontend/src/server/errors/AppError.ts
+  s_019eaf8dd6de2e::t_250779013de9b3 107-111
+  s_019eaf8dd6de2e::t_715abb916060c2 112-113
+frontend/src/app/posts/_components/PostsSearchInput.tsx
+  s_019eaf8dd6de2e::t_2d44d1e7eaf01e 7,12-14,24-30,36-47,53
+frontend/test-resolver.mjs
+  s_019eaf8dd6de2e::t_48cb161c3eb469 54-58
+  s_019eaf8dd6de2e::t_9d7ac0dc047473 1-2,5,7-9,11-14,16-19,29-31,33-45,48,51-53
+  s_019eaf8dd6de2e::t_06e76650da3069 3
+  s_019eaf8dd6de2e::t_cdc11be1737c71 6,10,23-26,28,32,59,61-62
+  s_019eaf8dd6de2e::t_2113b4789ab8ac 4,27,60
+  s_019eaf8dd6de2e::t_84cc65bf8898e5 49-50
+  s_019eaf8dd6de2e::t_6d1dfc8f718628 15,20-22,46-47
+frontend/src/app/posts/[id]/page.tsx
+  s_019eaf8dd6de2e::t_599728f38127fa 293
+  s_019eaf8dd6de2e::t_28fdf735bd218a 309
+frontend/src/app/api/auth/login/route.ts
+  s_019eaf8dd6de2e::t_018986d90ed47d 5,10-13,16-17,19-20
+  s_019eaf8dd6de2e::t_47ea89ec935d84 6,18
+frontend/src/app/api/auth/register/route.ts
+  s_019eaf8dd6de2e::t_0956560ca92723 5,10-13,16-17,19-20
+  s_019eaf8dd6de2e::t_b7ac4411a5698f 6,18
+frontend/src/server/errors/index.ts
+  s_019eaf8dd6de2e::t_94c9e4a463a26d 11
+frontend/src/app/(dashboard)/settings/_components/SettingsForm.tsx
+  s_019eaf8dd6de2e::t_780571fb591d0d 107,114
+frontend/src/server/modules/auth/kv-user.repository.ts
+  s_019eaf8dd6de2e::t_ef85cfdb5ca369 13
+frontend/src/server/modules/auth/auth.validators.ts
+  s_019eaf8dd6de2e::t_73ffd6c78e1447 57
+  s_019eaf8dd6de2e::t_51acdaeb8a5103 50
+frontend/self-check.mjs
+  s_019eaf8dd6de2e::t_7cfc2f9f3ed631 1,4,10-30
+  s_019eaf8dd6de2e::t_1206e18ceb7f5a 2-3,5-9
+frontend/src/server/utils/common.ts
+  s_019eaf8dd6de2e::t_759fbdc2bd2374 6
+  s_019eaf8dd6de2e::t_0e3f10d9e0d638 12
+frontend/src/server/utils/rate-limit.ts
+  s_019eaf8dd6de2e::t_c73df3b1f0dceb 1-53
+frontend/src/server/container.ts
+  s_019eaf8dd6de2e::t_41bebb1bf8e4b5 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "25942c7a7c25a7cbdc93938beb678b1d00a9beea",
+  "prompts": {},
+  "sessions": {
+    "s_019eaf8dd6de2e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8faf455a-ed63-4962-a42d-857d5271060f",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
