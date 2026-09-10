@@ -1,0 +1,397 @@
+.codefree/memory/team.yaml
+  s_f468d8820a8453::t_f7c3cfb62d0017 1-16
+.codefree/memory/team/MEMORY.md
+  s_f468d8820a8453::t_8867dbd6e37252 1-5
+.codefree/memory/team/active-initiative.md
+  s_f468d8820a8453::t_c14ec68d3e93bc 1-11
+.codefree/memory/team/style-convention.md
+  s_f468d8820a8453::t_57bd07dea08d53 1-9
+.codefree/rules/git-commit-convention.md
+  s_f468d8820a8453::t_4f6ffeb2ee1360 1-58
+.gitignore
+  s_f468d8820a8453::t_47ded6132343c4 1-48
+backend/.gitignore
+  s_f468d8820a8453::t_3715c9f04157aa 1-4
+backend/.prettierignore
+  s_f468d8820a8453::t_f996e75ef37693 1-4
+backend/.prettierrc
+  s_f468d8820a8453::t_08c5e98040200d 1-9
+backend/API.md
+  s_f468d8820a8453::t_b93da1d14a9d09 1-984
+backend/eslint.config.mjs
+  s_f468d8820a8453::t_e7185141fc5fbe 1-46
+backend/package.json
+  s_f468d8820a8453::t_f5a5329936f805 1-42
+backend/postman.json
+  s_f468d8820a8453::t_658e8a0156b0d2 1-1422
+backend/src/index.ts
+  s_f468d8820a8453::t_feb72886b4998b 1-115
+backend/src/middleware/auth.ts
+  s_f468d8820a8453::t_af75d54ab723aa 1-139
+backend/src/middleware/errorHandler.ts
+  s_f468d8820a8453::t_94ad38e723046c 1-43
+backend/src/middleware/index.ts
+  s_f468d8820a8453::t_b7d11127fa6c75 1-7
+backend/src/middleware/requestLogger.ts
+  s_f468d8820a8453::t_94f1753f9989a3 1-51
+backend/src/modules/about/about.routes.ts
+  s_f468d8820a8453::t_be7085fae615fc 1-51
+backend/src/modules/articles/articles.routes.ts
+  s_f468d8820a8453::t_d584830cb0da0a 1-218
+backend/src/modules/auth/auth.routes.ts
+  s_f468d8820a8453::t_054208996fc23b 1-237
+backend/src/modules/categories/categories.routes.ts
+  s_f468d8820a8453::t_b04cac00bef1ff 1-114
+backend/src/modules/comments/comments.routes.ts
+  s_f468d8820a8453::t_dce3c00e1e06f5 1-139
+backend/src/modules/dashboard/dashboard.routes.ts
+  s_f468d8820a8453::t_d6a4c6468ab534 1-147
+backend/src/modules/favorites/favorites.routes.ts
+  s_f468d8820a8453::t_3a86982fb47abb 1-135
+backend/src/modules/my-articles/my-articles.routes.ts
+  s_f468d8820a8453::t_50a9716985f2cb 1-85
+backend/src/modules/newsletter/newsletter.routes.ts
+  s_f468d8820a8453::t_f02c2cadb9d67f 1-77
+backend/src/modules/notifications/notifications.routes.ts
+  s_f468d8820a8453::t_07f06d92d3771f 1-121
+backend/src/modules/profile/profile.routes.ts
+  s_f468d8820a8453::t_7fe6fdff094450 1-85
+backend/src/modules/search/search.routes.ts
+  s_f468d8820a8453::t_bc23811474695f 1-132
+backend/src/modules/settings/settings.routes.ts
+  s_f468d8820a8453::t_ffcca6eebe5a19 1-145
+backend/src/modules/tags/tags.routes.ts
+  s_f468d8820a8453::t_154eac4cfd1eab 1-168
+backend/src/modules/trending/trending.routes.ts
+  s_f468d8820a8453::t_eef275cc608b05 1-65
+backend/src/modules/upload/upload.routes.ts
+  s_f468d8820a8453::t_1334877d672fee 1-82
+backend/src/modules/users/users.routes.ts
+  s_f468d8820a8453::t_b38c9f2e650cb7 1-88
+backend/src/seed/index.ts
+  s_f468d8820a8453::t_480474be6a54f1 1-1255
+backend/src/store/JsonFileStore.ts
+  s_f468d8820a8453::t_70080ed45d1c26 1-195
+backend/src/store/index.ts
+  s_f468d8820a8453::t_ec83038b841a03 1-22
+backend/src/utils/index.ts
+  s_f468d8820a8453::t_89701e420b1d14 1-96
+backend/tsconfig.json
+  s_f468d8820a8453::t_434484d9306a22 1-30
+common.md
+  s_f468d8820a8453::t_53dd42e7c0d523 1-429
+frontend/.gitignore
+  s_f468d8820a8453::t_fe0a6fbeef71ff 1-41
+frontend/.prettierignore
+  s_f468d8820a8453::t_48a1f2c4cd4000 1-40
+frontend/README.md
+  s_f468d8820a8453::t_7f029f7905bd1e 1-36
+frontend/eslint.config.mjs
+  s_f468d8820a8453::t_fbda008ed3e779 1-18
+frontend/next.config.ts
+  s_f468d8820a8453::t_8d599ae49e4d24 1-12
+frontend/package.json
+  s_f468d8820a8453::t_b06821f5a6092d 1-36
+frontend/pnpm-lock.yaml
+  s_f468d8820a8453::t_654b51c303cdcc 1-4191
+frontend/postcss.config.mjs
+  s_f468d8820a8453::t_d6329a0223672f 1-7
+frontend/prettier.config.js
+  s_f468d8820a8453::t_f83d0ca6c3b992 1-35
+frontend/public/file.svg
+  s_f468d8820a8453::t_8944efd8bcf8dd 1
+frontend/public/globe.svg
+  s_f468d8820a8453::t_cc130f8d0aacae 1
+frontend/public/next.svg
+  s_f468d8820a8453::t_3cdea92a50f575 1
+frontend/public/vercel.svg
+  s_f468d8820a8453::t_93b1b90d939ab9 1
+frontend/public/window.svg
+  s_f468d8820a8453::t_7bcfe11395a4c7 1
+frontend/src/app/about/page.tsx
+  s_f468d8820a8453::t_da0791d05e219b 1-30
+frontend/src/app/article/[id]/page.tsx
+  s_f468d8820a8453::t_8318aa28e3a4c9 1-72
+frontend/src/app/author/[id]/page.tsx
+  s_f468d8820a8453::t_cedbeb4badd44d 1-56
+frontend/src/app/category/[id]/page.tsx
+  s_f468d8820a8453::t_883e2cd7e1dc32 1-71
+frontend/src/app/category/page.tsx
+  s_f468d8820a8453::t_820d53707e929c 1-27
+frontend/src/app/dashboard/page.tsx
+  s_f468d8820a8453::t_bd1d73f850800f 1-39
+frontend/src/app/error.tsx
+  s_f468d8820a8453::t_efb949fb73fdee 1-83
+frontend/src/app/favorites/page.tsx
+  s_f468d8820a8453::t_74c2a3da582eb3 1-195
+frontend/src/app/globals.css
+  s_f468d8820a8453::t_41cfc17781c41b 1-194
+frontend/src/app/layout.tsx
+  s_f468d8820a8453::t_d3d7b460afdde8 1-76
+frontend/src/app/loading.tsx
+  s_f468d8820a8453::t_7f29b5e6f40a49 1-45
+frontend/src/app/login/page.tsx
+  s_f468d8820a8453::t_a3e1102474a9b6 1-13
+frontend/src/app/my-articles/page.tsx
+  s_f468d8820a8453::t_e3152274447c68 1-49
+frontend/src/app/notifications/page.tsx
+  s_f468d8820a8453::t_570730f4b441f7 1-70
+frontend/src/app/page.tsx
+  s_f468d8820a8453::t_bb226ecebcd2ba 1-35
+frontend/src/app/profile/page.tsx
+  s_f468d8820a8453::t_fef34ae918fe89 1-137
+frontend/src/app/reading-list/page.tsx
+  s_f468d8820a8453::t_922128214f9c21 1-14
+frontend/src/app/register/page.tsx
+  s_f468d8820a8453::t_35dd6e37aad80d 1-13
+frontend/src/app/search/page.tsx
+  s_f468d8820a8453::t_f64e46a483cec2 1-150
+frontend/src/app/settings/page.tsx
+  s_f468d8820a8453::t_4c37dce744b61c 1-43
+frontend/src/app/tag/[name]/page.tsx
+  s_f468d8820a8453::t_c4edccc2f50334 1-61
+frontend/src/app/trending/page.tsx
+  s_f468d8820a8453::t_fd97a56631f1ef 1-26
+frontend/src/app/write/page.tsx
+  s_f468d8820a8453::t_970de0ccacef08 1-33
+frontend/src/components/business/about/AboutCta.tsx
+  s_f468d8820a8453::t_20b87833663f17 1-39
+frontend/src/components/business/about/AboutHero.tsx
+  s_f468d8820a8453::t_b062d07a80ef82 1-61
+frontend/src/components/business/about/AboutStats.tsx
+  s_f468d8820a8453::t_4f8093e705c08d 1-42
+frontend/src/components/business/about/AboutTeam.tsx
+  s_f468d8820a8453::t_4ab485eb615580 1-51
+frontend/src/components/business/about/AboutValues.tsx
+  s_f468d8820a8453::t_64322a937f7205 1-55
+frontend/src/components/business/article/ArticleActions.tsx
+  s_f468d8820a8453::t_d6fe167628b993 1-190
+frontend/src/components/business/article/ArticleAuthorInfo.tsx
+  s_f468d8820a8453::t_0edd94635b76aa 1-60
+frontend/src/components/business/article/ArticleBackLink.tsx
+  s_f468d8820a8453::t_6a3da0bfd067bb 1-35
+frontend/src/components/business/article/ArticleCommentsSection.tsx
+  s_f468d8820a8453::t_fa6a923c6f3b2d 1-233
+frontend/src/components/business/article/ArticleContent.tsx
+  s_f468d8820a8453::t_1f6325fcc84df7 1-34
+frontend/src/components/business/article/ArticleFeaturedImage.tsx
+  s_f468d8820a8453::t_9bda2766988460 1-34
+frontend/src/components/business/article/ArticleHeader.tsx
+  s_f468d8820a8453::t_0724f0c7b1d1b0 1-50
+frontend/src/components/business/article/ArticleRelatedPosts.tsx
+  s_f468d8820a8453::t_b51bc0cabc46f6 1-87
+frontend/src/components/business/article/ArticleTableOfContents.tsx
+  s_f468d8820a8453::t_cc3af9ff46edd1 1-142
+frontend/src/components/business/auth/AuthDivider.tsx
+  s_f468d8820a8453::t_02f3fffbddba1c 1-34
+frontend/src/components/business/auth/AuthLogo.tsx
+  s_f468d8820a8453::t_39f6c84ac83700 1-39
+frontend/src/components/business/auth/LoginForm.tsx
+  s_f468d8820a8453::t_3aaf794b77b217 1-151
+frontend/src/components/business/auth/RegisterForm.tsx
+  s_f468d8820a8453::t_bdad5db6301ffa 1-319
+frontend/src/components/business/auth/SocialLoginButtons.tsx
+  s_f468d8820a8453::t_2f0e9c08cb16f3 1-86
+frontend/src/components/business/auth/ddd.md
+  s_f468d8820a8453::t_c298d0c806aa87 1-6
+frontend/src/components/business/author/AuthorBadges.tsx
+  s_f468d8820a8453::t_4efc5fd7e2c8b8 1-143
+frontend/src/components/business/author/AuthorCoverImage.tsx
+  s_f468d8820a8453::t_f9d4df930482b3 1-30
+frontend/src/components/business/author/AuthorMainContentArticles.tsx
+  s_f468d8820a8453::t_805bd84396ba0e 1-161
+frontend/src/components/business/author/AuthorProfileHeader.tsx
+  s_f468d8820a8453::t_e74f833d7c8c7d 1-202
+frontend/src/components/business/author/AuthorStats.tsx
+  s_f468d8820a8453::t_7b4fec438382bc 1-47
+frontend/src/components/business/category/CategoryGrid.tsx
+  s_f468d8820a8453::t_733475df286d0c 1-27
+frontend/src/components/business/category/CategoryHeader.tsx
+  s_f468d8820a8453::t_26ee2d592f9c40 1-25
+frontend/src/components/business/category/CategoryItem.tsx
+  s_f468d8820a8453::t_ed5ea8418e1fa4 1-67
+frontend/src/components/business/category/CtaSection.tsx
+  s_f468d8820a8453::t_f014f50757b778 1-33
+frontend/src/components/business/category/PopularTags.tsx
+  s_f468d8820a8453::t_4a1fc1057a3695 1-35
+frontend/src/components/business/category/detail/ArticleListItem.tsx
+  s_f468d8820a8453::t_cdf222ef09db6c 1-72
+frontend/src/components/business/category/detail/BackLink.tsx
+  s_f468d8820a8453::t_511fb770be3621 1-22
+frontend/src/components/business/category/detail/CategoryDetailHeader.tsx
+  s_f468d8820a8453::t_25b41e00743dd6 1-173
+frontend/src/components/business/category/detail/CategoryDetailTopTags.tsx
+  s_f468d8820a8453::t_d7fa3589ba4333 1-42
+frontend/src/components/business/category/detail/CategoryMainContent.tsx
+  s_f468d8820a8453::t_6ded4460ebb5b6 1-70
+frontend/src/components/business/category/detail/FeaturedArticleCard.tsx
+  s_f468d8820a8453::t_f151cd8ab7d56e 1-72
+frontend/src/components/business/category/detail/LearningPaths.tsx
+  s_f468d8820a8453::t_c31ebe59e3bf49 1-67
+frontend/src/components/business/category/detail/Newsletter.tsx
+  s_f468d8820a8453::t_952497832975a7 1-16
+frontend/src/components/business/category/detail/QuickStats.tsx
+  s_f468d8820a8453::t_2c14f13dc29254 1-50
+frontend/src/components/business/category/detail/RecentActivity.tsx
+  s_f468d8820a8453::t_45d800e651da28 1-146
+frontend/src/components/business/category/detail/TopAuthors.tsx
+  s_f468d8820a8453::t_b2fb8143c91846 1-57
+frontend/src/components/business/dashboard/DashboardHeader.tsx
+  s_f468d8820a8453::t_950d4ba4bb6681 1-63
+frontend/src/components/business/dashboard/EngagementChart.tsx
+  s_f468d8820a8453::t_a1ae4fd27a1e39 1-114
+frontend/src/components/business/dashboard/RecentComments.tsx
+  s_f468d8820a8453::t_876293f71706ee 1-135
+frontend/src/components/business/dashboard/StatsGrid.tsx
+  s_f468d8820a8453::t_90c6b35dd3b95d 1-53
+frontend/src/components/business/dashboard/TopPerformingPosts.tsx
+  s_f468d8820a8453::t_10261a2f9070e3 1-77
+frontend/src/components/business/favorites/FavoriteArticles.tsx
+  s_f468d8820a8453::t_b8e1f03c6484c3 1-89
+frontend/src/components/business/favorites/FavoritesHeader.tsx
+  s_f468d8820a8453::t_19e478dc5f6bf1 1-32
+frontend/src/components/business/home/FeaturedAuthorsSection.tsx
+  s_f468d8820a8453::t_acb3b7f3811e1f 1-73
+frontend/src/components/business/home/HeroSrction.tsx
+  s_f468d8820a8453::t_890e2dee12630b 1-44
+frontend/src/components/business/home/NewsletterSection.tsx
+  s_f468d8820a8453::t_6a0a2fe2c2739f 1-29
+frontend/src/components/business/home/WritingSection.tsx
+  s_f468d8820a8453::t_f08551ac3b291b 1-41
+frontend/src/components/business/my-articles/MyArticlesFilter.tsx
+  s_f468d8820a8453::t_4b481c6cb3bc4c 1-73
+frontend/src/components/business/my-articles/MyArticlesHeader.tsx
+  s_f468d8820a8453::t_89345af3538153 1-54
+frontend/src/components/business/my-articles/MyArticlesList.tsx
+  s_f468d8820a8453::t_edc4cab913feb5 1-233
+frontend/src/components/business/my-articles/myArticlesData.ts
+  s_f468d8820a8453::t_7bd93501c49429 1-114
+frontend/src/components/business/notifications/NotificationsHeader.tsx
+  s_f468d8820a8453::t_110503880a7558 1-61
+frontend/src/components/business/notifications/NotificationsList.tsx
+  s_f468d8820a8453::t_cd1734a950b1f8 1-143
+frontend/src/components/business/notifications/NotificationsTabs.tsx
+  s_f468d8820a8453::t_b8897422fe9b4a 1-134
+frontend/src/components/business/notifications/notificationsData.tsx
+  s_f468d8820a8453::t_7bb66625527da8 1-138
+frontend/src/components/business/profile/ProfileContent.tsx
+  s_f468d8820a8453::t_1fd7cd2b5078b3 1-310
+frontend/src/components/business/profile/ProfileHeader.tsx
+  s_f468d8820a8453::t_dd24ae5fcb2a89 1-20
+frontend/src/components/business/profile/ProfileSidebar.tsx
+  s_f468d8820a8453::t_579ea08166fe5b 1-113
+frontend/src/components/business/reading-list/ReadingListArticles.tsx
+  s_f468d8820a8453::t_bbe2a5ab01b68f 1-83
+frontend/src/components/business/reading-list/ReadingListHeader.tsx
+  s_f468d8820a8453::t_3097c41cb5b79f 1-57
+frontend/src/components/business/search/SearchHeader.tsx
+  s_f468d8820a8453::t_5d42ac474ebd96 1-23
+frontend/src/components/business/search/SuggestedArticles.tsx
+  s_f468d8820a8453::t_411ba95e581e7b 1-30
+frontend/src/components/business/search/TopicsFilter.tsx
+  s_f468d8820a8453::t_f18f2ea8b21104 1-54
+frontend/src/components/business/settings/SettingsHeader.tsx
+  s_f468d8820a8453::t_ea8ba7f86cd940 1-25
+frontend/src/components/business/settings/SettingsTab.tsx
+  s_f468d8820a8453::t_6cc1d77710ccf3 1-63
+frontend/src/components/business/settings/SettingsTabContent.tsx
+  s_f468d8820a8453::t_4bdbe8178194b0 1-481
+frontend/src/components/business/tag/TagArticles.tsx
+  s_f468d8820a8453::t_b38fe05a5f9b7e 1-171
+frontend/src/components/business/tag/TagHeader.tsx
+  s_f468d8820a8453::t_d4595217169ef9 1-118
+frontend/src/components/business/tag/TagSidebar.tsx
+  s_f468d8820a8453::t_f380568df3b4a2 1-76
+frontend/src/components/business/tag/TagStats.tsx
+  s_f468d8820a8453::t_2ff20244740627 1-139
+frontend/src/components/business/tag/tagData.ts
+  s_f468d8820a8453::t_93ff683f74ac59 1-208
+frontend/src/components/business/trending/TrendingArticles.tsx
+  s_f468d8820a8453::t_c81f18546d0e34 1-72
+frontend/src/components/business/trending/TrendingHeader.tsx
+  s_f468d8820a8453::t_8aadc8e0496e4a 1-36
+frontend/src/components/business/trending/TrendingTopics.tsx
+  s_f468d8820a8453::t_e32bc19c364a81 1-95
+frontend/src/components/business/write/Editor.tsx
+  s_f468d8820a8453::t_73e35e262e9f68 1-182
+frontend/src/components/business/write/PublishSettings.tsx
+  s_f468d8820a8453::t_6956820206e720 1-220
+frontend/src/components/business/write/WriteHeader.tsx
+  s_f468d8820a8453::t_ebf17f8faeebd3 1-23
+frontend/src/components/common/Article.tsx
+  s_f468d8820a8453::t_dba5ea1d240c3c 1-60
+frontend/src/components/common/Header.tsx
+  s_f468d8820a8453::t_4a3375d2337cf0 1-44
+frontend/src/components/common/MobileNavBar.tsx
+  s_f468d8820a8453::t_ba98da66106d75 1-58
+frontend/src/components/common/Navbar.tsx
+  s_f468d8820a8453::t_2fddaa2f747274 1-108
+frontend/src/components/common/Newsletter.tsx
+  s_f468d8820a8453::t_3ce2620a6c9761 1-170
+frontend/src/components/common/RightSection.tsx
+  s_f468d8820a8453::t_955bfa3f8034c6 1-216
+frontend/src/components/common/Toast.tsx
+  s_f468d8820a8453::t_9099008324da3b 1-104
+frontend/src/components/providers/QueryProvider.tsx
+  s_f468d8820a8453::t_85105440611709 1-21
+frontend/src/components/providers/ThemeProvider.tsx
+  s_f468d8820a8453::t_741ee68620ffc4 1-27
+frontend/src/constans/index.ts
+  s_f468d8820a8453::t_7f944117008e50 1-1031
+frontend/src/lib/api/example.md
+  s_f468d8820a8453::t_0865e3daf25871 1-99
+frontend/src/lib/api/index.ts
+  s_f468d8820a8453::t_bd39f9b40c8916 1-3
+frontend/src/lib/api/request.ts
+  s_f468d8820a8453::t_eed9fd5130b5af 1-159
+frontend/src/proxy.ts
+  s_f468d8820a8453::t_d172dac25c835d 1-61
+frontend/src/services/auth/api.ts
+  s_f468d8820a8453::t_dd7abf845d84aa 1-43
+frontend/src/services/auth/context.tsx
+  s_f468d8820a8453::t_9c34752ca15041 1-84
+frontend/src/services/auth/hooks.ts
+  s_f468d8820a8453::t_df489db479e6ca 1-83
+frontend/src/services/auth/types.ts
+  s_f468d8820a8453::t_266ae24608b73d 1-31
+frontend/src/styles/common.css
+  s_f468d8820a8453::t_91668aa6375807 1-48
+frontend/src/styles/commonStyle.ts
+  s_f468d8820a8453::t_37c540a1eb336d 1-53
+frontend/src/typeing/index.ts
+  s_f468d8820a8453::t_c146367b973b36 1-367
+git-squash.sh
+  s_f468d8820a8453::t_92d398f9b8019b 1-69
+package.json
+  s_f468d8820a8453::t_a1132aa92593ea 1-18
+pnpm-lock.yaml
+  s_f468d8820a8453::t_d4712937416988 1-5755
+pnpm-workspace.yaml
+  s_f468d8820a8453::t_9e5d8fd3bbe03b 1-4
+shared/index.ts
+  s_f468d8820a8453::t_eea0a7a0fe4bcf 1-5
+shared/package.json
+  s_f468d8820a8453::t_f3e05ca01992bb 1-17
+shared/tsconfig.json
+  s_f468d8820a8453::t_f08b5444064681 1-19
+shared/types/index.ts
+  s_f468d8820a8453::t_c93af1639e688f 1-803
+frontend/tsconfig.json
+  s_f468d8820a8453::t_27df5381e37407 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "9b0f4b50543b06e88e55fffcdd7d5f8f0e6d93d9",
+  "prompts": {},
+  "sessions": {
+    "s_f468d8820a8453": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be2e3c87-5b82-4dca-9174-9e2bfdaf9205",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
