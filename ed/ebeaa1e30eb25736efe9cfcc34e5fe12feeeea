@@ -1,0 +1,68 @@
+shared/types/user.ts
+  s_f468d8820a8453::t_b9831d5e2a8ec0 82
+  s_f468d8820a8453::t_d23316c910263b 70
+backend/src/modules/auth/services/token.service.ts
+  s_f468d8820a8453::t_663fad3262239f 10
+backend/src/utils/zod.ts
+  s_f468d8820a8453::t_2337b252abf6f8 19-32
+  s_f468d8820a8453::t_d3e4dad54a958f 6
+shared/types/common.ts
+  s_f468d8820a8453::t_6cd3304eef2f45 3
+backend/src/modules/comment/routes/comment.validators.ts
+  s_f468d8820a8453::t_edacfcd68cbb7a 9-10
+frontend/src/app/(dashboard)/write/_components/WriteEditor.tsx
+  s_f468d8820a8453::t_d902f04f102fdd 92
+  s_f468d8820a8453::t_cce7e4fae2fc45 24
+backend/src/infrastructure/JsonRepository.ts
+  s_f468d8820a8453::t_e25e3456f2aaa3 98
+  s_f468d8820a8453::t_944c48d3eadf86 128
+  s_f468d8820a8453::t_7dd86c794aea63 7
+backend/src/modules/blog/blog.module.ts
+  s_f468d8820a8453::t_4d124956c708b5 39
+backend/src/modules/blog/routes/blog.validators.ts
+  s_f468d8820a8453::t_199495eeef2185 9-10
+shared/types/ui.ts
+  s_f468d8820a8453::t_6b5774b20b3eb6 328
+frontend/src/services/blog/api.ts
+  s_f468d8820a8453::t_46e5fba890eec8 9
+backend/src/modules/auth/repository/auth.seed.data.ts
+  s_f468d8820a8453::t_9a91ab98e00f0d 11-12,15
+shared/types/backend/express/modules.ts
+  s_f468d8820a8453::t_f90be0de8e8645 7
+frontend/src/components/layout/NavLinks.tsx
+  s_f468d8820a8453::t_e57c69f0032c91 9,16-17
+backend/src/modules/blog/repository/blog.repository.ts
+  s_f468d8820a8453::t_5f55dcac22ff75 11
+  s_f468d8820a8453::t_26b562f0fbb920 12
+backend/src/modules/auth/services/auth.service.ts
+  s_f468d8820a8453::t_f4c3a79ead7e19 31
+frontend/src/components/layout/MobileMenu.tsx
+  s_f468d8820a8453::t_eca2f14e96e342 11,66-67
+frontend/src/app/(dashboard)/profile/page.tsx
+  s_f468d8820a8453::t_49669172e9dcab 76-82
+frontend/src/config/site.ts
+  s_f468d8820a8453::t_94dc088438e165 21-33
+backend/src/modules/comment/services/comment.service.ts
+  s_f468d8820a8453::t_e7669686be1319 14
+  s_f468d8820a8453::t_19c86e1402a155 164
+backend/src/modules/blog/services/blog.service.ts
+  s_f468d8820a8453::t_327af3a98b7043 808
+  s_f468d8820a8453::t_c4c4befc7b652c 7-9,16-20
+  s_f468d8820a8453::t_4fdfb7fc64dc09 12,15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "edebeaa1e30eb25736efe9cfcc34e5fe12feeeea",
+  "prompts": {},
+  "sessions": {
+    "s_f468d8820a8453": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be2e3c87-5b82-4dca-9174-9e2bfdaf9205",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
