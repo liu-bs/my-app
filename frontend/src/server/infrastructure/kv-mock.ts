@@ -1,10 +1,10 @@
 /**
- * 本地开发的 KV mock — 在没有 Vercel KV 环境变量时使用内存存储。
- * 仅用于开发/测试，生产环境使用 @vercel/kv。
+ * 本地开发的 KV mock — 在没有 Upstash Redis 环境变量时使用内存存储。
+ * 仅用于开发/测试，生产环境使用 @upstash/redis。
  */
 
 /**
- * KV 适配器统一接口，MockKV 和 @vercel/kv 均需实现此接口。
+ * KV 适配器统一接口，MockKV 和 @upstash/redis 均需实现此接口。
  * 解决联合类型泛型方法调用时 TS 推断为 unknown 的问题。
  */
 export interface KVAdapter {
@@ -39,7 +39,7 @@ class MockKV implements KVAdapter {
     const val = this.store.get(key);
     if (!val) return null;
     // KVDocumentStore 存储的是 JSON.stringify 后的值，get 应返回原始字符串让调用方解析
-    // 但 @vercel/kv 的 get 会自动反序列化，所以我们模拟该行为
+    // 但 @upstash/redis 的 get 会自动反序列化，所以我们模拟该行为
     try {
       return JSON.parse(val) as T;
     } catch {

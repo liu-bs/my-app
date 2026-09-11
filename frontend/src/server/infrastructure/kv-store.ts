@@ -4,7 +4,7 @@ import { InternalServerError } from '@server/errors';
 
 /**
  * KV 文档存储，替代 JsonDocumentStore。
- * 用于存储单一文档对象（如 BlogDB），通过 Vercel KV 的 Redis GET/SET 实现。
+ * 用于存储单一文档对象（如 BlogDB），通过 Upstash Redis 的 GET/SET 实现。
  * Redis SET 是原子操作，无需文件锁或写队列。
  */
 export class KVDocumentStore<T> {
