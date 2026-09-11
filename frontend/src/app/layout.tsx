@@ -3,7 +3,6 @@
  * @description 应用根布局，注册全局字体、元数据、Provider 链（含 next-themes 主题管理）
  */
 import type { Metadata, Viewport } from 'next';
-import { Inter, Noto_Sans_SC } from 'next/font/google';
 import './globals.css';
 import { ClientLayout } from '@/components/ClientLayout';
 import { Footer } from '@/components/layout/Footer';
@@ -45,23 +44,6 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-/** Inter 无衬线拉丁字体实例（400 正文 / 500 强调 / 600 标题 / 700 粗体） */
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
-/** Noto Sans SC 中文无衬线字体实例（400 正文 / 500 标题 / 700 粗体，CJK 字体体积大不预加载） */
-const notoSansSC = Noto_Sans_SC({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
-  variable: '--font-noto-sans-sc',
-  display: 'swap',
-  preload: false,
-});
-
 /**
  * 根布局组件
  * @description 注入字体变量、主题初始化脚本、Provider 链与客户端布局壳
@@ -72,7 +54,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="zh-CN"
       suppressHydrationWarning
       data-scroll-behavior="smooth"
-      className={`${inter.variable} ${notoSansSC.variable}`}
+      className="font-sans"
     >
       <body className="antialiased">
         <Providers>

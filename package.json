@@ -6,6 +6,7 @@
   "scripts": {
     "setup": "pnpm install; echo '✓ 依赖安装完成'",
     "dev": "pnpm --filter ./frontend dev",
+    "start": " pnpm --filter ./frontend start",
     "dev:frontend": "pnpm --filter ./frontend dev",
     "build": "pnpm --filter ./frontend build",
     "typecheck": "pnpm -r typecheck",
