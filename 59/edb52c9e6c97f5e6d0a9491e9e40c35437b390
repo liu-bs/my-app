@@ -1,0 +1,36 @@
+frontend/src/server/infrastructure/kv-store.ts
+  s_d57694aa4ea6c9::t_183a5beb8d9602 7
+frontend/.env.example
+  s_d57694aa4ea6c9::t_9dadd15fdea9f4 7
+  s_d57694aa4ea6c9::t_adb5b6facf05a9 14
+frontend/src/server/infrastructure/kv-mock.ts
+  s_d57694aa4ea6c9::t_1244c0a0725790 7
+  s_d57694aa4ea6c9::t_2a82c94667ced0 42
+  s_d57694aa4ea6c9::t_7f4b7e03235552 2-3
+frontend/next-env.d.ts
+  s_2425d61be75834::t_a60809ca93f897 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "59edb52c9e6c97f5e6d0a9491e9e40c35437b390",
+  "prompts": {},
+  "sessions": {
+    "s_2425d61be75834": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13d801dc-b7d4-474f-8060-67bc16e5204a",
+        "model": "unknown"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    },
+    "s_d57694aa4ea6c9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "15cae6bc-7b03-4090-973f-a90811b129e0",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
